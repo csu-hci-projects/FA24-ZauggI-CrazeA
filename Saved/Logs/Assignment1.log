@@ -4700,3 +4700,752 @@ LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
 [2024.10.25-02.20.05:304][561]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Materials/M_Stone.M_Stone
 [2024.10.25-02.21.52:354][ 57]LogDerivedDataCache: C:/Users/izaugg/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:05.026 and deleted 0 files with total size 0 MiB and 1 empty folders. Scanned 2904 files in 4222 folders with total size 937 MiB.
 [2024.10.25-02.23.08:067][439]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.10.25-02.23.35:343][711]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2024.10.25-02.23.51:734][ 11]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.25-02.23.51:740][ 11]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.25-02.23.51:740][ 11]PIE: New page: PIE session: Level1 (Oct 24, 2024, 2:23:51 PM)
+[2024.10.25-02.23.51:777][ 11]LogPlayLevel: Display: Creating online subsystem for client :Context_27
+[2024.10.25-02.23.51:779][ 11]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2024.10.25-02.23.51:796][ 12]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2024.10.25-02.23.51:802][ 12]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006099s)
+[2024.10.25-02.23.51:803][ 12]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.006154s)
+[2024.10.25-02.23.51:810][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2024.10.25-02.23.51:811][ 12]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-02.23.51:811][ 12]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-02.23.51:811][ 12]LogAIModule: Creating AISystem for world Level1
+[2024.10.25-02.23.51:812][ 12]LogPlayLevel: PIE: World Init took: (0.001027s)
+[2024.10.25-02.23.51:812][ 12]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2024.10.25-02.23.51:812][ 12]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.25-02.23.51:812][ 12]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.25-02.23.51:812][ 12]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.25-02.23.51:812][ 12]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.25-02.23.51:812][ 12]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.25-02.23.51:812][ 12]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.25-02.23.51:812][ 12]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.25-02.23.51:812][ 12]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.25-02.23.51:813][ 12]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.25-02.23.51:813][ 12]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.25-02.23.51:813][ 12]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.25-02.23.51:814][ 12]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.25-02.23.51:832][ 12]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2024.10.25-02.23.51:832][ 12]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.25-02.23.51:832][ 12]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.25-02.23.51:832][ 12]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.25-02.23.51:833][ 12]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2024.10.25-02.23.51:833][ 12]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2024.10.25-02.23.51:835][ 12]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2024.10.25-02.23.51:835][ 12]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2024.10.25-02.23.51:835][ 12]LogInit: FAudioDevice initialized with ID 21.
+[2024.10.25-02.23.51:835][ 12]LogAudio: Display: Audio Device (ID: 21) registered with world 'Level1'.
+[2024.10.25-02.23.51:835][ 12]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2024.10.25-02.23.51:837][ 12]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.25-02.23.51:839][ 12]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Level1.Level1:PersistentLevel.StaticMeshActor_999.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.10.25-02.23.51:839][ 12]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: 'SM_Gigantic_Rock_8' Component: '/Game/UEDPIE_0_Level1.Level1:PersistentLevel.StaticMeshActor_999.StaticMeshComponent0' 
+[2024.10.25-02.23.51:841][ 12]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2024.10.24-20.23.51
+[2024.10.25-02.23.51:842][ 12]LogWorld: Bringing up level for play took: 0.003219
+[2024.10.25-02.23.51:843][ 12]PIE: Server logged in
+[2024.10.25-02.23.51:844][ 12]PIE: Play in editor total start time 0.105 seconds.
+[2024.10.25-02.24.14:337][692]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.25-02.24.14:337][692]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2024.10.25-02.24.14:337][692]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-02.24.14:338][692]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-02.24.14:342][692]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.25-02.24.14:344][692]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-02.24.14:351][692]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.25-02.24.14:351][692]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2024.10.25-02.24.14:351][692]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.10.25-02.24.14:353][692]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.10.25-02.24.14:358][692]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.10.25-02.24.14:419][693]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2024.10.25-02.24.36:668][931]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Rocky_Ground_00.SM_Rocky_Ground_00
+[2024.10.25-02.24.36:668][931]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Rocky_Ground_00.SM_Rocky_Ground_00
+[2024.10.25-02.24.36:669][931]LogActorFactory: Actor Factory spawned StaticMesh /Game/Cave_Ruins/Meshes/SM_Rocky_Ground_00.SM_Rocky_Ground_00 as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1141
+[2024.10.25-02.24.37:761][ 29]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Rocky_Ground_00.SM_Rocky_Ground_00
+[2024.10.25-02.24.37:761][ 29]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Rocky_Ground_00.SM_Rocky_Ground_00
+[2024.10.25-02.24.37:763][ 29]LogActorFactory: Actor Factory spawned StaticMesh /Game/Cave_Ruins/Meshes/SM_Rocky_Ground_00.SM_Rocky_Ground_00 as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1142
+[2024.10.25-02.24.41:016][351]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1142.StaticMeshComponent0, from: Addition to navoctree)
+[2024.10.25-02.24.41:038][353]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1142.StaticMeshComponent0, from: Remove from navoctree)
+[2024.10.25-02.24.51:063][313]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Rock_02.SM_Rock_02
+[2024.10.25-02.24.51:063][313]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Rock_02.SM_Rock_02
+[2024.10.25-02.24.51:064][313]LogActorFactory: Actor Factory spawned StaticMesh /Game/Cave_Ruins/Meshes/SM_Rock_02.SM_Rock_02 as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1143
+[2024.10.25-02.24.54:841][668]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Rock_02.SM_Rock_02
+[2024.10.25-02.24.54:841][668]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Rock_02.SM_Rock_02
+[2024.10.25-02.24.54:842][668]LogActorFactory: Actor Factory spawned StaticMesh /Game/Cave_Ruins/Meshes/SM_Rock_02.SM_Rock_02 as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1144
+[2024.10.25-02.25.33:483][399]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Rock_01.SM_Rock_01
+[2024.10.25-02.25.33:485][399]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Rock_01.SM_Rock_01
+[2024.10.25-02.25.33:485][399]LogActorFactory: Actor Factory spawned StaticMesh /Game/Cave_Ruins/Meshes/SM_Rock_01.SM_Rock_01 as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1145
+[2024.10.25-02.25.33:989][446]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Rock_01.SM_Rock_01
+[2024.10.25-02.25.33:989][446]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Rock_01.SM_Rock_01
+[2024.10.25-02.25.33:990][446]LogActorFactory: Actor Factory spawned StaticMesh /Game/Cave_Ruins/Meshes/SM_Rock_01.SM_Rock_01 as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1146
+[2024.10.25-02.25.47:019][674]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Rock_00.SM_Rock_00
+[2024.10.25-02.25.47:019][674]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Rock_00.SM_Rock_00
+[2024.10.25-02.25.47:019][674]LogActorFactory: Actor Factory spawned StaticMesh /Game/Cave_Ruins/Meshes/SM_Rock_00.SM_Rock_00 as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1147
+[2024.10.25-02.25.48:776][836]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Rock_00.SM_Rock_00
+[2024.10.25-02.25.48:777][836]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Rock_00.SM_Rock_00
+[2024.10.25-02.25.48:779][836]LogActorFactory: Actor Factory spawned StaticMesh /Game/Cave_Ruins/Meshes/SM_Rock_00.SM_Rock_00 as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1148
+[2024.10.25-02.26.37:506][558]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Rocks_Small_01.SM_Rocks_Small_01
+[2024.10.25-02.26.37:506][558]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Rocks_Small_01.SM_Rocks_Small_01
+[2024.10.25-02.26.37:507][558]LogActorFactory: Actor Factory spawned StaticMesh /Game/Cave_Ruins/Meshes/SM_Rocks_Small_01.SM_Rocks_Small_01 as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1149
+[2024.10.25-02.26.38:596][658]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Rocks_Small_01.SM_Rocks_Small_01
+[2024.10.25-02.26.38:596][658]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Rocks_Small_01.SM_Rocks_Small_01
+[2024.10.25-02.26.38:597][658]LogActorFactory: Actor Factory spawned StaticMesh /Game/Cave_Ruins/Meshes/SM_Rocks_Small_01.SM_Rocks_Small_01 as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1150
+[2024.10.25-02.26.42:017][991]Cmd: TRANSACTION UNDO
+[2024.10.25-02.26.42:018][991]LogEditorTransaction: Undo Scale Elements
+[2024.10.25-02.26.46:710][417]Cmd: TRANSACTION UNDO
+[2024.10.25-02.26.46:710][417]LogEditorTransaction: Undo Scale Elements
+[2024.10.25-02.26.46:975][422]Cmd: TRANSACTION UNDO
+[2024.10.25-02.26.46:975][422]LogEditorTransaction: Undo Scale Elements
+[2024.10.25-02.26.47:274][427]Cmd: TRANSACTION UNDO
+[2024.10.25-02.26.47:274][427]LogEditorTransaction: Undo Scale Elements
+[2024.10.25-02.26.47:728][470]Cmd: TRANSACTION UNDO
+[2024.10.25-02.26.47:728][470]LogEditorTransaction: Undo Create Actors
+[2024.10.25-02.26.49:942][633]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Rock_02.SM_Rock_02
+[2024.10.25-02.26.49:942][633]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Rock_02.SM_Rock_02
+[2024.10.25-02.26.49:943][633]LogActorFactory: Actor Factory spawned StaticMesh /Game/Cave_Ruins/Meshes/SM_Rock_02.SM_Rock_02 as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1151
+[2024.10.25-02.26.50:661][692]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Rock_02.SM_Rock_02
+[2024.10.25-02.26.50:661][692]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Rock_02.SM_Rock_02
+[2024.10.25-02.26.50:662][692]LogActorFactory: Actor Factory spawned StaticMesh /Game/Cave_Ruins/Meshes/SM_Rock_02.SM_Rock_02 as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1152
+[2024.10.25-02.26.53:508][977]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1152.StaticMeshComponent0, from: Addition to navoctree)
+[2024.10.25-02.26.53:537][980]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1152.StaticMeshComponent0, from: Remove from navoctree)
+[2024.10.25-02.26.53:769][  3]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1152.StaticMeshComponent0, from: Addition to navoctree)
+[2024.10.25-02.26.53:780][  4]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1152.StaticMeshComponent0, from: Remove from navoctree)
+[2024.10.25-02.27.42:724][804]LogTexture: Display: Building textures: /Game/Cave_Ruins/Textures/T_Medieval_Weapons_Glaive_T.T_Medieval_Weapons_Glaive_T (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.25-02.27.42:790][805]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Medieval_Weapons_Zweihander.SM_Medieval_Weapons_Zweihander
+[2024.10.25-02.27.42:790][805]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Medieval_Weapons_Zweihander.SM_Medieval_Weapons_Zweihander
+[2024.10.25-02.27.42:791][805]LogActorFactory: Actor Factory spawned StaticMesh /Game/Cave_Ruins/Meshes/SM_Medieval_Weapons_Zweihander.SM_Medieval_Weapons_Zweihander as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1153
+[2024.10.25-02.27.42:792][805]LogStaticMesh: Display: Building static mesh SM_Medieval_Weapons_Zweihander...
+[2024.10.25-02.27.42:809][805]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Cave_Ruins/Meshes/SM_Medieval_Weapons_Zweihander) ...
+[2024.10.25-02.27.42:853][805]LogStaticMesh: Built static mesh [0.06s] /Game/Cave_Ruins/Meshes/SM_Medieval_Weapons_Zweihander.SM_Medieval_Weapons_Zweihander
+[2024.10.25-02.27.42:894][805]LogTexture: Display: Building textures: /Game/Cave_Ruins/Textures/T_Medieval_Weapons_Glaive_AO_R_MT.T_Medieval_Weapons_Glaive_AO_R_MT (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.25-02.27.42:941][805]LogTexture: Display: Building textures: /Game/Cave_Ruins/Textures/T_Medieval_Weapons_Ahlspiess_B.T_Medieval_Weapons_Ahlspiess_B (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.25-02.27.43:011][806]LogTexture: Display: Building textures: /Game/Cave_Ruins/Textures/T_Medieval_Weapons_Glaive_BC.T_Medieval_Weapons_Glaive_BC (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.25-02.27.43:057][807]LogTexture: Display: Building textures: /Game/Cave_Ruins/Textures/T_Medieval_Weapons_Zweihander_B.T_Medieval_Weapons_Zweihander_B (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.25-02.27.43:151][809]LogTexture: Display: Building textures: /Game/Cave_Ruins/Textures/T_Medieval_Weapons_Zweihander_AO_R_MT.T_Medieval_Weapons_Zweihander_AO_R_MT (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.25-02.27.43:227][811]LogTexture: Display: Building textures: /Game/Cave_Ruins/Textures/T_Medieval_Weapons_Glaive_N.T_Medieval_Weapons_Glaive_N (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.25-02.27.43:522][819]LogTexture: Display: Building textures: /Game/Cave_Ruins/Textures/T_Medieval_Weapons_Zweihander_BC.T_Medieval_Weapons_Zweihander_BC (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.25-02.27.44:008][841]LogShaderCompilers: Display: ================================================
+[2024.10.25-02.27.44:008][841]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.10.25-02.27.44:008][841]LogShaderCompilers: Display: Total job queries 4,133, among them cache hits 116 (2.81%)
+[2024.10.25-02.27.44:008][841]LogShaderCompilers: Display: Tracking 4,010 distinct input hashes that result in 2,844 distinct outputs (70.92%)
+[2024.10.25-02.27.44:008][841]LogShaderCompilers: Display: RAM used: 75.92 MiB of 1.60 GiB budget. Usage: 4.63%
+[2024.10.25-02.27.44:008][841]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.10.25-02.27.44:008][841]LogShaderCompilers: Display: Shaders Compiled: 4,010
+[2024.10.25-02.27.44:008][841]LogShaderCompilers: Display: Jobs assigned 4,013, completed 4,010 (99.93%)
+[2024.10.25-02.27.44:008][841]LogShaderCompilers: Display: Average time worker was idle: 36.60 s
+[2024.10.25-02.27.44:008][841]LogShaderCompilers: Display: Time job spent in pending queue: average 48.34 s, longest 112.52 s
+[2024.10.25-02.27.44:008][841]LogShaderCompilers: Display: Job execution time: average 2.37 s, max 11.13 s
+[2024.10.25-02.27.44:008][841]LogShaderCompilers: Display: Job life time (pending + execution): average 50.75 s, max 115.65
+[2024.10.25-02.27.44:008][841]LogShaderCompilers: Display: Shader code size: average 38.492 KiB, min 2.086 KiB, max 162.84 KiB
+[2024.10.25-02.27.44:008][841]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 151.56 s
+[2024.10.25-02.27.44:008][841]LogShaderCompilers: Display: Jobs were issued in 731 batches (only local compilation was used), average 5.49 jobs/batch
+[2024.10.25-02.27.44:008][841]LogShaderCompilers: Display: Average processing rate: 26.46 jobs/sec
+[2024.10.25-02.27.44:008][841]LogShaderCompilers: Display: Total thread time: 1,040.693 s
+[2024.10.25-02.27.44:008][841]LogShaderCompilers: Display: Total thread preprocess time: 69.482 s
+[2024.10.25-02.27.44:008][841]LogShaderCompilers: Display: Percentage time preprocessing: 6.68%
+[2024.10.25-02.27.44:008][841]LogShaderCompilers: Display: Effective parallelization: 6.87 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.10.25-02.27.44:008][841]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.10.25-02.27.44:008][841]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 4.74 sec, max 8.00 sec, min 1.08 sec)
+[2024.10.25-02.27.44:008][841]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 3.13 sec, max 4.05 sec, min 2.42 sec)
+[2024.10.25-02.27.44:008][841]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 1.10 sec, max 2.17 sec, min 0.61 sec)
+[2024.10.25-02.27.44:008][841]LogShaderCompilers: Display:                                             FDeferredLightPS (compiled  134 times, average 0.90 sec, max 2.52 sec, min 0.71 sec)
+[2024.10.25-02.27.44:008][841]LogShaderCompilers: Display:                                        FCloudRenderViewPS011 (compiled    1 times, average 0.88 sec, max 0.88 sec, min 0.88 sec)
+[2024.10.25-02.27.44:008][841]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.10.25-02.27.44:008][841]LogShaderCompilers: Display:                                             FDeferredLightPS - 11.63% of total time (compiled  134 times, average 0.90 sec, max 2.52 sec, min 0.71 sec)
+[2024.10.25-02.27.44:008][841]LogShaderCompilers: Display:                                FVirtualShadowMapProjectionCS - 5.09% of total time (compiled   96 times, average 0.55 sec, max 0.95 sec, min 0.32 sec)
+[2024.10.25-02.27.44:008][841]LogShaderCompilers: Display:                                  FScreenProbeTraceMeshSDFsCS - 4.12% of total time (compiled   96 times, average 0.45 sec, max 0.70 sec, min 0.10 sec)
+[2024.10.25-02.27.44:008][841]LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 3.75% of total time (compiled  128 times, average 0.31 sec, max 0.58 sec, min 0.09 sec)
+[2024.10.25-02.27.44:008][841]LogShaderCompilers: Display:                                      FScreenProbeIntegrateCS - 3.67% of total time (compiled  128 times, average 0.30 sec, max 1.33 sec, min 0.20 sec)
+[2024.10.25-02.27.44:008][841]LogShaderCompilers: Display: ================================================
+[2024.10.25-02.27.44:823][881]LogTexture: Display: Building textures: /Game/Cave_Ruins/Textures/T_Medieval_Weapons_Zweihander_T.T_Medieval_Weapons_Zweihander_T (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.25-02.27.45:177][900]LogTexture: Display: Building textures: /Game/Cave_Ruins/Textures/T_Medieval_Weapons_Zweihander_N.T_Medieval_Weapons_Zweihander_N (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.25-02.27.45:462][917]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Medieval_Weapons_Zweihander.SM_Medieval_Weapons_Zweihander
+[2024.10.25-02.27.45:462][917]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Medieval_Weapons_Zweihander.SM_Medieval_Weapons_Zweihander
+[2024.10.25-02.27.45:463][917]LogActorFactory: Actor Factory spawned StaticMesh /Game/Cave_Ruins/Meshes/SM_Medieval_Weapons_Zweihander.SM_Medieval_Weapons_Zweihander as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1154
+[2024.10.25-02.27.59:506][340]Cmd: TRANSACTION UNDO
+[2024.10.25-02.27.59:506][340]LogEditorTransaction: Undo Clicking on Elements
+[2024.10.25-02.28.00:165][359]Cmd: TRANSACTION UNDO
+[2024.10.25-02.28.00:165][359]LogEditorTransaction: Undo Clicking on Elements
+[2024.10.25-02.28.00:642][394]Cmd: TRANSACTION UNDO
+[2024.10.25-02.28.00:642][394]LogEditorTransaction: Undo Clicking on Elements
+[2024.10.25-02.28.44:644][767]LogStaticMesh: Display: Building static mesh SM_Medieval_Weapons_Shamshir...
+[2024.10.25-02.28.44:698][767]LogStaticMesh: Built static mesh [0.06s] /Game/Cave_Ruins/Meshes/SM_Medieval_Weapons_Shamshir.SM_Medieval_Weapons_Shamshir
+[2024.10.25-02.28.44:742][768]LogTexture: Display: Building textures: /Game/Cave_Ruins/Textures/T_Medieval_Weapons_Shamshir_T.T_Medieval_Weapons_Shamshir_T (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.25-02.28.44:953][773]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Medieval_Weapons_Shamshir.SM_Medieval_Weapons_Shamshir
+[2024.10.25-02.28.44:953][773]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Medieval_Weapons_Shamshir.SM_Medieval_Weapons_Shamshir
+[2024.10.25-02.28.44:953][773]LogActorFactory: Actor Factory spawned StaticMesh /Game/Cave_Ruins/Meshes/SM_Medieval_Weapons_Shamshir.SM_Medieval_Weapons_Shamshir as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1155
+[2024.10.25-02.28.44:956][773]LogTexture: Display: Building textures: /Game/Cave_Ruins/Textures/T_Medieval_Weapons_Shamshir_B.T_Medieval_Weapons_Shamshir_B (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.25-02.28.44:967][773]LogTexture: Display: Building textures: /Game/Cave_Ruins/Textures/T_Medieval_Weapons_Shamshir_BC.T_Medieval_Weapons_Shamshir_BC (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.25-02.28.45:090][776]LogTexture: Display: Building textures: /Game/Cave_Ruins/Textures/T_Medieval_Weapons_Shamshir_AO_R_MT.T_Medieval_Weapons_Shamshir_AO_R_MT (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.25-02.28.45:206][781]LogTexture: Display: Building textures: /Game/Cave_Ruins/Textures/T_Medieval_Weapons_Shamshir_N.T_Medieval_Weapons_Shamshir_N (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.25-02.28.48:609][ 84]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Medieval_Weapons_Shamshir.SM_Medieval_Weapons_Shamshir
+[2024.10.25-02.28.48:609][ 84]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Medieval_Weapons_Shamshir.SM_Medieval_Weapons_Shamshir
+[2024.10.25-02.28.48:610][ 84]LogActorFactory: Actor Factory spawned StaticMesh /Game/Cave_Ruins/Meshes/SM_Medieval_Weapons_Shamshir.SM_Medieval_Weapons_Shamshir as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1156
+[2024.10.25-02.29.48:171][ 69]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Gigantic_Rock_00.SM_Gigantic_Rock_00
+[2024.10.25-02.29.48:171][ 69]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Gigantic_Rock_00.SM_Gigantic_Rock_00
+[2024.10.25-02.29.48:171][ 69]LogActorFactory: Actor Factory spawned StaticMesh /Game/Cave_Ruins/Meshes/SM_Gigantic_Rock_00.SM_Gigantic_Rock_00 as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1157
+[2024.10.25-02.29.49:700][221]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Gigantic_Rock_00.SM_Gigantic_Rock_00
+[2024.10.25-02.29.49:700][221]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Gigantic_Rock_00.SM_Gigantic_Rock_00
+[2024.10.25-02.29.49:701][221]LogActorFactory: Actor Factory spawned StaticMesh /Game/Cave_Ruins/Meshes/SM_Gigantic_Rock_00.SM_Gigantic_Rock_00 as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1158
+[2024.10.25-02.29.57:060][ 33]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1158.StaticMeshComponent0, from: Addition to navoctree)
+[2024.10.25-02.29.57:812][106]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1158.StaticMeshComponent0, from: Remove from navoctree)
+[2024.10.25-02.30.25:191][986]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1158.StaticMeshComponent0, from: Addition to navoctree)
+[2024.10.25-02.30.25:353][  3]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1158.StaticMeshComponent0, from: Remove from navoctree)
+[2024.10.25-02.30.25:386][  3]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1158.StaticMeshComponent0, from: Addition to navoctree)
+[2024.10.25-02.30.25:884][ 60]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1158.StaticMeshComponent0, from: Remove from navoctree)
+[2024.10.25-02.30.42:325][721]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1158.StaticMeshComponent0, from: Addition to navoctree)
+[2024.10.25-02.30.42:978][787]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1158.StaticMeshComponent0, from: Remove from navoctree)
+[2024.10.25-02.31.15:845][210]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Cave_Ruins_Pillar_01.SM_Cave_Ruins_Pillar_01
+[2024.10.25-02.31.15:845][210]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Cave_Ruins_Pillar_01.SM_Cave_Ruins_Pillar_01
+[2024.10.25-02.31.15:846][210]LogActorFactory: Actor Factory spawned StaticMesh /Game/Cave_Ruins/Meshes/SM_Cave_Ruins_Pillar_01.SM_Cave_Ruins_Pillar_01 as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1159
+[2024.10.25-02.31.19:873][606]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Cave_Ruins_Pillar_01.SM_Cave_Ruins_Pillar_01
+[2024.10.25-02.31.19:873][606]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Cave_Ruins_Pillar_01.SM_Cave_Ruins_Pillar_01
+[2024.10.25-02.31.19:875][606]LogActorFactory: Actor Factory spawned StaticMesh /Game/Cave_Ruins/Meshes/SM_Cave_Ruins_Pillar_01.SM_Cave_Ruins_Pillar_01 as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1160
+[2024.10.25-02.31.36:311][207]LogStaticMesh: Display: Building static mesh SM_Cave_Ruins_Pillar_03...
+[2024.10.25-02.31.36:403][208]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Cave_Ruins_Pillar_03.SM_Cave_Ruins_Pillar_03
+[2024.10.25-02.31.36:403][208]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Cave_Ruins_Pillar_03.SM_Cave_Ruins_Pillar_03
+[2024.10.25-02.31.36:403][208]LogActorFactory: Actor Factory spawned StaticMesh /Game/Cave_Ruins/Meshes/SM_Cave_Ruins_Pillar_03.SM_Cave_Ruins_Pillar_03 as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1161
+[2024.10.25-02.31.36:420][208]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Cave_Ruins/Meshes/SM_Cave_Ruins_Pillar_03) ...
+[2024.10.25-02.31.36:520][208]LogStaticMesh: Built static mesh [0.21s] /Game/Cave_Ruins/Meshes/SM_Cave_Ruins_Pillar_03.SM_Cave_Ruins_Pillar_03
+[2024.10.25-02.31.36:741][216]LogTexture: Display: Building textures: /Game/Cave_Ruins/Textures/T_Cave_Ruins_Pillar_03_AO_R_MT.T_Cave_Ruins_Pillar_03_AO_R_MT (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.25-02.31.36:744][216]LogTexture: Display: Building textures: /Game/Cave_Ruins/Textures/T_Cave_Ruins_Pillar_03_BC.T_Cave_Ruins_Pillar_03_BC (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.25-02.31.36:979][227]LogTexture: Display: Building textures: /Game/Cave_Ruins/Textures/T_Cave_Ruins_Pillar_03_N.T_Cave_Ruins_Pillar_03_N (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.25-02.31.39:401][453]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Cave_Ruins_Pillar_03.SM_Cave_Ruins_Pillar_03
+[2024.10.25-02.31.39:401][453]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Cave_Ruins_Pillar_03.SM_Cave_Ruins_Pillar_03
+[2024.10.25-02.31.39:402][453]LogActorFactory: Actor Factory spawned StaticMesh /Game/Cave_Ruins/Meshes/SM_Cave_Ruins_Pillar_03.SM_Cave_Ruins_Pillar_03 as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1162
+[2024.10.25-02.31.39:977][508]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Cave_Ruins_Pillar_03.SM_Cave_Ruins_Pillar_03
+[2024.10.25-02.31.39:977][508]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Cave_Ruins_Pillar_03.SM_Cave_Ruins_Pillar_03
+[2024.10.25-02.31.39:978][508]LogActorFactory: Actor Factory spawned StaticMesh /Game/Cave_Ruins/Meshes/SM_Cave_Ruins_Pillar_03.SM_Cave_Ruins_Pillar_03 as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1163
+[2024.10.25-02.31.54:997][ 45]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Grass_01.SM_Grass_01
+[2024.10.25-02.31.54:998][ 45]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Grass_01.SM_Grass_01
+[2024.10.25-02.31.54:998][ 45]LogActorFactory: Actor Factory spawned StaticMesh /Game/Cave_Ruins/Meshes/SM_Grass_01.SM_Grass_01 as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1164
+[2024.10.25-02.31.57:830][329]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Grass_01.SM_Grass_01
+[2024.10.25-02.31.57:830][329]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Grass_01.SM_Grass_01
+[2024.10.25-02.31.57:831][329]LogActorFactory: Actor Factory spawned StaticMesh /Game/Cave_Ruins/Meshes/SM_Grass_01.SM_Grass_01 as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1165
+[2024.10.25-02.32.04:635][904]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Cave_Ruins/Blueprints/BP_Candles01.BP_Candles01_C
+[2024.10.25-02.32.04:635][904]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Cave_Ruins/Blueprints/BP_Candles01.BP_Candles01_C
+[2024.10.25-02.32.04:639][904]LogActorFactory: Actor Factory spawned Blueprint /Game/Cave_Ruins/Blueprints/BP_Candles01.BP_Candles01 as actor: BP_Candles01_C /Game/Level1.Level1:PersistentLevel.BP_Candles01_C_2
+[2024.10.25-02.32.04:643][904]LogActorFactory: Actor Factory spawned Blueprint /Game/Cave_Ruins/Blueprints/BP_Candles01.BP_Candles01 as actor: BP_Candles01_C /Game/Level1.Level1:PersistentLevel.BP_Candles01_C_2
+[2024.10.25-02.32.08:440][211]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Cave_Ruins/Blueprints/BP_Candles01.BP_Candles01_C
+[2024.10.25-02.32.08:440][211]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Cave_Ruins/Blueprints/BP_Candles01.BP_Candles01_C
+[2024.10.25-02.32.08:445][211]LogActorFactory: Actor Factory spawned Blueprint /Game/Cave_Ruins/Blueprints/BP_Candles01.BP_Candles01 as actor: BP_Candles01_C /Game/Level1.Level1:PersistentLevel.BP_Candles01_C_3
+[2024.10.25-02.32.08:450][211]LogActorFactory: Actor Factory spawned Blueprint /Game/Cave_Ruins/Blueprints/BP_Candles01.BP_Candles01 as actor: BP_Candles01_C /Game/Level1.Level1:PersistentLevel.BP_Candles01_C_3
+[2024.10.25-02.32.24:307][944]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-02.32.24:428][948]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Cave_Ruins/Blueprints/BP_Candles02.BP_Candles02_C
+[2024.10.25-02.32.24:428][948]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Cave_Ruins/Blueprints/BP_Candles02.BP_Candles02_C
+[2024.10.25-02.32.24:432][948]LogActorFactory: Actor Factory spawned Blueprint /Game/Cave_Ruins/Blueprints/BP_Candles02.BP_Candles02 as actor: BP_Candles02_C /Game/Level1.Level1:PersistentLevel.BP_Candles02_C_0
+[2024.10.25-02.32.24:436][948]LogActorFactory: Actor Factory spawned Blueprint /Game/Cave_Ruins/Blueprints/BP_Candles02.BP_Candles02 as actor: BP_Candles02_C /Game/Level1.Level1:PersistentLevel.BP_Candles02_C_0
+[2024.10.25-02.32.25:651][ 54]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Cave_Ruins/Blueprints/BP_Candles02.BP_Candles02_C
+[2024.10.25-02.32.25:651][ 54]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Cave_Ruins/Blueprints/BP_Candles02.BP_Candles02_C
+[2024.10.25-02.32.25:657][ 54]LogActorFactory: Actor Factory spawned Blueprint /Game/Cave_Ruins/Blueprints/BP_Candles02.BP_Candles02 as actor: BP_Candles02_C /Game/Level1.Level1:PersistentLevel.BP_Candles02_C_1
+[2024.10.25-02.32.25:662][ 54]LogActorFactory: Actor Factory spawned Blueprint /Game/Cave_Ruins/Blueprints/BP_Candles02.BP_Candles02 as actor: BP_Candles02_C /Game/Level1.Level1:PersistentLevel.BP_Candles02_C_1
+[2024.10.25-02.32.34:957][ 26]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Cave_Ruins/Blueprints/BP_Candles01.BP_Candles01_C
+[2024.10.25-02.32.34:957][ 26]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Cave_Ruins/Blueprints/BP_Candles01.BP_Candles01_C
+[2024.10.25-02.32.34:962][ 26]LogActorFactory: Actor Factory spawned Blueprint /Game/Cave_Ruins/Blueprints/BP_Candles01.BP_Candles01 as actor: BP_Candles01_C /Game/Level1.Level1:PersistentLevel.BP_Candles01_C_4
+[2024.10.25-02.32.34:967][ 26]LogActorFactory: Actor Factory spawned Blueprint /Game/Cave_Ruins/Blueprints/BP_Candles01.BP_Candles01 as actor: BP_Candles01_C /Game/Level1.Level1:PersistentLevel.BP_Candles01_C_4
+[2024.10.25-02.32.37:514][249]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Cave_Ruins/Blueprints/BP_Candles01.BP_Candles01_C
+[2024.10.25-02.32.37:514][249]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Cave_Ruins/Blueprints/BP_Candles01.BP_Candles01_C
+[2024.10.25-02.32.37:519][249]LogActorFactory: Actor Factory spawned Blueprint /Game/Cave_Ruins/Blueprints/BP_Candles01.BP_Candles01 as actor: BP_Candles01_C /Game/Level1.Level1:PersistentLevel.BP_Candles01_C_5
+[2024.10.25-02.32.37:524][249]LogActorFactory: Actor Factory spawned Blueprint /Game/Cave_Ruins/Blueprints/BP_Candles01.BP_Candles01 as actor: BP_Candles01_C /Game/Level1.Level1:PersistentLevel.BP_Candles01_C_5
+[2024.10.25-02.32.42:436][742]LogStaticMesh: Display: Building static mesh SM_Dungeon_shackles_03...
+[2024.10.25-02.32.42:553][746]LogStaticMesh: Built static mesh [0.12s] /Game/Cave_Ruins/Meshes/SM_Dungeon_shackles_03.SM_Dungeon_shackles_03
+[2024.10.25-02.32.42:599][747]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Dungeon_shackles_03.SM_Dungeon_shackles_03
+[2024.10.25-02.32.42:599][747]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Dungeon_shackles_03.SM_Dungeon_shackles_03
+[2024.10.25-02.32.42:600][747]LogActorFactory: Actor Factory spawned StaticMesh /Game/Cave_Ruins/Meshes/SM_Dungeon_shackles_03.SM_Dungeon_shackles_03 as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1166
+[2024.10.25-02.32.42:795][757]LogTexture: Display: Building textures: /Game/Cave_Ruins/Textures/T_Dungeon_shackles_03_BC.T_Dungeon_shackles_03_BC (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.25-02.32.42:911][762]LogTexture: Display: Building textures: /Game/Cave_Ruins/Textures/T_Dungeon_shackles_03_AO_R_MT.T_Dungeon_shackles_03_AO_R_MT (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.25-02.32.43:191][780]LogTexture: Display: Building textures: /Game/Cave_Ruins/Textures/T_Dungeon_shackles_03_N.T_Dungeon_shackles_03_N (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.10.25-02.32.45:328][982]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Dungeon_shackles_03.SM_Dungeon_shackles_03
+[2024.10.25-02.32.45:329][982]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Dungeon_shackles_03.SM_Dungeon_shackles_03
+[2024.10.25-02.32.45:330][982]LogActorFactory: Actor Factory spawned StaticMesh /Game/Cave_Ruins/Meshes/SM_Dungeon_shackles_03.SM_Dungeon_shackles_03 as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1167
+[2024.10.25-02.33.09:032][367]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Wooden_Beam.SM_Wooden_Beam
+[2024.10.25-02.33.09:032][367]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Wooden_Beam.SM_Wooden_Beam
+[2024.10.25-02.33.09:032][367]LogActorFactory: Actor Factory spawned StaticMesh /Game/Cave_Ruins/Meshes/SM_Wooden_Beam.SM_Wooden_Beam as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1168
+[2024.10.25-02.33.11:052][558]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Wooden_Beam.SM_Wooden_Beam
+[2024.10.25-02.33.11:052][558]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Wooden_Beam.SM_Wooden_Beam
+[2024.10.25-02.33.11:053][558]LogActorFactory: Actor Factory spawned StaticMesh /Game/Cave_Ruins/Meshes/SM_Wooden_Beam.SM_Wooden_Beam as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1169
+[2024.10.25-02.33.55:406][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2024.10.25-02.33.55:411][ 89]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.25-02.33.55:465][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.10.25-02.33.55:491][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2024.10.25-02.33.55:514][ 89]LogSavePackage: Moving output files for package: /Game/Level1
+[2024.10.25-02.33.55:515][ 89]LogSavePackage: Moving '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Saved/Level16FFC29AB43404BEAD8DB8B9AFD0F4141.tmp' to '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/Level1.umap'
+[2024.10.25-02.33.55:521][ 89]LogFileHelpers: Saving map 'Level1' took 0.057
+[2024.10.25-02.33.55:535][ 89]LogFileHelpers: InternalPromptForCheckoutAndSave took 124 ms (total: 472 ms)
+[2024.10.25-02.33.55:537][ 89]AssetCheck: New page: Asset Save: Level1
+[2024.10.25-02.33.55:537][ 89]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level1.Level1
+[2024.10.25-02.34.42:286][956]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Rocks_01.SM_Rocks_01
+[2024.10.25-02.34.42:286][956]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Rocks_01.SM_Rocks_01
+[2024.10.25-02.34.42:286][956]LogActorFactory: Actor Factory spawned StaticMesh /Game/Cave_Ruins/Meshes/SM_Rocks_01.SM_Rocks_01 as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1170
+[2024.10.25-02.34.43:295][ 61]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Rocks_01.SM_Rocks_01
+[2024.10.25-02.34.43:295][ 61]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Rocks_01.SM_Rocks_01
+[2024.10.25-02.34.43:296][ 61]LogActorFactory: Actor Factory spawned StaticMesh /Game/Cave_Ruins/Meshes/SM_Rocks_01.SM_Rocks_01 as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1171
+[2024.10.25-02.35.29:034][861]Cmd: DUPLICATE
+[2024.10.25-02.35.29:034][861]Cmd: ACTOR DUPLICATE
+[2024.10.25-02.35.43:360][250]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Cave_Ruins_Arch_00.SM_Cave_Ruins_Arch_00
+[2024.10.25-02.35.43:360][250]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Cave_Ruins_Arch_00.SM_Cave_Ruins_Arch_00
+[2024.10.25-02.35.43:360][250]LogActorFactory: Actor Factory spawned StaticMesh /Game/Cave_Ruins/Meshes/SM_Cave_Ruins_Arch_00.SM_Cave_Ruins_Arch_00 as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1173
+[2024.10.25-02.35.45:693][476]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Cave_Ruins_Arch_00.SM_Cave_Ruins_Arch_00
+[2024.10.25-02.35.45:693][476]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Cave_Ruins/Meshes/SM_Cave_Ruins_Arch_00.SM_Cave_Ruins_Arch_00
+[2024.10.25-02.35.45:694][476]LogActorFactory: Actor Factory spawned StaticMesh /Game/Cave_Ruins/Meshes/SM_Cave_Ruins_Arch_00.SM_Cave_Ruins_Arch_00 as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1174
+[2024.10.25-02.36.18:312][836]Cmd: EDIT CUT
+[2024.10.25-02.36.18:315][836]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.10.25-02.36.18:323][836]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2024.10.25-02.36.18:325][836]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2024.10.25-02.36.19:467][973]Cmd: TRANSACTION UNDO
+[2024.10.25-02.36.19:467][973]LogEditorTransaction: Undo Cut
+[2024.10.25-02.36.20:910][ 82]Cmd: TRANSACTION UNDO
+[2024.10.25-02.36.20:911][ 82]LogEditorTransaction: Undo Clicking on Elements
+[2024.10.25-02.36.26:697][692]Cmd: TRANSACTION UNDO
+[2024.10.25-02.36.26:697][692]LogEditorTransaction: Undo Scale Elements
+[2024.10.25-02.36.34:039][425]Cmd: TRANSACTION UNDO
+[2024.10.25-02.36.34:040][425]LogEditorTransaction: Undo Move Elements
+[2024.10.25-02.36.34:317][430]Cmd: TRANSACTION UNDO
+[2024.10.25-02.36.34:317][430]LogEditorTransaction: Undo Scale Elements
+[2024.10.25-02.36.42:124][173]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.25-02.36.42:128][173]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.25-02.36.42:128][173]PIE: New page: PIE session: Level1 (Oct 24, 2024, 2:36:42 PM)
+[2024.10.25-02.36.42:165][173]LogPlayLevel: Display: Creating online subsystem for client :Context_29
+[2024.10.25-02.36.42:167][173]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2024.10.25-02.36.42:185][174]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2024.10.25-02.36.42:193][174]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007706s)
+[2024.10.25-02.36.42:193][174]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.007750s)
+[2024.10.25-02.36.42:198][174]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2024.10.25-02.36.42:200][174]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-02.36.42:200][174]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-02.36.42:200][174]LogAIModule: Creating AISystem for world Level1
+[2024.10.25-02.36.42:201][174]LogPlayLevel: PIE: World Init took: (0.001074s)
+[2024.10.25-02.36.42:201][174]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2024.10.25-02.36.42:201][174]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.25-02.36.42:201][174]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.25-02.36.42:201][174]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.25-02.36.42:201][174]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.25-02.36.42:201][174]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.25-02.36.42:201][174]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.25-02.36.42:201][174]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.25-02.36.42:201][174]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.25-02.36.42:201][174]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.25-02.36.42:201][174]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.25-02.36.42:201][174]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.25-02.36.42:203][174]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.25-02.36.42:221][174]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2024.10.25-02.36.42:222][174]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.25-02.36.42:222][174]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.25-02.36.42:222][174]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.25-02.36.42:223][174]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2024.10.25-02.36.42:223][174]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2024.10.25-02.36.42:224][174]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2024.10.25-02.36.42:225][174]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2024.10.25-02.36.42:225][174]LogInit: FAudioDevice initialized with ID 22.
+[2024.10.25-02.36.42:225][174]LogAudio: Display: Audio Device (ID: 22) registered with world 'Level1'.
+[2024.10.25-02.36.42:225][174]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2024.10.25-02.36.42:227][174]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.25-02.36.42:228][174]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Level1.Level1:PersistentLevel.StaticMeshActor_999.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.10.25-02.36.42:228][174]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: 'SM_Gigantic_Rock_8' Component: '/Game/UEDPIE_0_Level1.Level1:PersistentLevel.StaticMeshActor_999.StaticMeshComponent0' 
+[2024.10.25-02.36.42:232][174]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2024.10.24-20.36.42
+[2024.10.25-02.36.42:232][174]LogWorld: Bringing up level for play took: 0.004804
+[2024.10.25-02.36.42:235][174]PIE: Server logged in
+[2024.10.25-02.36.42:235][174]PIE: Play in editor total start time 0.107 seconds.
+[2024.10.25-02.36.52:505][390]LogChaos: Warning: Degenerate triangle 6773: (101.226387 81.165520 235.151047) (101.262405 81.114105 235.062057) (101.255363 81.201820 235.095535)
+[2024.10.25-02.36.52:505][390]LogChaos: Warning: Degenerate triangle 6773: (101.226387 81.165520 235.151047) (101.262405 81.114105 235.062057) (101.255363 81.201820 235.095535)
+[2024.10.25-02.37.04:227][796]LogCharacterMovement: BP_FirstPersonCharacter_C_0 is stuck and failed to move! Velocity: X=-68.29 Y=157.86 Z=0.00 Location: X=-2478.38 Y=-2031.92 Z=395.41 Normal: X=-0.04 Y=-0.07 Z=1.00 PenetrationDepth:0.263 Actor:StaticMeshActor_1142 Component:StaticMeshComponent0 BoneName:None (0 other events since notify)
+[2024.10.25-02.37.15:734][172]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.25-02.37.15:734][172]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2024.10.25-02.37.15:734][172]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-02.37.15:735][172]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-02.37.15:739][172]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.25-02.37.15:741][172]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-02.37.15:748][172]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.25-02.37.15:749][172]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2024.10.25-02.37.15:749][172]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2024.10.25-02.37.15:750][172]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2024.10.25-02.37.15:757][172]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2024.10.25-02.37.15:817][173]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2024.10.25-02.37.21:359][737]Cmd: DELETE
+[2024.10.25-02.37.21:359][737]Cmd: ACTOR DELETE
+[2024.10.25-02.37.21:362][737]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.10.25-02.37.21:368][737]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2024.10.25-02.37.21:370][737]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2024.10.25-02.37.23:333][966]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.25-02.37.23:337][966]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.25-02.37.23:337][966]PIE: New page: PIE session: Level1 (Oct 24, 2024, 2:37:23 PM)
+[2024.10.25-02.37.23:374][966]LogPlayLevel: Display: Creating online subsystem for client :Context_30
+[2024.10.25-02.37.23:375][966]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2024.10.25-02.37.23:391][967]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2024.10.25-02.37.23:398][967]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007205s)
+[2024.10.25-02.37.23:398][967]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.007261s)
+[2024.10.25-02.37.23:404][967]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.10.25-02.37.23:406][967]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-02.37.23:406][967]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-02.37.23:407][967]LogAIModule: Creating AISystem for world Level1
+[2024.10.25-02.37.23:407][967]LogPlayLevel: PIE: World Init took: (0.000990s)
+[2024.10.25-02.37.23:407][967]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2024.10.25-02.37.23:407][967]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.25-02.37.23:407][967]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.25-02.37.23:407][967]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.25-02.37.23:407][967]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.25-02.37.23:407][967]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.25-02.37.23:407][967]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.25-02.37.23:407][967]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.25-02.37.23:407][967]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.25-02.37.23:408][967]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.25-02.37.23:408][967]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.25-02.37.23:408][967]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.25-02.37.23:410][967]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.25-02.37.23:427][967]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2024.10.25-02.37.23:427][967]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.25-02.37.23:427][967]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.25-02.37.23:427][967]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.25-02.37.23:427][967]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2024.10.25-02.37.23:427][967]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2024.10.25-02.37.23:429][967]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2024.10.25-02.37.23:429][967]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2024.10.25-02.37.23:429][967]LogInit: FAudioDevice initialized with ID 23.
+[2024.10.25-02.37.23:429][967]LogAudio: Display: Audio Device (ID: 23) registered with world 'Level1'.
+[2024.10.25-02.37.23:429][967]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2024.10.25-02.37.23:432][967]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.25-02.37.23:433][967]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Level1.Level1:PersistentLevel.StaticMeshActor_999.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.10.25-02.37.23:433][967]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: 'SM_Gigantic_Rock_8' Component: '/Game/UEDPIE_0_Level1.Level1:PersistentLevel.StaticMeshActor_999.StaticMeshComponent0' 
+[2024.10.25-02.37.23:437][967]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2024.10.24-20.37.23
+[2024.10.25-02.37.23:437][967]LogWorld: Bringing up level for play took: 0.004538
+[2024.10.25-02.37.23:439][967]PIE: Server logged in
+[2024.10.25-02.37.23:440][967]PIE: Play in editor total start time 0.103 seconds.
+[2024.10.25-02.37.48:754][973]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.25-02.37.48:754][973]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2024.10.25-02.37.48:754][973]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-02.37.48:755][973]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-02.37.48:758][973]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.25-02.37.48:760][973]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-02.37.48:768][973]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.25-02.37.48:768][973]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2024.10.25-02.37.48:768][973]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2024.10.25-02.37.48:770][973]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2024.10.25-02.37.48:773][973]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.25-02.37.48:776][973]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2024.10.25-02.37.48:828][975]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2024.10.25-02.37.54:846][585]Cmd: TRANSACTION UNDO
+[2024.10.25-02.37.54:846][585]LogEditorTransaction: Undo Clicking on Elements
+[2024.10.25-02.37.55:216][589]Cmd: TRANSACTION UNDO
+[2024.10.25-02.37.55:216][589]LogEditorTransaction: Undo Clicking on Elements
+[2024.10.25-02.37.55:627][617]Cmd: TRANSACTION UNDO
+[2024.10.25-02.37.55:627][617]LogEditorTransaction: Undo Delete Elements
+[2024.10.25-02.38.11:003][227]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.25-02.38.11:007][227]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.25-02.38.11:007][227]PIE: New page: PIE session: Level1 (Oct 24, 2024, 2:38:11 PM)
+[2024.10.25-02.38.11:034][227]LogPlayLevel: Display: Creating online subsystem for client :Context_31
+[2024.10.25-02.38.11:035][227]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2024.10.25-02.38.11:051][228]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2024.10.25-02.38.11:059][228]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007717s)
+[2024.10.25-02.38.11:059][228]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.007757s)
+[2024.10.25-02.38.11:065][228]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2024.10.25-02.38.11:066][228]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-02.38.11:067][228]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-02.38.11:067][228]LogAIModule: Creating AISystem for world Level1
+[2024.10.25-02.38.11:067][228]LogPlayLevel: PIE: World Init took: (0.001109s)
+[2024.10.25-02.38.11:067][228]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2024.10.25-02.38.11:067][228]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.25-02.38.11:067][228]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.25-02.38.11:067][228]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.25-02.38.11:067][228]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.25-02.38.11:067][228]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.25-02.38.11:067][228]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.25-02.38.11:067][228]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.25-02.38.11:067][228]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.25-02.38.11:069][228]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.25-02.38.11:069][228]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.25-02.38.11:069][228]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.25-02.38.11:071][228]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.25-02.38.11:089][228]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2024.10.25-02.38.11:089][228]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.25-02.38.11:089][228]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.25-02.38.11:089][228]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.25-02.38.11:090][228]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2024.10.25-02.38.11:090][228]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2024.10.25-02.38.11:091][228]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2024.10.25-02.38.11:091][228]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2024.10.25-02.38.11:091][228]LogInit: FAudioDevice initialized with ID 24.
+[2024.10.25-02.38.11:091][228]LogAudio: Display: Audio Device (ID: 24) registered with world 'Level1'.
+[2024.10.25-02.38.11:091][228]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 24
+[2024.10.25-02.38.11:094][228]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.25-02.38.11:095][228]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Level1.Level1:PersistentLevel.StaticMeshActor_999.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.10.25-02.38.11:095][228]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: 'SM_Gigantic_Rock_8' Component: '/Game/UEDPIE_0_Level1.Level1:PersistentLevel.StaticMeshActor_999.StaticMeshComponent0' 
+[2024.10.25-02.38.11:099][228]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2024.10.24-20.38.11
+[2024.10.25-02.38.11:099][228]LogWorld: Bringing up level for play took: 0.004666
+[2024.10.25-02.38.11:101][228]PIE: Server logged in
+[2024.10.25-02.38.11:101][228]PIE: Play in editor total start time 0.095 seconds.
+[2024.10.25-02.38.26:894][104]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.25-02.38.26:894][104]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2024.10.25-02.38.26:895][104]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-02.38.26:896][104]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-02.38.26:900][104]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.25-02.38.26:902][104]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-02.38.26:910][104]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.25-02.38.26:910][104]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 24
+[2024.10.25-02.38.26:910][104]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2024.10.25-02.38.26:912][104]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2024.10.25-02.38.26:915][104]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.25-02.38.26:918][104]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2024.10.25-02.38.26:978][105]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2024.10.25-02.38.34:041][827]Cmd: TRANSACTION UNDO
+[2024.10.25-02.38.34:042][827]LogEditorTransaction: Undo Move Elements
+[2024.10.25-02.38.58:461][316]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.25-02.38.58:467][316]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.25-02.38.58:467][316]PIE: New page: PIE session: Level1 (Oct 24, 2024, 2:38:58 PM)
+[2024.10.25-02.38.58:504][316]LogPlayLevel: Display: Creating online subsystem for client :Context_32
+[2024.10.25-02.38.58:506][316]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2024.10.25-02.38.58:523][317]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2024.10.25-02.38.58:531][317]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007679s)
+[2024.10.25-02.38.58:531][317]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.007717s)
+[2024.10.25-02.38.58:547][317]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2024.10.25-02.38.58:549][317]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-02.38.58:549][317]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-02.38.58:550][317]LogAIModule: Creating AISystem for world Level1
+[2024.10.25-02.38.58:550][317]LogPlayLevel: PIE: World Init took: (0.001076s)
+[2024.10.25-02.38.58:550][317]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2024.10.25-02.38.58:550][317]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.25-02.38.58:550][317]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.25-02.38.58:550][317]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.25-02.38.58:550][317]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.25-02.38.58:550][317]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.25-02.38.58:550][317]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.25-02.38.58:550][317]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.25-02.38.58:550][317]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.25-02.38.58:551][317]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.25-02.38.58:551][317]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.25-02.38.58:551][317]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.25-02.38.58:553][317]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.25-02.38.58:570][317]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2024.10.25-02.38.58:570][317]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.25-02.38.58:570][317]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.25-02.38.58:570][317]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.25-02.38.58:571][317]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2024.10.25-02.38.58:571][317]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2024.10.25-02.38.58:573][317]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2024.10.25-02.38.58:573][317]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2024.10.25-02.38.58:573][317]LogInit: FAudioDevice initialized with ID 25.
+[2024.10.25-02.38.58:573][317]LogAudio: Display: Audio Device (ID: 25) registered with world 'Level1'.
+[2024.10.25-02.38.58:573][317]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 25
+[2024.10.25-02.38.58:576][317]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.25-02.38.58:577][317]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Level1.Level1:PersistentLevel.StaticMeshActor_999.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.10.25-02.38.58:577][317]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: 'SM_Gigantic_Rock_8' Component: '/Game/UEDPIE_0_Level1.Level1:PersistentLevel.StaticMeshActor_999.StaticMeshComponent0' 
+[2024.10.25-02.38.58:580][317]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2024.10.24-20.38.58
+[2024.10.25-02.38.58:581][317]LogWorld: Bringing up level for play took: 0.004617
+[2024.10.25-02.38.58:583][317]PIE: Server logged in
+[2024.10.25-02.38.58:583][317]PIE: Play in editor total start time 0.117 seconds.
+[2024.10.25-02.39.14:015][149]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.25-02.39.14:015][149]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2024.10.25-02.39.14:015][149]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-02.39.14:016][149]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-02.39.14:019][149]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.25-02.39.14:021][149]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-02.39.14:028][149]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.25-02.39.14:028][149]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 25
+[2024.10.25-02.39.14:028][149]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2024.10.25-02.39.14:030][149]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2024.10.25-02.39.14:033][149]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.25-02.39.14:036][149]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2024.10.25-02.39.14:136][151]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2024.10.25-02.39.18:558][598]Cmd: TRANSACTION UNDO
+[2024.10.25-02.39.18:558][598]LogEditorTransaction: Undo Clicking on Elements
+[2024.10.25-02.39.18:992][605]Cmd: TRANSACTION UNDO
+[2024.10.25-02.39.18:992][605]LogEditorTransaction: Undo Move Elements
+[2024.10.25-02.39.19:683][666]Cmd: TRANSACTION UNDO
+[2024.10.25-02.39.19:683][666]LogEditorTransaction: Undo Move Elements
+[2024.10.25-02.39.20:131][710]Cmd: TRANSACTION UNDO
+[2024.10.25-02.39.20:131][710]LogEditorTransaction: Undo Clicking on Elements
+[2024.10.25-02.39.22:363][942]Cmd: TRANSACTION REDO
+[2024.10.25-02.39.22:363][942]LogEditorTransaction: Redo Clicking on Elements
+[2024.10.25-02.39.25:493][212]Cmd: DELETE
+[2024.10.25-02.39.25:493][212]Cmd: ACTOR DELETE
+[2024.10.25-02.39.25:495][212]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.10.25-02.39.25:504][212]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2024.10.25-02.39.25:506][212]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2024.10.25-02.39.47:438][538]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2024.10.25-02.39.47:439][538]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2024.10.25-02.39.47:439][538]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1175
+[2024.10.25-02.39.47:776][569]LogShaderCompilers: Display: ================================================
+[2024.10.25-02.39.47:776][569]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.10.25-02.39.47:776][569]LogShaderCompilers: Display: Total job queries 4,140, among them cache hits 119 (2.87%)
+[2024.10.25-02.39.47:776][569]LogShaderCompilers: Display: Tracking 4,014 distinct input hashes that result in 2,846 distinct outputs (70.90%)
+[2024.10.25-02.39.47:776][569]LogShaderCompilers: Display: RAM used: 76.00 MiB of 1.60 GiB budget. Usage: 4.64%
+[2024.10.25-02.39.47:776][569]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.10.25-02.39.47:776][569]LogShaderCompilers: Display: Shaders Compiled: 4,014
+[2024.10.25-02.39.47:776][569]LogShaderCompilers: Display: Jobs assigned 4,017, completed 4,014 (99.93%)
+[2024.10.25-02.39.47:776][569]LogShaderCompilers: Display: Average time worker was idle: 40.38 s
+[2024.10.25-02.39.47:776][569]LogShaderCompilers: Display: Time job spent in pending queue: average 48.29 s, longest 112.52 s
+[2024.10.25-02.39.47:776][569]LogShaderCompilers: Display: Job execution time: average 2.37 s, max 11.13 s
+[2024.10.25-02.39.47:776][569]LogShaderCompilers: Display: Job life time (pending + execution): average 50.70 s, max 115.65
+[2024.10.25-02.39.47:776][569]LogShaderCompilers: Display: Shader code size: average 38.488 KiB, min 2.086 KiB, max 162.84 KiB
+[2024.10.25-02.39.47:776][569]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 152.40 s
+[2024.10.25-02.39.47:776][569]LogShaderCompilers: Display: Jobs were issued in 735 batches (only local compilation was used), average 5.47 jobs/batch
+[2024.10.25-02.39.47:776][569]LogShaderCompilers: Display: Average processing rate: 26.34 jobs/sec
+[2024.10.25-02.39.47:776][569]LogShaderCompilers: Display: Total thread time: 1,042.324 s
+[2024.10.25-02.39.47:776][569]LogShaderCompilers: Display: Total thread preprocess time: 69.688 s
+[2024.10.25-02.39.47:776][569]LogShaderCompilers: Display: Percentage time preprocessing: 6.69%
+[2024.10.25-02.39.47:776][569]LogShaderCompilers: Display: Effective parallelization: 6.84 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.10.25-02.39.47:776][569]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.10.25-02.39.47:776][569]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 4.74 sec, max 8.00 sec, min 1.08 sec)
+[2024.10.25-02.39.47:776][569]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 3.13 sec, max 4.05 sec, min 2.42 sec)
+[2024.10.25-02.39.47:776][569]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 1.10 sec, max 2.17 sec, min 0.61 sec)
+[2024.10.25-02.39.47:776][569]LogShaderCompilers: Display:                                             FDeferredLightPS (compiled  134 times, average 0.90 sec, max 2.52 sec, min 0.71 sec)
+[2024.10.25-02.39.47:776][569]LogShaderCompilers: Display:                                        FCloudRenderViewPS011 (compiled    1 times, average 0.88 sec, max 0.88 sec, min 0.88 sec)
+[2024.10.25-02.39.47:776][569]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.10.25-02.39.47:776][569]LogShaderCompilers: Display:                                             FDeferredLightPS - 11.61% of total time (compiled  134 times, average 0.90 sec, max 2.52 sec, min 0.71 sec)
+[2024.10.25-02.39.47:776][569]LogShaderCompilers: Display:                                FVirtualShadowMapProjectionCS - 5.08% of total time (compiled   96 times, average 0.55 sec, max 0.95 sec, min 0.32 sec)
+[2024.10.25-02.39.47:776][569]LogShaderCompilers: Display:                                  FScreenProbeTraceMeshSDFsCS - 4.12% of total time (compiled   96 times, average 0.45 sec, max 0.70 sec, min 0.10 sec)
+[2024.10.25-02.39.47:777][569]LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 3.75% of total time (compiled  128 times, average 0.31 sec, max 0.58 sec, min 0.09 sec)
+[2024.10.25-02.39.47:777][569]LogShaderCompilers: Display:                                      FScreenProbeIntegrateCS - 3.67% of total time (compiled  128 times, average 0.30 sec, max 1.33 sec, min 0.20 sec)
+[2024.10.25-02.39.47:777][569]LogShaderCompilers: Display: ================================================
+[2024.10.25-02.39.49:671][787]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2024.10.25-02.39.49:671][787]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2024.10.25-02.39.49:672][787]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1176
+[2024.10.25-02.41.34:849][389]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.25-02.41.34:854][389]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.25-02.41.34:854][389]PIE: New page: PIE session: Level1 (Oct 24, 2024, 2:41:34 PM)
+[2024.10.25-02.41.34:854][389]LogPlayLevel: Display: Creating online subsystem for client :Context_33
+[2024.10.25-02.41.34:856][389]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2024.10.25-02.41.34:871][390]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2024.10.25-02.41.34:878][390]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007614s)
+[2024.10.25-02.41.34:878][390]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.007675s)
+[2024.10.25-02.41.34:885][390]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2024.10.25-02.41.34:887][390]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-02.41.34:887][390]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-02.41.34:887][390]LogAIModule: Creating AISystem for world Level1
+[2024.10.25-02.41.34:888][390]LogPlayLevel: PIE: World Init took: (0.001061s)
+[2024.10.25-02.41.34:888][390]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2024.10.25-02.41.34:888][390]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.25-02.41.34:888][390]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.25-02.41.34:888][390]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.25-02.41.34:888][390]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.25-02.41.34:888][390]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.25-02.41.34:888][390]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.25-02.41.34:888][390]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.25-02.41.34:888][390]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.25-02.41.34:888][390]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.25-02.41.34:888][390]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.25-02.41.34:888][390]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.25-02.41.34:890][390]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.25-02.41.34:909][390]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2024.10.25-02.41.34:909][390]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.25-02.41.34:909][390]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.25-02.41.34:909][390]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.25-02.41.34:910][390]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=26
+[2024.10.25-02.41.34:910][390]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=26
+[2024.10.25-02.41.34:911][390]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2024.10.25-02.41.34:911][390]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=26
+[2024.10.25-02.41.34:911][390]LogInit: FAudioDevice initialized with ID 26.
+[2024.10.25-02.41.34:911][390]LogAudio: Display: Audio Device (ID: 26) registered with world 'Level1'.
+[2024.10.25-02.41.34:911][390]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 26
+[2024.10.25-02.41.34:914][390]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.25-02.41.34:914][390]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Level1.Level1:PersistentLevel.StaticMeshActor_999.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.10.25-02.41.34:914][390]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: 'SM_Gigantic_Rock_8' Component: '/Game/UEDPIE_0_Level1.Level1:PersistentLevel.StaticMeshActor_999.StaticMeshComponent0' 
+[2024.10.25-02.41.34:919][390]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2024.10.24-20.41.34
+[2024.10.25-02.41.34:919][390]LogWorld: Bringing up level for play took: 0.004550
+[2024.10.25-02.41.34:921][390]PIE: Server logged in
+[2024.10.25-02.41.34:922][390]PIE: Play in editor total start time 0.068 seconds.
+[2024.10.25-02.41.49:754][151]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.25-02.41.49:754][151]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2024.10.25-02.41.49:754][151]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-02.41.49:755][151]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-02.41.49:758][151]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.25-02.41.49:760][151]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-02.41.49:768][151]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.25-02.41.49:769][151]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 26
+[2024.10.25-02.41.49:769][151]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2024.10.25-02.41.49:771][151]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2024.10.25-02.41.49:776][151]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.25-02.41.49:778][151]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2024.10.25-02.41.49:838][152]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2024.10.25-02.42.54:648][700]LogSlate: Window 'Message' being destroyed
+[2024.10.25-02.42.54:658][700]Message dialog closed, result: Cancel, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/Materials/M_Stone.M_Stone
+(Selecting 'No' will cause all changes to be lost!)
+[2024.10.25-02.43.02:778][348]LogMaterialEditor: Saving and Compiling material M_Stone
+[2024.10.25-02.43.02:832][348]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2024.10.25-02.43.03:227][348]LogShaderCompilers: Display: ================================================
+[2024.10.25-02.43.03:227][348]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.10.25-02.43.03:227][348]LogShaderCompilers: Display: Total job queries 4,167, among them cache hits 123 (2.95%)
+[2024.10.25-02.43.03:227][348]LogShaderCompilers: Display: Tracking 4,026 distinct input hashes that result in 2,851 distinct outputs (70.81%)
+[2024.10.25-02.43.03:227][348]LogShaderCompilers: Display: RAM used: 76.27 MiB of 1.60 GiB budget. Usage: 4.66%
+[2024.10.25-02.43.03:227][348]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.10.25-02.43.03:227][348]LogShaderCompilers: Display: Shaders Compiled: 4,026
+[2024.10.25-02.43.03:227][348]LogShaderCompilers: Display: Jobs assigned 4,034, completed 4,026 (99.80%)
+[2024.10.25-02.43.03:227][348]LogShaderCompilers: Display: Average time worker was idle: 52.18 s
+[2024.10.25-02.43.03:227][348]LogShaderCompilers: Display: Time job spent in pending queue: average 48.09 s, longest 112.52 s
+[2024.10.25-02.43.03:227][348]LogShaderCompilers: Display: Job execution time: average 2.37 s, max 11.13 s
+[2024.10.25-02.43.03:227][348]LogShaderCompilers: Display: Job life time (pending + execution): average 50.55 s, max 115.65
+[2024.10.25-02.43.03:227][348]LogShaderCompilers: Display: Shader code size: average 38.486 KiB, min 2.086 KiB, max 162.84 KiB
+[2024.10.25-02.43.03:227][348]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 155.33 s
+[2024.10.25-02.43.03:227][348]LogShaderCompilers: Display: Jobs were issued in 752 batches (only local compilation was used), average 5.36 jobs/batch
+[2024.10.25-02.43.03:227][348]LogShaderCompilers: Display: Average processing rate: 25.92 jobs/sec
+[2024.10.25-02.43.03:227][348]LogShaderCompilers: Display: Total thread time: 1,046.336 s
+[2024.10.25-02.43.03:227][348]LogShaderCompilers: Display: Total thread preprocess time: 69.967 s
+[2024.10.25-02.43.03:227][348]LogShaderCompilers: Display: Percentage time preprocessing: 6.69%
+[2024.10.25-02.43.03:227][348]LogShaderCompilers: Display: Effective parallelization: 6.74 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.10.25-02.43.03:227][348]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.10.25-02.43.03:227][348]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 4.74 sec, max 8.00 sec, min 1.08 sec)
+[2024.10.25-02.43.03:227][348]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 3.13 sec, max 4.05 sec, min 2.42 sec)
+[2024.10.25-02.43.03:227][348]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 1.10 sec, max 2.17 sec, min 0.61 sec)
+[2024.10.25-02.43.03:227][348]LogShaderCompilers: Display:                                             FDeferredLightPS (compiled  134 times, average 0.90 sec, max 2.52 sec, min 0.71 sec)
+[2024.10.25-02.43.03:227][348]LogShaderCompilers: Display:                                        FCloudRenderViewPS011 (compiled    1 times, average 0.88 sec, max 0.88 sec, min 0.88 sec)
+[2024.10.25-02.43.03:227][348]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.10.25-02.43.03:227][348]LogShaderCompilers: Display:                                             FDeferredLightPS - 11.57% of total time (compiled  134 times, average 0.90 sec, max 2.52 sec, min 0.71 sec)
+[2024.10.25-02.43.03:227][348]LogShaderCompilers: Display:                                FVirtualShadowMapProjectionCS - 5.06% of total time (compiled   96 times, average 0.55 sec, max 0.95 sec, min 0.32 sec)
+[2024.10.25-02.43.03:227][348]LogShaderCompilers: Display:                                  FScreenProbeTraceMeshSDFsCS - 4.10% of total time (compiled   96 times, average 0.45 sec, max 0.70 sec, min 0.10 sec)
+[2024.10.25-02.43.03:228][348]LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 3.73% of total time (compiled  128 times, average 0.31 sec, max 0.58 sec, min 0.09 sec)
+[2024.10.25-02.43.03:228][348]LogShaderCompilers: Display:                                      FScreenProbeIntegrateCS - 3.65% of total time (compiled  128 times, average 0.30 sec, max 1.33 sec, min 0.20 sec)
+[2024.10.25-02.43.03:228][348]LogShaderCompilers: Display: ================================================
+[2024.10.25-02.43.03:595][348]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2024.10.25-02.43.09:160][348]LogSlate: Window 'Save Asset As' being destroyed
+[2024.10.25-02.43.09:176][348]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.25-02.43.11:261][348]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2024.10.25-02.43.11:369][348]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 2.110551s (0.110551s overbudget)
+[2024.10.25-02.43.11:401][348]LogSavePackage: Moving output files for package: /Game/Materials/M_Stone_Layered
+[2024.10.25-02.43.11:401][348]LogSavePackage: Moving '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Saved/M_Stone_Layered618862FD4B57D3737DF108B3B0CD81ED.tmp' to '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/Materials/M_Stone_Layered.uasset'
+[2024.10.25-02.43.11:409][348]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.23 sec (total: 2.70 sec)
+[2024.10.25-02.43.11:424][348]LogSlate: Window 'M_Stone' being destroyed
+[2024.10.25-02.43.11:460][348]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Materials/M_Stone_Layered.M_Stone_Layered
+[2024.10.25-02.43.11:465][348]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-02.43.11:465][348]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-02.43.11:683][348]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-02.43.11:683][348]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-02.43.11:699][348]AssetCheck: New page: Asset Save: M_Stone_Layered
+[2024.10.25-02.43.11:699][348]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Materials/M_Stone_Layered.M_Stone_Layered
+[2024.10.25-02.43.11:784][348]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.25-02.43.11:784][348]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2024.10.25-02.43.11:784][348]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.10.25-02.43.11:784][348]MaterialEditorStats: Shader Count: 0
+[2024.10.25-02.43.11:794][348]LogViewport: Scene viewport resized to 504x628, mode Windowed.
+[2024.10.25-02.43.11:971][350]MaterialEditorStats: Base pass shader: 226 instructions
+[2024.10.25-02.43.11:971][350]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.10.25-02.43.11:971][350]MaterialEditorStats: Texture samplers: 5/16
+[2024.10.25-02.43.11:971][350]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2024.10.25-02.43.11:971][350]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.10.25-02.43.11:971][350]MaterialEditorStats: Shader Count: 8
+[2024.10.25-02.43.14:419][511]LogSlate: Window 'M_Stone_Layered' being destroyed
+[2024.10.25-02.43.14:424][511]LogSlate: Window 'M_Stone_Layered' being destroyed
+[2024.10.25-02.43.14:437][511]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-02.43.14:437][511]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-02.43.26:116][773]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Wall_Window_400x300.Wall_Window_400x300
+[2024.10.25-02.43.26:118][773]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Wall_Window_400x300.Wall_Window_400x300
+[2024.10.25-02.43.26:118][773]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Architecture/Wall_Window_400x300.Wall_Window_400x300 as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1177
+[2024.10.25-02.43.31:426][357]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Wall_Window_400x300.Wall_Window_400x300
+[2024.10.25-02.43.31:428][357]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Wall_Window_400x300.Wall_Window_400x300
+[2024.10.25-02.43.31:428][357]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Architecture/Wall_Window_400x300.Wall_Window_400x300 as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_1178
+[2024.10.25-02.43.43:957][740]Cmd: TRANSACTION UNDO
+[2024.10.25-02.43.43:957][740]LogEditorTransaction: Undo Move Elements
+[2024.10.25-02.43.44:316][747]Cmd: TRANSACTION UNDO
+[2024.10.25-02.43.44:316][747]LogEditorTransaction: Undo Create Actors
+[2024.10.25-02.44.01:333][530]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2024.10.25-02.44.01:339][530]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.25-02.44.01:375][530]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.10.25-02.44.01:401][530]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.10.25-02.44.01:425][530]LogSavePackage: Moving output files for package: /Game/Level1
+[2024.10.25-02.44.01:425][530]LogSavePackage: Moving '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Saved/Level1EEA5D5AA495E1E59829C8F9CDA56B83B.tmp' to '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/Level1.umap'
+[2024.10.25-02.44.01:432][530]LogFileHelpers: Saving map 'Level1' took 0.058
+[2024.10.25-02.44.01:523][530]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_Stone" FILE="../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/Materials/M_Stone.uasset" SILENT=true
+[2024.10.25-02.44.01:526][530]LogSavePackage: Moving output files for package: /Game/Materials/M_Stone
+[2024.10.25-02.44.01:527][530]LogSavePackage: Moving '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Saved/M_Stone30FFBD4F4BB47EDC858B4993A58E7A8A.tmp' to '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/Materials/M_Stone.uasset'
+[2024.10.25-02.44.01:541][530]LogFileHelpers: InternalPromptForCheckoutAndSave took 202 ms (total: 2.90 sec)
+[2024.10.25-02.44.01:543][530]AssetCheck: New page: Asset Save: multiple assets
+[2024.10.25-02.44.01:544][530]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level1.Level1
+[2024.10.25-02.44.01:544][530]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Materials/M_Stone.M_Stone
