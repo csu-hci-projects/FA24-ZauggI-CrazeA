@@ -1395,3 +1395,105 @@ LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable creat
 [2024.10.25-20.26.01:847][595]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
 [2024.10.25-20.26.01:847][595]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2024.10.25-20.26.17:202][390]LogDerivedDataCache: C:/Users/izaugg/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:05.082 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 3468 files in 4840 folders with total size 1113 MiB.
+[2024.10.25-20.28.17:346][651]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.10.25-20.28.17:347][651]Cmd: MAP LOAD FILE="../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.10.25-20.28.17:347][651]LightingResults: New page: Lighting Build
+[2024.10.25-20.28.17:347][651]LoadErrors: New page: Loading map: Level2.umap
+[2024.10.25-20.28.17:392][651]LogWorld: UWorld::CleanupWorld for Menu, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-20.28.17:392][651]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-20.28.17:393][651]MapCheck: New page: Map Check
+[2024.10.25-20.28.17:393][651]LightingResults: New page: Lighting Build
+[2024.10.25-20.28.17:403][651]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.25-20.28.17:405][651]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2024.10.25-20.28.17:493][651]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level2'.
+[2024.10.25-20.28.17:493][651]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-20.28.17:493][651]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-20.28.17:493][651]LogAIModule: Creating AISystem for world Level2
+[2024.10.25-20.28.17:509][651]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.10.25-20.28.17:520][651]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2024.10.25-20.28.17:522][651]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.10.25-20.28.17:523][651]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.106ms to complete.
+[2024.10.25-20.28.17:524][651]LogSlate: Window 'Open Level' being destroyed
+[2024.10.25-20.28.17:637][652]LogShaderCompilers: Display: ================================================
+[2024.10.25-20.28.17:637][652]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.10.25-20.28.17:637][652]LogShaderCompilers: Display: Total job queries 20, among them cache hits 2 (10.00%)
+[2024.10.25-20.28.17:637][652]LogShaderCompilers: Display: Tracking 18 distinct input hashes that result in 12 distinct outputs (66.67%)
+[2024.10.25-20.28.17:637][652]LogShaderCompilers: Display: RAM used: 368.71 KiB of 1.60 GiB budget. Usage: 0.02%
+[2024.10.25-20.28.17:637][652]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.10.25-20.28.17:637][652]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.10.25-20.28.17:637][652]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.10.25-20.28.17:637][652]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.10.25-20.28.17:637][652]LogShaderCompilers: Display: ================================================
+[2024.10.25-20.28.40:294][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.10.25-20.28.40:296][136]Cmd: MAP LOAD FILE="../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.10.25-20.28.40:296][136]LightingResults: New page: Lighting Build
+[2024.10.25-20.28.40:296][136]LoadErrors: New page: Loading map: Menu.umap
+[2024.10.25-20.28.40:352][136]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-20.28.40:353][136]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-20.28.40:353][136]MapCheck: New page: Map Check
+[2024.10.25-20.28.40:353][136]LightingResults: New page: Lighting Build
+[2024.10.25-20.28.40:363][136]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.25-20.28.40:366][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.10.25-20.28.40:369][136]LogAudio: Display: Audio Device (ID: 1) registered with world 'Menu'.
+[2024.10.25-20.28.40:369][136]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-20.28.40:369][136]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-20.28.40:369][136]LogAIModule: Creating AISystem for world Menu
+[2024.10.25-20.28.40:381][136]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.10.25-20.28.40:394][136]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.10.25-20.28.40:397][136]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.10.25-20.28.40:397][136]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.093ms to complete.
+[2024.10.25-20.28.40:397][136]LogSlate: Window 'Open Level' being destroyed
+[2024.10.25-20.28.44:157][569]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.25-20.28.44:161][569]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.25-20.28.44:161][569]PIE: New page: PIE session: Menu (Oct 25, 2024, 8:28:44 AM)
+[2024.10.25-20.28.44:192][569]LogPlayLevel: Display: Creating online subsystem for client :Context_10
+[2024.10.25-20.28.44:194][569]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2024.10.25-20.28.44:205][570]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Menu
+[2024.10.25-20.28.44:207][570]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001683s)
+[2024.10.25-20.28.44:207][570]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Menu.Menu to /Game/UEDPIE_0_Menu.Menu (0.001740s)
+[2024.10.25-20.28.44:218][570]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.10.25-20.28.44:219][570]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-20.28.44:219][570]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-20.28.44:219][570]LogAIModule: Creating AISystem for world Menu
+[2024.10.25-20.28.44:219][570]LogPlayLevel: PIE: World Init took: (0.000921s)
+[2024.10.25-20.28.44:220][570]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.10.25-20.28.44:220][570]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.25-20.28.44:220][570]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.25-20.28.44:220][570]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.25-20.28.44:220][570]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.25-20.28.44:220][570]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.25-20.28.44:220][570]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.25-20.28.44:220][570]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.25-20.28.44:220][570]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.25-20.28.44:221][570]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.25-20.28.44:221][570]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.25-20.28.44:221][570]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.25-20.28.44:222][570]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.25-20.28.44:239][570]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2024.10.25-20.28.44:239][570]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.25-20.28.44:239][570]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.25-20.28.44:239][570]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.25-20.28.44:240][570]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2024.10.25-20.28.44:240][570]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2024.10.25-20.28.44:241][570]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2024.10.25-20.28.44:241][570]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2024.10.25-20.28.44:241][570]LogInit: FAudioDevice initialized with ID 4.
+[2024.10.25-20.28.44:241][570]LogAudio: Display: Audio Device (ID: 4) registered with world 'Menu'.
+[2024.10.25-20.28.44:241][570]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2024.10.25-20.28.44:244][570]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.25-20.28.44:246][570]LogWorld: Bringing World /Game/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2024.10.25-14.28.44
+[2024.10.25-20.28.44:246][570]LogWorld: Bringing up level for play took: 0.000553
+[2024.10.25-20.28.44:249][570]PIE: Server logged in
+[2024.10.25-20.28.44:249][570]PIE: Play in editor total start time 0.087 seconds.
+[2024.10.25-20.28.50:351][285]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.25-20.28.50:351][285]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Menu
+[2024.10.25-20.28.50:351][285]LogWorld: UWorld::CleanupWorld for Menu, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-20.28.50:352][285]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-20.28.50:355][285]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.25-20.28.50:358][285]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-20.28.50:366][285]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.25-20.28.50:366][285]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2024.10.25-20.28.50:366][285]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.10.25-20.28.50:368][285]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.10.25-20.28.50:372][285]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2024.10.25-20.28.50:417][287]LogPlayLevel: Display: Destroying online subsystem :Context_10
