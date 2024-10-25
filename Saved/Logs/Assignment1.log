@@ -1886,3 +1886,86 @@ LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
 [2024.10.25-16.13.50:227][786]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.149ms to complete.
 [2024.10.25-16.13.50:227][786]LogSlate: Window 'Open Level' being destroyed
 [2024.10.25-16.13.50:255][786]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Level1.Level1:PersistentLevel.StaticMeshActor_999.StaticMeshComponent0, from: Addition to navoctree)
+[2024.10.25-16.21.21:890][224]BlueprintLog: New page: Compile UserInterface
+[2024.10.25-16.21.21:915][224]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2024.10.25-16.21.28:612][852]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.25-16.21.28:613][852]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-16.21.28:613][852]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-16.21.48:040][162]LogSlate: Took 0.004584 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2024.10.25-16.22.05:402][423]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.10.25-16.22.05:460][423]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.10.25-16.22.11:303][837]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.10.25-16.22.11:358][837]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.10.25-16.22.11:872][866]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.25-16.22.11:954][866]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.25-16.22.11:954][866]LogSavePackage: Moving '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Saved/BP_FirstPersonCharacterE9B5DC494FF6A798D0F849A79E9EA0FC.tmp' to '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.25-16.22.11:963][866]LogFileHelpers: InternalPromptForCheckoutAndSave took 91 ms (total: 316 ms)
+[2024.10.25-16.22.11:964][866]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.25-16.22.11:964][866]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.25-16.23.21:841][212]LogEditorTransaction: Undo Move Node
+[2024.10.25-16.23.22:777][254]LogEditorTransaction: Undo Create Pin Link
+[2024.10.25-16.23.28:874][684]Cmd: TRANSACTION UNDO
+[2024.10.25-16.23.28:875][684]LogEditorTransaction: Undo Change Parameter Type
+[2024.10.25-16.23.29:655][708]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.10.25-16.23.29:715][708]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.10.25-16.23.31:617][856]Cmd: TRANSACTION UNDO
+[2024.10.25-16.23.31:617][856]LogEditorTransaction: Undo Move Node
+[2024.10.25-16.23.40:161][554]LogEditorTransaction: Undo Create Pin Link
+[2024.10.25-16.23.57:061][788]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.25-16.23.57:125][788]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UserInterface" FILE="../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/UI/UserInterface.uasset" SILENT=true
+[2024.10.25-16.23.57:132][788]LogSavePackage: Moving output files for package: /Game/UI/UserInterface
+[2024.10.25-16.23.57:133][788]LogSavePackage: Moving '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Saved/UserInterface3952C2F74A2EEC652BB8999BBFB90996.tmp' to '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/UI/UserInterface.uasset'
+[2024.10.25-16.23.57:139][788]LogFileHelpers: InternalPromptForCheckoutAndSave took 77 ms (total: 394 ms)
+[2024.10.25-16.23.57:140][788]AssetCheck: New page: Asset Save: UserInterface
+[2024.10.25-16.23.57:140][788]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/UserInterface.UserInterface
+[2024.10.25-16.23.57:902][851]BlueprintLog: New page: Compile UserInterface
+[2024.10.25-16.23.57:926][851]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.10.25-16.23.59:187][953]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-16.23.59:187][953]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-16.23.59:192][953]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-16.23.59:192][953]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-16.24.08:116][607]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/UserInterface.UserInterface
+[2024.10.25-16.24.08:116][607]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-16.24.08:116][607]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-16.24.08:122][607]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-16.24.08:122][607]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-16.24.28:019][969]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-16.24.28:019][969]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-16.24.28:024][969]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-16.24.28:024][969]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-16.24.33:290][336]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/UserInterface.UserInterface
+[2024.10.25-16.24.33:290][336]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-16.24.33:290][336]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-16.24.33:299][336]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-16.24.33:299][336]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-16.25.45:901][ 90]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.10.25-16.25.45:960][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.10.25-16.25.48:090][224]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.10.25-16.25.48:095][224]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.25-16.25.48:206][224]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.25-16.25.48:207][224]LogSavePackage: Moving '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Saved/BP_FirstPersonCharacter78BC06A944BA0CFDF9EC23AA333CC0E5.tmp' to '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.25-16.25.48:213][224]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UserInterface" FILE="../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/UI/UserInterface.uasset" SILENT=true
+[2024.10.25-16.25.48:221][224]LogSavePackage: Moving output files for package: /Game/UI/UserInterface
+[2024.10.25-16.25.48:222][224]LogSavePackage: Moving '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Saved/UserInterface7CD7D615434F4A9EB4A686B8DB728BD8.tmp' to '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/UI/UserInterface.uasset'
+[2024.10.25-16.25.48:231][224]LogFileHelpers: InternalPromptForCheckoutAndSave took 136 ms (total: 530 ms)
+[2024.10.25-16.25.48:233][224]AssetCheck: New page: Asset Save: multiple assets
+[2024.10.25-16.25.48:233][224]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.25-16.25.48:233][224]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/UserInterface.UserInterface
+[2024.10.25-16.26.19:725][614]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.10.25-16.26.19:727][614]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level1' took 0.014
+[2024.10.25-16.26.19:728][614]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/UserInterface] ([2] browsable assets)...
+[2024.10.25-16.26.19:733][614]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/UserInterface.UserInterface]
+[2024.10.25-16.26.19:733][614]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/UserInterface]
+[2024.10.25-16.26.19:741][614]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/UI/UserInterface_Auto2
+[2024.10.25-16.26.19:741][614]LogSavePackage: Moving '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Saved/UserInterface_Auto291EA48464B70699C40E7EB846CBDCA62.tmp' to '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Saved/Autosaves/Game/UI/UserInterface_Auto2.uasset'
+[2024.10.25-16.26.19:741][614]LogFileHelpers: Auto-saving content packages took 0.014
+[2024.10.25-16.26.46:680][721]BlueprintLog: New page: Compile UserInterface
+[2024.10.25-16.26.46:704][721]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.10.25-16.26.48:732][856]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.10.25-16.26.48:737][856]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.25-16.26.48:789][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UserInterface" FILE="../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/UI/UserInterface.uasset" SILENT=true
+[2024.10.25-16.26.48:797][856]LogSavePackage: Moving output files for package: /Game/UI/UserInterface
+[2024.10.25-16.26.48:797][856]LogSavePackage: Moving '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Saved/UserInterface444604024CFA5DE2D437B9A4E1689BAC.tmp' to '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/UI/UserInterface.uasset'
+[2024.10.25-16.26.48:803][856]LogFileHelpers: InternalPromptForCheckoutAndSave took 65 ms (total: 596 ms)
+[2024.10.25-16.26.48:805][856]AssetCheck: New page: Asset Save: UserInterface
+[2024.10.25-16.26.48:805][856]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/UserInterface.UserInterface
