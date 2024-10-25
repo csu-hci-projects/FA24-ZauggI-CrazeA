@@ -3131,3 +3131,11 @@ LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
 [2024.10.25-17.03.41:890][810]LogFileHelpers: InternalPromptForCheckoutAndSave took 115 ms (total: 1.61 sec)
 [2024.10.25-17.03.41:892][810]AssetCheck: New page: Asset Save: Level1
 [2024.10.25-17.03.41:892][810]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level1.Level1
+[2024.10.25-17.06.19:600][574]BlueprintLog: New page: Compile BP_AmmoPickup
+[2024.10.25-17.06.19:628][574]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.10.25-17.06.20:584][650]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.25-17.06.20:683][650]LogSavePackage: Moving output files for package: /Game/MyBlueprints/BP_AmmoPickup
+[2024.10.25-17.06.20:683][650]LogSavePackage: Moving '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Saved/BP_AmmoPickup48B0241A4E0046C3B0A40C92EA25F9E4.tmp' to '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/MyBlueprints/BP_AmmoPickup.uasset'
+[2024.10.25-17.06.20:691][650]LogFileHelpers: InternalPromptForCheckoutAndSave took 107 ms (total: 1.71 sec)
+[2024.10.25-17.06.20:691][650]AssetCheck: New page: Asset Save: BP_AmmoPickup
+[2024.10.25-17.06.20:691][650]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyBlueprints/BP_AmmoPickup.BP_AmmoPickup
