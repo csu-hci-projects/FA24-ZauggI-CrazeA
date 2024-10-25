@@ -2315,3 +2315,819 @@ LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
 [2024.10.25-16.41.45:573][ 24]AssetCheck: New page: Asset Save: multiple assets
 [2024.10.25-16.41.45:573][ 24]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level1.Level1
 [2024.10.25-16.41.45:573][ 24]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Weapon_Component.BP_Weapon_Component
+[2024.10.25-16.42.27:425][ 29]LogSlate: Window 'BP_Weapon_Component' being destroyed
+[2024.10.25-16.42.27:434][ 29]LogSlate: Window 'BP_Weapon_Component' being destroyed
+[2024.10.25-16.42.27:465][ 29]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.10.25-16.42.27:465][ 29]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-16.42.27:465][ 29]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-16.42.27:504][ 29]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-16.42.27:504][ 29]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-16.42.31:625][412]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.10.25-16.42.31:635][412]Cmd: MAP LOAD FILE="../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.10.25-16.42.31:635][412]LightingResults: New page: Lighting Build
+[2024.10.25-16.42.31:635][412]LoadErrors: New page: Loading map: Menu.umap
+[2024.10.25-16.42.31:657][412]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Level1.Level1:PersistentLevel.StaticMeshActor_999.StaticMeshComponent0, from: Remove from navoctree)
+[2024.10.25-16.42.31:688][412]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-16.42.31:688][412]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-16.42.31:688][412]MapCheck: New page: Map Check
+[2024.10.25-16.42.31:688][412]LightingResults: New page: Lighting Build
+[2024.10.25-16.42.31:700][412]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.25-16.42.31:702][412]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2024.10.25-16.42.31:706][412]LogAudio: Display: Audio Device (ID: 1) registered with world 'Menu'.
+[2024.10.25-16.42.31:706][412]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-16.42.31:706][412]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-16.42.31:707][412]LogAIModule: Creating AISystem for world Menu
+[2024.10.25-16.42.31:719][412]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.10.25-16.42.31:733][412]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.10.25-16.42.31:737][412]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.10.25-16.42.31:737][412]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.157ms to complete.
+[2024.10.25-16.42.31:737][412]LogSlate: Window 'Open Level' being destroyed
+[2024.10.25-16.44.14:076][910]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.25-16.44.14:080][910]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.25-16.44.14:080][910]PIE: New page: PIE session: Menu (Oct 25, 2024, 4:44:14 AM)
+[2024.10.25-16.44.14:106][910]LogPlayLevel: Display: Creating online subsystem for client :Context_31
+[2024.10.25-16.44.14:107][910]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2024.10.25-16.44.14:121][911]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Menu
+[2024.10.25-16.44.14:122][911]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001964s)
+[2024.10.25-16.44.14:122][911]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Menu.Menu to /Game/UEDPIE_0_Menu.Menu (0.002004s)
+[2024.10.25-16.44.14:135][911]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.10.25-16.44.14:137][911]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-16.44.14:137][911]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-16.44.14:137][911]LogAIModule: Creating AISystem for world Menu
+[2024.10.25-16.44.14:138][911]LogPlayLevel: PIE: World Init took: (0.001034s)
+[2024.10.25-16.44.14:138][911]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.10.25-16.44.14:138][911]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.25-16.44.14:138][911]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.25-16.44.14:138][911]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.25-16.44.14:138][911]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.25-16.44.14:138][911]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.25-16.44.14:138][911]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.25-16.44.14:138][911]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.25-16.44.14:138][911]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.25-16.44.14:139][911]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.25-16.44.14:139][911]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.25-16.44.14:139][911]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.25-16.44.14:141][911]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.25-16.44.14:158][911]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2024.10.25-16.44.14:158][911]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.25-16.44.14:158][911]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.25-16.44.14:158][911]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.25-16.44.14:159][911]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.10.25-16.44.14:159][911]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.10.25-16.44.14:160][911]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.10.25-16.44.14:160][911]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.10.25-16.44.14:160][911]LogInit: FAudioDevice initialized with ID 12.
+[2024.10.25-16.44.14:160][911]LogAudio: Display: Audio Device (ID: 12) registered with world 'Menu'.
+[2024.10.25-16.44.14:160][911]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.10.25-16.44.14:163][911]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.25-16.44.14:163][911]LogWorld: Bringing World /Game/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2024.10.25-10.44.14
+[2024.10.25-16.44.14:163][911]LogWorld: Bringing up level for play took: 0.000593
+[2024.10.25-16.44.14:167][911]PIE: Server logged in
+[2024.10.25-16.44.14:168][911]PIE: Play in editor total start time 0.088 seconds.
+[2024.10.25-16.44.27:877][539]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.25-16.44.27:877][539]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Menu
+[2024.10.25-16.44.27:877][539]LogWorld: UWorld::CleanupWorld for Menu, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-16.44.27:877][539]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-16.44.27:880][539]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.25-16.44.27:884][539]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-16.44.27:894][539]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.25-16.44.27:896][539]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.10.25-16.44.27:896][539]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.10.25-16.44.27:897][539]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.10.25-16.44.27:903][539]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.10.25-16.44.27:953][541]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2024.10.25-16.44.37:148][548]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.10.25-16.44.37:150][548]Cmd: MAP LOAD FILE="../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.10.25-16.44.37:150][548]LightingResults: New page: Lighting Build
+[2024.10.25-16.44.37:150][548]LoadErrors: New page: Loading map: Level1.umap
+[2024.10.25-16.44.37:172][548]LogWorld: UWorld::CleanupWorld for Menu, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-16.44.37:172][548]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-16.44.37:172][548]MapCheck: New page: Map Check
+[2024.10.25-16.44.37:172][548]LightingResults: New page: Lighting Build
+[2024.10.25-16.44.37:183][548]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.25-16.44.37:185][548]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.10.25-16.44.37:194][548]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level1'.
+[2024.10.25-16.44.37:194][548]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-16.44.37:195][548]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-16.44.37:195][548]LogAIModule: Creating AISystem for world Level1
+[2024.10.25-16.44.37:196][548]LogPhysics: Warning: Scale for /Game/Level1.Level1:PersistentLevel.StaticMeshActor_999.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.10.25-16.44.37:196][548]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: 'SM_Gigantic_Rock_8' Component: '/Game/Level1.Level1:PersistentLevel.StaticMeshActor_999.StaticMeshComponent0' 
+[2024.10.25-16.44.37:222][548]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.10.25-16.44.37:237][548]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.10.25-16.44.37:240][548]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.10.25-16.44.37:241][548]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.105ms to complete.
+[2024.10.25-16.44.37:241][548]LogSlate: Window 'Open Level' being destroyed
+[2024.10.25-16.44.37:271][548]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Level1.Level1:PersistentLevel.StaticMeshActor_999.StaticMeshComponent0, from: Addition to navoctree)
+[2024.10.25-16.46.39:401][188]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.25-16.46.39:406][188]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.25-16.46.39:406][188]PIE: New page: PIE session: Level1 (Oct 25, 2024, 4:46:39 AM)
+[2024.10.25-16.46.39:406][188]LogPlayLevel: Display: Creating online subsystem for client :Context_32
+[2024.10.25-16.46.39:409][188]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2024.10.25-16.46.39:423][189]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2024.10.25-16.46.39:431][189]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007490s)
+[2024.10.25-16.46.39:431][189]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.007549s)
+[2024.10.25-16.46.39:443][189]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2024.10.25-16.46.39:444][189]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-16.46.39:445][189]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-16.46.39:445][189]LogAIModule: Creating AISystem for world Level1
+[2024.10.25-16.46.39:445][189]LogPlayLevel: PIE: World Init took: (0.000959s)
+[2024.10.25-16.46.39:445][189]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.10.25-16.46.39:445][189]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.25-16.46.39:445][189]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.25-16.46.39:445][189]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.25-16.46.39:445][189]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.25-16.46.39:445][189]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.25-16.46.39:445][189]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.25-16.46.39:445][189]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.25-16.46.39:445][189]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.25-16.46.39:446][189]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.25-16.46.39:446][189]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.25-16.46.39:446][189]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.25-16.46.39:448][189]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.25-16.46.39:464][189]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2024.10.25-16.46.39:464][189]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.25-16.46.39:464][189]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.25-16.46.39:464][189]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.25-16.46.39:466][189]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.10.25-16.46.39:466][189]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2024.10.25-16.46.39:467][189]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.10.25-16.46.39:468][189]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.10.25-16.46.39:468][189]LogInit: FAudioDevice initialized with ID 13.
+[2024.10.25-16.46.39:468][189]LogAudio: Display: Audio Device (ID: 13) registered with world 'Level1'.
+[2024.10.25-16.46.39:468][189]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.10.25-16.46.39:470][189]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.25-16.46.39:471][189]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Level1.Level1:PersistentLevel.StaticMeshActor_999.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.10.25-16.46.39:471][189]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: 'SM_Gigantic_Rock_8' Component: '/Game/UEDPIE_0_Level1.Level1:PersistentLevel.StaticMeshActor_999.StaticMeshComponent0' 
+[2024.10.25-16.46.39:475][189]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2024.10.25-10.46.39
+[2024.10.25-16.46.39:476][189]LogWorld: Bringing up level for play took: 0.004976
+[2024.10.25-16.46.39:479][189]PIE: Server logged in
+[2024.10.25-16.46.39:480][189]PIE: Play in editor total start time 0.073 seconds.
+[2024.10.25-16.46.48:477][248]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.25-16.46.48:477][248]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2024.10.25-16.46.48:477][248]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-16.46.48:477][248]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-16.46.48:481][248]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.25-16.46.48:484][248]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-16.46.48:495][248]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.25-16.46.48:495][248]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.10.25-16.46.48:496][248]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.10.25-16.46.48:497][248]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.10.25-16.46.48:500][248]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.25-16.46.48:505][248]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.10.25-16.46.48:531][249]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2024.10.25-16.47.17:464][708]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_Weapon_Component.BP_Weapon_Component
+[2024.10.25-16.47.17:464][708]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-16.47.17:465][708]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-16.51.21:436][467]BlueprintLog: New page: Compile BP_Weapon_Component
+[2024.10.25-16.51.21:459][467]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.10.25-16.51.24:639][655]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.10.25-16.51.24:645][655]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.25-16.51.24:703][655]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Weapon_Component
+[2024.10.25-16.51.24:703][655]LogSavePackage: Moving '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Saved/BP_Weapon_Component4CA2FB414A85AA01CDBA08B3057A1E30.tmp' to '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/FirstPerson/Blueprints/BP_Weapon_Component.uasset'
+[2024.10.25-16.51.24:710][655]LogFileHelpers: InternalPromptForCheckoutAndSave took 64 ms (total: 861 ms)
+[2024.10.25-16.51.24:712][655]AssetCheck: New page: Asset Save: BP_Weapon_Component
+[2024.10.25-16.51.24:712][655]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Weapon_Component.BP_Weapon_Component
+[2024.10.25-16.51.26:941][845]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.25-16.51.26:947][845]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.25-16.51.26:947][845]PIE: New page: PIE session: Level1 (Oct 25, 2024, 4:51:26 AM)
+[2024.10.25-16.51.26:985][845]LogPlayLevel: Display: Creating online subsystem for client :Context_34
+[2024.10.25-16.51.26:987][845]LogOnline: OSS: Created online subsystem instance for: :Context_34
+[2024.10.25-16.51.27:001][846]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2024.10.25-16.51.27:009][846]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007564s)
+[2024.10.25-16.51.27:009][846]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.007605s)
+[2024.10.25-16.51.27:021][846]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.10.25-16.51.27:023][846]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-16.51.27:023][846]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-16.51.27:023][846]LogAIModule: Creating AISystem for world Level1
+[2024.10.25-16.51.27:024][846]LogPlayLevel: PIE: World Init took: (0.000969s)
+[2024.10.25-16.51.27:024][846]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2024.10.25-16.51.27:024][846]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.25-16.51.27:024][846]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.25-16.51.27:024][846]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.25-16.51.27:024][846]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.25-16.51.27:024][846]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.25-16.51.27:024][846]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.25-16.51.27:024][846]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.25-16.51.27:024][846]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.25-16.51.27:024][846]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.25-16.51.27:024][846]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.25-16.51.27:024][846]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.25-16.51.27:026][846]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.25-16.51.27:042][846]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2024.10.25-16.51.27:043][846]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.25-16.51.27:043][846]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.25-16.51.27:043][846]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.25-16.51.27:043][846]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2024.10.25-16.51.27:043][846]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2024.10.25-16.51.27:045][846]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2024.10.25-16.51.27:045][846]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2024.10.25-16.51.27:045][846]LogInit: FAudioDevice initialized with ID 14.
+[2024.10.25-16.51.27:045][846]LogAudio: Display: Audio Device (ID: 14) registered with world 'Level1'.
+[2024.10.25-16.51.27:045][846]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2024.10.25-16.51.27:048][846]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.25-16.51.27:050][846]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Level1.Level1:PersistentLevel.StaticMeshActor_999.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.10.25-16.51.27:050][846]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: 'SM_Gigantic_Rock_8' Component: '/Game/UEDPIE_0_Level1.Level1:PersistentLevel.StaticMeshActor_999.StaticMeshComponent0' 
+[2024.10.25-16.51.27:054][846]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2024.10.25-10.51.27
+[2024.10.25-16.51.27:054][846]LogWorld: Bringing up level for play took: 0.004735
+[2024.10.25-16.51.27:058][846]PIE: Server logged in
+[2024.10.25-16.51.27:058][846]PIE: Play in editor total start time 0.111 seconds.
+[2024.10.25-16.51.37:205][ 42]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.25-16.51.37:205][ 42]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2024.10.25-16.51.37:205][ 42]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-16.51.37:206][ 42]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-16.51.37:210][ 42]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.25-16.51.37:213][ 42]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-16.51.37:225][ 42]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.25-16.51.37:225][ 42]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2024.10.25-16.51.37:225][ 42]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.10.25-16.51.37:227][ 42]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.10.25-16.51.37:234][ 42]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2024.10.25-16.51.37:287][ 44]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2024.10.25-16.52.35:114][332]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyBlueprints/BP_Target.BP_Target
+[2024.10.25-16.52.35:115][332]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-16.52.35:115][332]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-16.53.38:522][443]BlueprintLog: New page: Compile BP_Target
+[2024.10.25-16.53.38:545][443]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.10.25-16.53.39:543][520]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.25-16.53.39:637][520]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyBlueprints/BP_Target" FILE="../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/MyBlueprints/BP_Target.uasset" SILENT=true
+[2024.10.25-16.53.39:641][520]LogSavePackage: Moving output files for package: /Game/MyBlueprints/BP_Target
+[2024.10.25-16.53.39:642][520]LogSavePackage: Moving '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Saved/BP_Target62CE5A7444D4C587ACE746BCDCD45E8C.tmp' to '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/MyBlueprints/BP_Target.uasset'
+[2024.10.25-16.53.39:648][520]LogFileHelpers: InternalPromptForCheckoutAndSave took 104 ms (total: 965 ms)
+[2024.10.25-16.53.39:649][520]AssetCheck: New page: Asset Save: BP_Target
+[2024.10.25-16.53.39:649][520]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyBlueprints/BP_Target.BP_Target
+[2024.10.25-16.53.42:521][746]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-16.53.42:521][746]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-16.54.12:567][418]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.10.25-16.54.12:575][418]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.10.25-16.54.12:580][418]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.10.25-16.54.12:590][419]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.10.25-16.54.17:388][918]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_AmmoPickup
+[2024.10.25-16.54.17:394][918]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.10.25-16.54.18:845][ 72]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyBlueprints/BP_AmmoPickup.BP_AmmoPickup
+[2024.10.25-16.54.18:845][ 72]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-16.54.18:845][ 72]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-16.54.19:016][ 72]LogViewport: Scene viewport resized to 1525x979, mode Windowed.
+[2024.10.25-16.54.53:672][462]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-16.55.25:396][570]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.25-16.55.25:437][570]LogSavePackage: Moving output files for package: /Game/MyBlueprints/BP_AmmoPickup
+[2024.10.25-16.55.25:437][570]LogSavePackage: Moving '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Saved/BP_AmmoPickup051ACAFD439E26C609B80E916AA05952.tmp' to '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/MyBlueprints/BP_AmmoPickup.uasset'
+[2024.10.25-16.55.25:445][570]LogFileHelpers: InternalPromptForCheckoutAndSave took 48 ms (total: 1.01 sec)
+[2024.10.25-16.55.25:445][570]AssetCheck: New page: Asset Save: BP_AmmoPickup
+[2024.10.25-16.55.25:445][570]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyBlueprints/BP_AmmoPickup.BP_AmmoPickup
+[2024.10.25-16.55.31:142][941]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyBlueprints/BP_Target.BP_Target
+[2024.10.25-16.55.31:142][941]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-16.55.31:142][941]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-16.55.34:422][156]LogViewport: Scene viewport resized to 1525x979, mode Windowed.
+[2024.10.25-16.55.55:855][929]LogSlate: Window 'BP_Target' being destroyed
+[2024.10.25-16.55.55:863][929]LogSlate: Window 'BP_Target' being destroyed
+[2024.10.25-16.55.55:865][929]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-16.55.55:866][929]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-16.55.55:914][929]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-16.55.55:914][929]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-16.55.55:953][929]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.10.25-16.55.55:953][929]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-16.55.55:953][929]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-16.56.01:289][331]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.10.25-16.56.04:419][331]LogSlate: Window 'Delete Assets' being destroyed
+[2024.10.25-16.56.10:449][816]Cmd: DELETE
+[2024.10.25-16.56.10:449][816]Cmd: ACTOR DELETE
+[2024.10.25-16.56.10:458][816]LogEditorActor: Deleted Actor: BP_Target_C
+[2024.10.25-16.56.10:471][816]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.10.25-16.56.10:474][816]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2024.10.25-16.56.12:647][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.10.25-16.56.16:336][ 12]LogSlate: Window 'Delete Assets' being destroyed
+[2024.10.25-16.56.17:624][ 91]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyBlueprints/BP_Target.BP_Target
+[2024.10.25-16.56.17:624][ 91]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-16.56.17:624][ 91]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-16.56.19:616][211]LogViewport: Scene viewport resized to 1525x979, mode Windowed.
+[2024.10.25-16.56.36:545][346]LogSlate: Window 'BP_Target' being destroyed
+[2024.10.25-16.56.36:550][346]LogSlate: Window 'BP_Target' being destroyed
+[2024.10.25-16.56.36:574][346]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-16.56.36:574][346]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-16.56.37:901][461]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyBlueprints/BP_AmmoPickup.BP_AmmoPickup
+[2024.10.25-16.56.37:901][461]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-16.56.37:902][461]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-16.56.54:791][590]LogViewport: Scene viewport resized to 1525x979, mode Windowed.
+[2024.10.25-16.57.17:890][141]BlueprintLog: New page: Compile BP_AmmoPickup
+[2024.10.25-16.57.17:911][141]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.10.25-16.57.19:066][211]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.25-16.57.19:131][211]LogSavePackage: Moving output files for package: /Game/MyBlueprints/BP_AmmoPickup
+[2024.10.25-16.57.19:132][211]LogSavePackage: Moving '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Saved/BP_AmmoPickup717C8B7644824EF74B0E539ED118AE74.tmp' to '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/MyBlueprints/BP_AmmoPickup.uasset'
+[2024.10.25-16.57.19:138][211]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 1.08 sec)
+[2024.10.25-16.57.19:139][211]AssetCheck: New page: Asset Save: BP_AmmoPickup
+[2024.10.25-16.57.19:139][211]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyBlueprints/BP_AmmoPickup.BP_AmmoPickup
+[2024.10.25-16.57.42:068][978]BlueprintLog: New page: Compile BP_AmmoPickup
+[2024.10.25-16.57.42:090][978]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.10.25-16.57.42:932][ 43]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.25-16.57.43:001][ 43]LogSavePackage: Moving output files for package: /Game/MyBlueprints/BP_AmmoPickup
+[2024.10.25-16.57.43:002][ 43]LogSavePackage: Moving '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Saved/BP_AmmoPickup974C0F3C43BC4AC904850AB102575F43.tmp' to '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/MyBlueprints/BP_AmmoPickup.uasset'
+[2024.10.25-16.57.43:008][ 43]LogFileHelpers: InternalPromptForCheckoutAndSave took 76 ms (total: 1.16 sec)
+[2024.10.25-16.57.43:009][ 43]AssetCheck: New page: Asset Save: BP_AmmoPickup
+[2024.10.25-16.57.43:009][ 43]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyBlueprints/BP_AmmoPickup.BP_AmmoPickup
+[2024.10.25-16.57.50:999][719]BlueprintLog: New page: Compile BP_AmmoPickup
+[2024.10.25-16.57.51:020][719]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.10.25-16.57.51:838][783]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.25-16.57.51:892][783]LogSavePackage: Moving output files for package: /Game/MyBlueprints/BP_AmmoPickup
+[2024.10.25-16.57.51:892][783]LogSavePackage: Moving '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Saved/BP_AmmoPickup5353B7564B12E7FC5C62CC8820DD574D.tmp' to '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/MyBlueprints/BP_AmmoPickup.uasset'
+[2024.10.25-16.57.51:898][783]LogFileHelpers: InternalPromptForCheckoutAndSave took 59 ms (total: 1.22 sec)
+[2024.10.25-16.57.51:899][783]AssetCheck: New page: Asset Save: BP_AmmoPickup
+[2024.10.25-16.57.51:899][783]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyBlueprints/BP_AmmoPickup.BP_AmmoPickup
+[2024.10.25-17.00.43:007][990]LogWindows: LaunchFileInExternalEditor C:/Program Files/Epic Games/UE_5.3/Engine/Source/Runtime/Engine/Classes/Engine/StaticMeshActor.h 
+[2024.10.25-17.00.43:116][990]LogWindows: Launch application code for C:/Program Files/Epic Games/UE_5.3/Engine/Source/Runtime/Engine/Classes/Engine/StaticMeshActor.h : 42
+[2024.10.25-17.00.43:116][990]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2024.10.25-17.00.43:122][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:122][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:122][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:122][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:122][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:122][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:122][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:122][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:122][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:122][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:122][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:122][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:123][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:123][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:123][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:123][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:123][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:123][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:123][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:123][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:123][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:123][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:123][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:123][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:123][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:123][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:123][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:123][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:124][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:124][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:124][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:124][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:124][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:124][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:124][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:124][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:124][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:124][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:124][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:124][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:124][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:124][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:124][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:125][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:125][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:125][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:125][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:125][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:125][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:125][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:125][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:125][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:125][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:125][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:125][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:125][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:125][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:125][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:125][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:125][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:125][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:125][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:125][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:125][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:125][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:126][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:126][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:126][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:126][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:126][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:126][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:126][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:126][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:126][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:126][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:126][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:126][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:126][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:126][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:126][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:126][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:126][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:126][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:126][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:126][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:127][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:127][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:127][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:127][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:127][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:127][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:127][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:127][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:127][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:127][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:127][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:127][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:127][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:127][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:127][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:127][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:127][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:127][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:127][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:127][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:128][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:128][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:128][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:128][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:128][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:128][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:128][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:128][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:128][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:128][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:128][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:128][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:128][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:128][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:128][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:128][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:128][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:128][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:128][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:128][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:128][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:128][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:129][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:129][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:129][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:129][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:129][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:129][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:129][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:129][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:129][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:129][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:129][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:129][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:129][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:129][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:129][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:134][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:156][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:158][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:217][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:225][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:240][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:240][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:240][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:240][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:240][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:240][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:240][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:246][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:246][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:246][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:247][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:247][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:247][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:247][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:247][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:247][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:247][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:247][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:247][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:247][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:247][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:248][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:248][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:248][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:248][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:248][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:248][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:248][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:248][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:248][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:248][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:248][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:248][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:248][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:248][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:248][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:248][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:249][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:249][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:249][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:249][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:249][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:249][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:249][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:249][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:249][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:249][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:249][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:249][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:249][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:249][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:249][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:249][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:250][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:250][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:250][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:250][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:250][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:250][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:250][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:250][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:250][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:250][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:250][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:250][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:250][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:250][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:250][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:250][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:251][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:251][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:251][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:251][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:251][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:251][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:251][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:251][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:251][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:251][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:251][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:251][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:251][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:251][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:251][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:251][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:252][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:252][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:252][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:252][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:252][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:252][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:252][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:252][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:252][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:252][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:252][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:252][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:252][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:252][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:252][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:252][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:252][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:252][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:252][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:253][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:253][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:253][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:253][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:253][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:253][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:253][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:253][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:253][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:253][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:253][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:254][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:254][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:254][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:254][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:254][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:254][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:254][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:254][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:254][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:254][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:254][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:254][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:254][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:254][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:254][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:254][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:254][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:254][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:254][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:254][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:254][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:254][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:254][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:254][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:254][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:254][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:254][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:254][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:254][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:254][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:254][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:254][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:254][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:254][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:260][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:281][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:283][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:337][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:344][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:358][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:358][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:358][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:358][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:358][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:359][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.00.43:359][990]LogVSAccessor: Warning: Couldn't access module table
+[2024.10.25-17.01.02:552][ 22]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.25-17.01.02:646][ 22]LogSavePackage: Moving output files for package: /Game/MyBlueprints/BP_AmmoPickup
+[2024.10.25-17.01.02:646][ 22]LogSavePackage: Moving '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Saved/BP_AmmoPickup29BABE004F6CFDFCC52561B678AC55F1.tmp' to '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/MyBlueprints/BP_AmmoPickup.uasset'
+[2024.10.25-17.01.02:653][ 22]LogFileHelpers: InternalPromptForCheckoutAndSave took 100 ms (total: 1.32 sec)
+[2024.10.25-17.01.02:654][ 22]AssetCheck: New page: Asset Save: BP_AmmoPickup
+[2024.10.25-17.01.02:654][ 22]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyBlueprints/BP_AmmoPickup.BP_AmmoPickup
+[2024.10.25-17.01.03:147][ 70]BlueprintLog: New page: Compile BP_AmmoPickup
+[2024.10.25-17.01.03:151][ 70]LogBlueprint: Error: [AssetLog] C:\Users\izaugg\Documents\Unreal Projects\Idea 310H\FA24-ZauggI-CrazeA\Content\MyBlueprints\BP_AmmoPickup.uasset: [Compiler] The type of  Object  is undetermined.  Connect something to  Cast To BP_FirstPersonCharacter  to imply a specific type.
+[2024.10.25-17.01.03:151][ 70]LogBlueprint: Error: [AssetLog] C:\Users\izaugg\Documents\Unreal Projects\Idea 310H\FA24-ZauggI-CrazeA\Content\MyBlueprints\BP_AmmoPickup.uasset: [Compiler] The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2024.10.25-17.01.03:178][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.10.25-17.01.08:737][635]BlueprintLog: New page: Compile BP_AmmoPickup
+[2024.10.25-17.01.08:739][635]LogBlueprint: Error: [AssetLog] C:\Users\izaugg\Documents\Unreal Projects\Idea 310H\FA24-ZauggI-CrazeA\Content\MyBlueprints\BP_AmmoPickup.uasset: [Compiler] The type of  Object  is undetermined.  Connect something to  Cast To BP_FirstPersonCharacter  to imply a specific type.
+[2024.10.25-17.01.08:740][635]LogBlueprint: Error: [AssetLog] C:\Users\izaugg\Documents\Unreal Projects\Idea 310H\FA24-ZauggI-CrazeA\Content\MyBlueprints\BP_AmmoPickup.uasset: [Compiler] The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2024.10.25-17.01.08:759][635]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.10.25-17.01.40:061][896]BlueprintLog: New page: Compile BP_AmmoPickup
+[2024.10.25-17.01.40:083][896]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.10.25-17.01.41:714][ 72]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.25-17.01.41:821][ 72]LogSavePackage: Moving output files for package: /Game/MyBlueprints/BP_AmmoPickup
+[2024.10.25-17.01.41:821][ 72]LogSavePackage: Moving '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Saved/BP_AmmoPickup68F25CF14EDABE00457AA1A0D2FD467E.tmp' to '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/MyBlueprints/BP_AmmoPickup.uasset'
+[2024.10.25-17.01.41:828][ 72]LogFileHelpers: InternalPromptForCheckoutAndSave took 113 ms (total: 1.43 sec)
+[2024.10.25-17.01.41:829][ 72]AssetCheck: New page: Asset Save: BP_AmmoPickup
+[2024.10.25-17.01.41:829][ 72]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyBlueprints/BP_AmmoPickup.BP_AmmoPickup
+[2024.10.25-17.01.47:947][728]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.25-17.01.47:952][728]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.25-17.01.47:952][728]PIE: New page: PIE session: Level1 (Oct 25, 2024, 5:01:47 AM)
+[2024.10.25-17.01.47:974][728]LogPlayLevel: Display: Creating online subsystem for client :Context_41
+[2024.10.25-17.01.47:976][728]LogOnline: OSS: Created online subsystem instance for: :Context_41
+[2024.10.25-17.01.47:994][729]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2024.10.25-17.01.48:003][729]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008020s)
+[2024.10.25-17.01.48:003][729]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.008061s)
+[2024.10.25-17.01.48:015][729]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.10.25-17.01.48:017][729]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-17.01.48:018][729]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-17.01.48:018][729]LogAIModule: Creating AISystem for world Level1
+[2024.10.25-17.01.48:018][729]LogPlayLevel: PIE: World Init took: (0.001038s)
+[2024.10.25-17.01.48:018][729]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2024.10.25-17.01.48:018][729]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.25-17.01.48:018][729]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.25-17.01.48:018][729]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.25-17.01.48:018][729]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.25-17.01.48:018][729]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.25-17.01.48:018][729]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.25-17.01.48:019][729]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.25-17.01.48:019][729]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.25-17.01.48:019][729]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.25-17.01.48:019][729]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.25-17.01.48:019][729]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.25-17.01.48:021][729]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.25-17.01.48:038][729]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2024.10.25-17.01.48:039][729]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.25-17.01.48:039][729]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.25-17.01.48:039][729]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.25-17.01.48:040][729]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2024.10.25-17.01.48:040][729]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2024.10.25-17.01.48:041][729]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2024.10.25-17.01.48:041][729]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2024.10.25-17.01.48:041][729]LogInit: FAudioDevice initialized with ID 15.
+[2024.10.25-17.01.48:041][729]LogAudio: Display: Audio Device (ID: 15) registered with world 'Level1'.
+[2024.10.25-17.01.48:041][729]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2024.10.25-17.01.48:047][729]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.25-17.01.48:048][729]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Level1.Level1:PersistentLevel.StaticMeshActor_999.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.10.25-17.01.48:048][729]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: 'SM_Gigantic_Rock_8' Component: '/Game/UEDPIE_0_Level1.Level1:PersistentLevel.StaticMeshActor_999.StaticMeshComponent0' 
+[2024.10.25-17.01.48:053][729]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2024.10.25-11.01.48
+[2024.10.25-17.01.48:053][729]LogWorld: Bringing up level for play took: 0.005285
+[2024.10.25-17.01.48:057][729]PIE: Server logged in
+[2024.10.25-17.01.48:057][729]PIE: Play in editor total start time 0.105 seconds.
+[2024.10.25-17.01.49:635][884]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.25-17.01.49:635][884]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2024.10.25-17.01.49:635][884]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-17.01.49:636][884]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-17.01.49:639][884]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.25-17.01.49:643][884]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-17.01.49:654][884]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.25-17.01.49:655][884]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2024.10.25-17.01.49:655][884]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.10.25-17.01.49:656][884]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.10.25-17.01.49:662][884]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2024.10.25-17.01.49:697][886]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2024.10.25-17.01.54:095][322]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprints/BP_AmmoPickup.BP_AmmoPickup_C
+[2024.10.25-17.01.54:095][322]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprints/BP_AmmoPickup.BP_AmmoPickup_C
+[2024.10.25-17.01.54:097][322]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprints/BP_AmmoPickup.BP_AmmoPickup as actor: BP_AmmoPickup_C /Game/Level1.Level1:PersistentLevel.BP_AmmoPickup_C_0
+[2024.10.25-17.01.54:097][322]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprints/BP_AmmoPickup.BP_AmmoPickup as actor: BP_AmmoPickup_C /Game/Level1.Level1:PersistentLevel.BP_AmmoPickup_C_0
+[2024.10.25-17.01.56:037][549]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprints/BP_AmmoPickup.BP_AmmoPickup_C
+[2024.10.25-17.01.56:037][549]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprints/BP_AmmoPickup.BP_AmmoPickup_C
+[2024.10.25-17.01.56:039][549]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprints/BP_AmmoPickup.BP_AmmoPickup as actor: BP_AmmoPickup_C /Game/Level1.Level1:PersistentLevel.BP_AmmoPickup_C_1
+[2024.10.25-17.01.56:040][549]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprints/BP_AmmoPickup.BP_AmmoPickup as actor: BP_AmmoPickup_C /Game/Level1.Level1:PersistentLevel.BP_AmmoPickup_C_1
+[2024.10.25-17.01.59:417][902]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.25-17.01.59:424][902]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.25-17.01.59:424][902]PIE: New page: PIE session: Level1 (Oct 25, 2024, 5:01:59 AM)
+[2024.10.25-17.01.59:424][902]LogPlayLevel: Display: Creating online subsystem for client :Context_42
+[2024.10.25-17.01.59:426][902]LogOnline: OSS: Created online subsystem instance for: :Context_42
+[2024.10.25-17.01.59:444][903]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2024.10.25-17.01.59:453][903]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009452s)
+[2024.10.25-17.01.59:453][903]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.009500s)
+[2024.10.25-17.01.59:466][903]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2024.10.25-17.01.59:468][903]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-17.01.59:469][903]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-17.01.59:469][903]LogAIModule: Creating AISystem for world Level1
+[2024.10.25-17.01.59:469][903]LogPlayLevel: PIE: World Init took: (0.000942s)
+[2024.10.25-17.01.59:469][903]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2024.10.25-17.01.59:469][903]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.25-17.01.59:469][903]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.25-17.01.59:469][903]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.25-17.01.59:469][903]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.25-17.01.59:469][903]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.25-17.01.59:469][903]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.25-17.01.59:469][903]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.25-17.01.59:469][903]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.25-17.01.59:469][903]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.25-17.01.59:470][903]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.25-17.01.59:470][903]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.25-17.01.59:471][903]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.25-17.01.59:487][903]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2024.10.25-17.01.59:488][903]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.25-17.01.59:488][903]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.25-17.01.59:488][903]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.25-17.01.59:489][903]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2024.10.25-17.01.59:489][903]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2024.10.25-17.01.59:491][903]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2024.10.25-17.01.59:491][903]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2024.10.25-17.01.59:491][903]LogInit: FAudioDevice initialized with ID 16.
+[2024.10.25-17.01.59:491][903]LogAudio: Display: Audio Device (ID: 16) registered with world 'Level1'.
+[2024.10.25-17.01.59:491][903]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2024.10.25-17.01.59:493][903]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.25-17.01.59:495][903]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Level1.Level1:PersistentLevel.StaticMeshActor_999.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.10.25-17.01.59:495][903]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: 'SM_Gigantic_Rock_8' Component: '/Game/UEDPIE_0_Level1.Level1:PersistentLevel.StaticMeshActor_999.StaticMeshComponent0' 
+[2024.10.25-17.01.59:499][903]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2024.10.25-11.01.59
+[2024.10.25-17.01.59:499][903]LogWorld: Bringing up level for play took: 0.005013
+[2024.10.25-17.01.59:502][903]PIE: Server logged in
+[2024.10.25-17.01.59:503][903]PIE: Play in editor total start time 0.082 seconds.
+[2024.10.25-17.02.08:965][ 19]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.25-17.02.08:965][ 19]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2024.10.25-17.02.08:965][ 19]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-17.02.08:965][ 19]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-17.02.08:969][ 19]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.25-17.02.08:973][ 19]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-17.02.08:985][ 19]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.25-17.02.08:985][ 19]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2024.10.25-17.02.08:985][ 19]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.10.25-17.02.08:988][ 19]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.10.25-17.02.08:991][ 19]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.25-17.02.08:994][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.10.25-17.02.09:037][ 20]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2024.10.25-17.02.10:691][213]Cmd: SELECT NONE
+[2024.10.25-17.02.21:605][192]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.25-17.02.21:658][192]LogSavePackage: Moving output files for package: /Game/MyBlueprints/BP_AmmoPickup
+[2024.10.25-17.02.21:659][192]LogSavePackage: Moving '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Saved/BP_AmmoPickup51370A0049A1B2723EF19C8C938C7569.tmp' to '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/MyBlueprints/BP_AmmoPickup.uasset'
+[2024.10.25-17.02.21:664][192]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 1.49 sec)
+[2024.10.25-17.02.21:665][192]AssetCheck: New page: Asset Save: BP_AmmoPickup
+[2024.10.25-17.02.21:665][192]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyBlueprints/BP_AmmoPickup.BP_AmmoPickup
+[2024.10.25-17.02.30:259][ 62]Cmd: DELETE
+[2024.10.25-17.02.30:259][ 62]Cmd: ACTOR DELETE
+[2024.10.25-17.02.30:261][ 62]LogEditorActor: Deleted Actor: BP_AmmoPickup_C
+[2024.10.25-17.02.30:274][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.10.25-17.02.30:277][ 62]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2024.10.25-17.02.33:124][341]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprints/BP_AmmoPickup.BP_AmmoPickup_C
+[2024.10.25-17.02.33:124][341]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprints/BP_AmmoPickup.BP_AmmoPickup_C
+[2024.10.25-17.02.33:125][341]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprints/BP_AmmoPickup.BP_AmmoPickup as actor: BP_AmmoPickup_C /Game/Level1.Level1:PersistentLevel.BP_AmmoPickup_C_2
+[2024.10.25-17.02.33:126][341]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprints/BP_AmmoPickup.BP_AmmoPickup as actor: BP_AmmoPickup_C /Game/Level1.Level1:PersistentLevel.BP_AmmoPickup_C_2
+[2024.10.25-17.02.37:496][853]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprints/BP_AmmoPickup.BP_AmmoPickup_C
+[2024.10.25-17.02.37:496][853]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprints/BP_AmmoPickup.BP_AmmoPickup_C
+[2024.10.25-17.02.37:498][853]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprints/BP_AmmoPickup.BP_AmmoPickup as actor: BP_AmmoPickup_C /Game/Level1.Level1:PersistentLevel.BP_AmmoPickup_C_3
+[2024.10.25-17.02.37:498][853]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprints/BP_AmmoPickup.BP_AmmoPickup as actor: BP_AmmoPickup_C /Game/Level1.Level1:PersistentLevel.BP_AmmoPickup_C_3
+[2024.10.25-17.03.17:143][140]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprints/BP_AmmoPickup.BP_AmmoPickup_C
+[2024.10.25-17.03.17:143][140]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprints/BP_AmmoPickup.BP_AmmoPickup_C
+[2024.10.25-17.03.17:145][140]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprints/BP_AmmoPickup.BP_AmmoPickup as actor: BP_AmmoPickup_C /Game/Level1.Level1:PersistentLevel.BP_AmmoPickup_C_4
+[2024.10.25-17.03.17:146][140]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprints/BP_AmmoPickup.BP_AmmoPickup as actor: BP_AmmoPickup_C /Game/Level1.Level1:PersistentLevel.BP_AmmoPickup_C_4
+[2024.10.25-17.03.19:468][369]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprints/BP_AmmoPickup.BP_AmmoPickup_C
+[2024.10.25-17.03.19:468][369]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprints/BP_AmmoPickup.BP_AmmoPickup_C
+[2024.10.25-17.03.19:470][369]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprints/BP_AmmoPickup.BP_AmmoPickup as actor: BP_AmmoPickup_C /Game/Level1.Level1:PersistentLevel.BP_AmmoPickup_C_5
+[2024.10.25-17.03.19:471][369]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprints/BP_AmmoPickup.BP_AmmoPickup as actor: BP_AmmoPickup_C /Game/Level1.Level1:PersistentLevel.BP_AmmoPickup_C_5
+[2024.10.25-17.03.28:025][268]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprints/BP_AmmoPickup.BP_AmmoPickup_C
+[2024.10.25-17.03.28:025][268]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprints/BP_AmmoPickup.BP_AmmoPickup_C
+[2024.10.25-17.03.28:026][268]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprints/BP_AmmoPickup.BP_AmmoPickup as actor: BP_AmmoPickup_C /Game/Level1.Level1:PersistentLevel.BP_AmmoPickup_C_6
+[2024.10.25-17.03.28:027][268]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprints/BP_AmmoPickup.BP_AmmoPickup as actor: BP_AmmoPickup_C /Game/Level1.Level1:PersistentLevel.BP_AmmoPickup_C_6
+[2024.10.25-17.03.30:704][521]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprints/BP_AmmoPickup.BP_AmmoPickup_C
+[2024.10.25-17.03.30:704][521]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprints/BP_AmmoPickup.BP_AmmoPickup_C
+[2024.10.25-17.03.30:706][521]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprints/BP_AmmoPickup.BP_AmmoPickup as actor: BP_AmmoPickup_C /Game/Level1.Level1:PersistentLevel.BP_AmmoPickup_C_7
+[2024.10.25-17.03.30:707][521]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprints/BP_AmmoPickup.BP_AmmoPickup as actor: BP_AmmoPickup_C /Game/Level1.Level1:PersistentLevel.BP_AmmoPickup_C_7
+[2024.10.25-17.03.41:775][810]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.25-17.03.41:807][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.10.25-17.03.41:847][810]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.10.25-17.03.41:876][810]LogSavePackage: Moving output files for package: /Game/Level1
+[2024.10.25-17.03.41:876][810]LogSavePackage: Moving '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Saved/Level14A0D9C70462060ACFBE6CFB76F6BBAAD.tmp' to '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/Level1.umap'
+[2024.10.25-17.03.41:882][810]LogFileHelpers: Saving map 'Level1' took 0.076
+[2024.10.25-17.03.41:890][810]LogFileHelpers: InternalPromptForCheckoutAndSave took 115 ms (total: 1.61 sec)
+[2024.10.25-17.03.41:892][810]AssetCheck: New page: Asset Save: Level1
+[2024.10.25-17.03.41:892][810]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level1.Level1
