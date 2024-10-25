@@ -5,8 +5,6 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Users/izaugg/Documents/Unreal Projects/Idea 310H/IDEA-310H-Assignment1/Content/Menu.umap",
-				"C:/Users/izaugg/Documents/Unreal Projects/Idea 310H/IDEA-310H-Assignment1/Content/Level1.umap",
 				"C:/Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/Level1.umap",
 				"C:/Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/StarterContent/Shapes/M_Shape_Plane_T_Rocks_01_BC_Mat_FFFCACCC42368ED79F5718A5350C7102.uasset",
 				"C:/Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/StarterContent/Shapes/M_Shape_Plane_MI_Rock_00_3EFC15A84CBE741C4E9287824A68096A.uasset",
@@ -15,6 +13,9 @@
 				"C:/Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/UI/UserInterface.uasset",
 				"C:/Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
 				"C:/Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/FirstPerson/Blueprints/BP_Weapon_Component.uasset",
+				"C:/Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/MyBlueprints/BP_Target.uasset",
+				"C:/Users/izaugg/Documents/Unreal Projects/Idea 310H/IDEA-310H-Assignment1/Content/Menu.umap",
+				"C:/Users/izaugg/Documents/Unreal Projects/Idea 310H/IDEA-310H-Assignment1/Content/Level1.umap",
 				"/Users/annacraze/Documents/NEW REPO/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
 				"/Users/annacraze/Documents/NEW REPO/Content/Level2.umap",
 				"/Users/annacraze/Documents/NEW REPO/Content/Menu.umap",
