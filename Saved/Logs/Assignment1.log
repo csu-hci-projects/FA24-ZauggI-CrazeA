@@ -2517,3 +2517,16 @@ LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variab
 [2024.10.25-20.44.13:265][236]LogWorld: Bringing up level for play took: 0.004838
 [2024.10.25-20.44.13:267][236]PIE: Server logged in
 [2024.10.25-20.44.13:267][236]PIE: Play in editor total start time 0.117 seconds.
+[2024.10.25-20.44.57:280][174]Cmd: quit
+[2024.10.25-20.44.57:281][174]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.25-20.44.57:281][174]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2024.10.25-20.44.57:306][174]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-20.44.57:306][174]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-20.44.57:310][174]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.25-20.44.57:313][174]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-20.44.57:324][174]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.25-20.44.57:325][174]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2024.10.25-20.44.57:325][174]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.10.25-20.44.57:326][174]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.10.25-20.44.57:333][174]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.10.25-20.44.57:386][177]LogPlayLevel: Display: Destroying online subsystem :Context_26
