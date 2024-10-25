@@ -3326,3 +3326,286 @@ LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
 [2024.10.25-17.16.18:383][810]LogFileHelpers: InternalPromptForCheckoutAndSave took 171 ms (total: 2.23 sec)
 [2024.10.25-17.16.18:386][810]AssetCheck: New page: Asset Save: Level1
 [2024.10.25-17.16.18:386][810]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level1.Level1
+[2024.10.25-17.16.58:177][179]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SpecularProfile_64.svg'. File could not be found
+[2024.10.25-17.17.25:397][345]LogSlate: Window 'Pick Parent Class for New Widget Blueprint' being destroyed
+[2024.10.25-17.17.25:408][345]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2024.10.25-17.17.25:414][345]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2024.10.25-17.17.25:433][346]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2024.10.25-17.17.28:911][716]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> WinMenu
+[2024.10.25-17.17.28:916][716]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2024.10.25-17.17.30:675][865]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/WinMenu.WinMenu
+[2024.10.25-17.17.30:675][865]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-17.17.30:675][865]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-17.17.30:682][865]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-17.17.30:682][865]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-17.17.52:813][689]LogEditorTransaction: Undo Drag and Drop Widget
+[2024.10.25-17.17.53:655][725]LogEditorTransaction: Undo Move Node
+[2024.10.25-17.17.54:503][789]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-17.17.54:503][789]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-17.17.54:509][789]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-17.17.54:509][789]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-17.17.58:535][119]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.10.25-17.18.00:264][119]LogSlate: Window 'Delete Assets' being destroyed
+[2024.10.25-17.18.00:295][119]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.10.25-17.18.00:308][119]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.10.25-17.18.00:320][119]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2024.10.25-17.20.36:686][101]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyBlueprints/BP_Target.BP_Target
+[2024.10.25-17.20.36:686][101]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-17.20.36:686][101]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-17.24.24:111][561]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.25-17.24.24:211][561]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyBlueprints/BP_Target" FILE="../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/MyBlueprints/BP_Target.uasset" SILENT=true
+[2024.10.25-17.24.24:215][561]LogSavePackage: Moving output files for package: /Game/MyBlueprints/BP_Target
+[2024.10.25-17.24.24:216][561]LogSavePackage: Moving '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Saved/BP_Target841836634969DDDD2735A0B9064E54F0.tmp' to '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/MyBlueprints/BP_Target.uasset'
+[2024.10.25-17.24.24:222][561]LogFileHelpers: InternalPromptForCheckoutAndSave took 112 ms (total: 2.34 sec)
+[2024.10.25-17.24.24:223][561]AssetCheck: New page: Asset Save: BP_Target
+[2024.10.25-17.24.24:223][561]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyBlueprints/BP_Target.BP_Target
+[2024.10.25-17.24.26:542][738]BlueprintLog: New page: Compile UserInterface
+[2024.10.25-17.24.26:566][738]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.10.25-17.24.28:114][857]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.25-17.24.28:173][857]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UserInterface" FILE="../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/UI/UserInterface.uasset" SILENT=true
+[2024.10.25-17.24.28:182][857]LogSavePackage: Moving output files for package: /Game/UI/UserInterface
+[2024.10.25-17.24.28:183][857]LogSavePackage: Moving '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Saved/UserInterface7B9FB846494177B37C24E0966731241A.tmp' to '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/UI/UserInterface.uasset'
+[2024.10.25-17.24.28:190][857]LogFileHelpers: InternalPromptForCheckoutAndSave took 76 ms (total: 2.42 sec)
+[2024.10.25-17.24.28:191][857]AssetCheck: New page: Asset Save: UserInterface
+[2024.10.25-17.24.28:191][857]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/UserInterface.UserInterface
+[2024.10.25-17.24.45:012][199]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-17.24.45:012][199]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-17.24.46:424][290]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.10.25-17.24.46:424][290]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-17.24.46:424][290]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-17.28.11:829][692]Cmd: TRANSACTION UNDO
+[2024.10.25-17.28.11:829][692]LogEditorTransaction: Undo Add Node
+[2024.10.25-17.28.13:984][826]BlueprintLog: New page: Compile UserInterface
+[2024.10.25-17.28.14:009][826]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2024.10.25-17.29.21:971][616]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-17.29.21:971][616]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-17.29.21:976][616]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-17.29.21:977][616]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-17.29.24:802][822]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/UserInterface.UserInterface
+[2024.10.25-17.29.24:802][822]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-17.29.24:802][822]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-17.29.24:809][822]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-17.29.24:809][822]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-17.29.59:723][876]Cmd: TRANSACTION UNDO
+[2024.10.25-17.29.59:723][876]LogEditorTransaction: Undo Rename Widget
+[2024.10.25-17.30.00:291][877]Cmd: TRANSACTION UNDO
+[2024.10.25-17.30.00:291][877]LogEditorTransaction: Undo Rename Widget
+[2024.10.25-17.30.00:403][877]Cmd: TRANSACTION UNDO
+[2024.10.25-17.30.00:403][877]LogEditorTransaction: Undo Rename Widget
+[2024.10.25-17.30.00:961][878]Cmd: TRANSACTION UNDO
+[2024.10.25-17.30.00:961][878]LogEditorTransaction: Undo Add Node
+[2024.10.25-17.30.33:282][768]LogSlate: Window 'Content Browser' being destroyed
+[2024.10.25-17.30.33:286][768]LogSlate: Window 'Content Browser' being destroyed
+[2024.10.25-17.32.29:757][531]Cmd: TRANSACTION UNDO
+[2024.10.25-17.32.29:757][531]LogEditorTransaction: Undo Variable Toggle
+[2024.10.25-17.32.32:032][630]Cmd: TRANSACTION REDO
+[2024.10.25-17.32.32:033][630]LogEditorTransaction: Redo Variable Toggle
+[2024.10.25-17.33.32:500][196]BlueprintLog: New page: Compile UserInterface
+[2024.10.25-17.33.32:506][196]LogProperty: Warning: Serialized Class /Script/UMG.EditableTextBox for a property of Class /Script/UMG.TextBlock. Reference will be nullptred.
+    Property = ObjectProperty /Game/UI/UserInterface.UserInterface_C:Eliminated
+    Item = EditableTextBox /Game/Level1.Level1:REINST_UserInterface_C_0.WidgetTree_0.Eliminated
+[2024.10.25-17.33.32:529][196]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.10.25-17.33.33:121][222]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.25-17.33.33:186][222]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UserInterface" FILE="../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/UI/UserInterface.uasset" SILENT=true
+[2024.10.25-17.33.33:196][222]LogSavePackage: Moving output files for package: /Game/UI/UserInterface
+[2024.10.25-17.33.33:196][222]LogSavePackage: Moving '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Saved/UserInterface433F9E7B4AE62BB50BD01F9490E62765.tmp' to '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/UI/UserInterface.uasset'
+[2024.10.25-17.33.33:203][222]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 2.50 sec)
+[2024.10.25-17.33.33:205][222]AssetCheck: New page: Asset Save: UserInterface
+[2024.10.25-17.33.33:205][222]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/UserInterface.UserInterface
+[2024.10.25-17.35.27:977][ 67]BlueprintLog: New page: Compile UserInterface
+[2024.10.25-17.35.28:002][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.10.25-17.35.28:589][ 95]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.25-17.35.28:654][ 95]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UserInterface" FILE="../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/UI/UserInterface.uasset" SILENT=true
+[2024.10.25-17.35.28:664][ 95]LogSavePackage: Moving output files for package: /Game/UI/UserInterface
+[2024.10.25-17.35.28:664][ 95]LogSavePackage: Moving '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Saved/UserInterfaceF0F485DF445DA8116D59529579A51736.tmp' to '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/UI/UserInterface.uasset'
+[2024.10.25-17.35.28:671][ 95]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 2.58 sec)
+[2024.10.25-17.35.28:673][ 95]AssetCheck: New page: Asset Save: UserInterface
+[2024.10.25-17.35.28:673][ 95]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/UserInterface.UserInterface
+[2024.10.25-17.36.12:990][715]BlueprintLog: New page: Compile UserInterface
+[2024.10.25-17.36.13:013][715]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.10.25-17.36.13:719][740]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.25-17.36.13:792][740]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UserInterface" FILE="../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/UI/UserInterface.uasset" SILENT=true
+[2024.10.25-17.36.13:801][740]LogSavePackage: Moving output files for package: /Game/UI/UserInterface
+[2024.10.25-17.36.13:802][740]LogSavePackage: Moving '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Saved/UserInterfaceF75983FF4CEB89322E700DA80C6066DE.tmp' to '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/UI/UserInterface.uasset'
+[2024.10.25-17.36.13:809][740]LogFileHelpers: InternalPromptForCheckoutAndSave took 90 ms (total: 2.67 sec)
+[2024.10.25-17.36.13:811][740]AssetCheck: New page: Asset Save: UserInterface
+[2024.10.25-17.36.13:811][740]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/UserInterface.UserInterface
+[2024.10.25-17.36.40:302][576]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.25-17.36.40:406][576]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyBlueprints/BP_Target" FILE="../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/MyBlueprints/BP_Target.uasset" SILENT=true
+[2024.10.25-17.36.40:410][576]LogSavePackage: Moving output files for package: /Game/MyBlueprints/BP_Target
+[2024.10.25-17.36.40:410][576]LogSavePackage: Moving '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Saved/BP_TargetD856E9CA4D0F542D0F363EB377BA0B22.tmp' to '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/MyBlueprints/BP_Target.uasset'
+[2024.10.25-17.36.40:418][576]LogFileHelpers: InternalPromptForCheckoutAndSave took 115 ms (total: 2.79 sec)
+[2024.10.25-17.36.40:419][576]AssetCheck: New page: Asset Save: BP_Target
+[2024.10.25-17.36.40:419][576]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyBlueprints/BP_Target.BP_Target
+[2024.10.25-17.37.14:054][508]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.25-17.37.14:054][508]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-17.37.14:055][508]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-17.39.55:920][210]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.10.25-17.39.55:923][210]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level1' took 0.017
+[2024.10.25-17.39.55:923][210]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/UserInterface] ([2] browsable assets)...
+[2024.10.25-17.39.55:929][210]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/UserInterface.UserInterface]
+[2024.10.25-17.39.55:929][210]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/UserInterface]
+[2024.10.25-17.39.55:938][210]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/UI/UserInterface_Auto4
+[2024.10.25-17.39.55:938][210]LogSavePackage: Moving '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Saved/UserInterface_Auto45508ECAA4985DF4AAC6F849033633AB5.tmp' to '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Saved/Autosaves/Game/UI/UserInterface_Auto4.uasset'
+[2024.10.25-17.39.55:938][210]LogFileHelpers: Auto-saving content packages took 0.017
+[2024.10.25-17.40.49:318][822]LogDerivedDataCache: C:/Users/izaugg/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:06.069 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 3465 files in 4837 folders with total size 1113 MiB.
+[2024.10.25-17.43.43:605][387]BlueprintLog: New page: Compile BP_Target
+[2024.10.25-17.43.43:635][387]LogBlueprint: Error: [AssetLog] C:\Users\izaugg\Documents\Unreal Projects\Idea 310H\FA24-ZauggI-CrazeA\Content\MyBlueprints\BP_Target.uasset: [Compiler] The type of  Object  is undetermined.  Connect something to  Cast To BP_FirstPersonProjectile  to imply a specific type.
+[2024.10.25-17.43.43:635][387]LogBlueprint: Error: [AssetLog] C:\Users\izaugg\Documents\Unreal Projects\Idea 310H\FA24-ZauggI-CrazeA\Content\MyBlueprints\BP_Target.uasset: [Compiler] The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2024.10.25-17.43.43:679][387]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.10.25-17.43.48:706][741]BlueprintLog: New page: Compile BP_Target
+[2024.10.25-17.43.48:709][741]LogBlueprint: Error: [AssetLog] C:\Users\izaugg\Documents\Unreal Projects\Idea 310H\FA24-ZauggI-CrazeA\Content\MyBlueprints\BP_Target.uasset: [Compiler] The type of  Object  is undetermined.  Connect something to  Cast To BP_FirstPersonProjectile  to imply a specific type.
+[2024.10.25-17.43.48:709][741]LogBlueprint: Error: [AssetLog] C:\Users\izaugg\Documents\Unreal Projects\Idea 310H\FA24-ZauggI-CrazeA\Content\MyBlueprints\BP_Target.uasset: [Compiler] The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2024.10.25-17.43.48:753][741]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.10.25-17.43.50:673][877]LogEditorTransaction: Undo Create Pin Link
+[2024.10.25-17.45.46:744][748]LogEditorTransaction: Undo Change Object Pin Value
+[2024.10.25-17.45.47:192][754]LogEditorTransaction: Undo Move Node
+[2024.10.25-17.45.47:490][765]LogEditorTransaction: Undo Move Nodes
+[2024.10.25-17.45.47:967][793]LogEditorTransaction: Undo Add Node
+[2024.10.25-17.45.48:627][836]LogEditorTransaction: Undo Add Node
+[2024.10.25-17.46.18:339][115]BlueprintLog: New page: Compile BP_Target
+[2024.10.25-17.46.18:342][115]LogBlueprint: Error: [AssetLog] C:\Users\izaugg\Documents\Unreal Projects\Idea 310H\FA24-ZauggI-CrazeA\Content\MyBlueprints\BP_Target.uasset: [Compiler] The type of  Object  is undetermined.  Connect something to  Cast To BP_FirstPersonProjectile  to imply a specific type.
+[2024.10.25-17.46.18:342][115]LogBlueprint: Error: [AssetLog] C:\Users\izaugg\Documents\Unreal Projects\Idea 310H\FA24-ZauggI-CrazeA\Content\MyBlueprints\BP_Target.uasset: [Compiler] The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2024.10.25-17.46.18:386][115]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.10.25-17.46.20:456][251]LogEditorTransaction: Undo Create Pin Link
+[2024.10.25-17.46.44:885][ 85]BlueprintLog: New page: Compile BP_Target
+[2024.10.25-17.46.44:888][ 85]LogBlueprint: Error: [AssetLog] C:\Users\izaugg\Documents\Unreal Projects\Idea 310H\FA24-ZauggI-CrazeA\Content\MyBlueprints\BP_Target.uasset: [Compiler] The type of  Object  is undetermined.  Connect something to  Cast To BP_FirstPersonProjectile  to imply a specific type.
+[2024.10.25-17.46.44:888][ 85]LogBlueprint: Error: [AssetLog] C:\Users\izaugg\Documents\Unreal Projects\Idea 310H\FA24-ZauggI-CrazeA\Content\MyBlueprints\BP_Target.uasset: [Compiler] The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2024.10.25-17.46.44:932][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.10.25-17.46.50:845][461]LogEditorTransaction: Undo Create Pin Link
+[2024.10.25-17.46.57:090][887]BlueprintLog: New page: Compile BP_Target
+[2024.10.25-17.46.57:093][887]LogBlueprint: Error: [AssetLog] C:\Users\izaugg\Documents\Unreal Projects\Idea 310H\FA24-ZauggI-CrazeA\Content\MyBlueprints\BP_Target.uasset: [Compiler] The type of  Object  is undetermined.  Connect something to  Cast To BP_FirstPersonProjectile  to imply a specific type.
+[2024.10.25-17.46.57:094][887]LogBlueprint: Error: [AssetLog] C:\Users\izaugg\Documents\Unreal Projects\Idea 310H\FA24-ZauggI-CrazeA\Content\MyBlueprints\BP_Target.uasset: [Compiler] The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2024.10.25-17.46.57:138][887]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.10.25-17.46.59:250][ 36]LogEditorTransaction: Undo Create Pin Link
+[2024.10.25-17.47.17:982][ 65]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2024.10.25-17.48.20:642][266]BlueprintLog: New page: Compile BP_Target
+[2024.10.25-17.48.20:645][266]LogBlueprint: Error: [AssetLog] C:\Users\izaugg\Documents\Unreal Projects\Idea 310H\FA24-ZauggI-CrazeA\Content\MyBlueprints\BP_Target.uasset: [Compiler] The type of  Object  is undetermined.  Connect something to  Cast To BP_FirstPersonProjectile  to imply a specific type.
+[2024.10.25-17.48.20:645][266]LogBlueprint: Error: [AssetLog] C:\Users\izaugg\Documents\Unreal Projects\Idea 310H\FA24-ZauggI-CrazeA\Content\MyBlueprints\BP_Target.uasset: [Compiler] The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2024.10.25-17.48.20:692][266]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.10.25-17.48.22:765][409]LogEditorTransaction: Undo Create Pin Link
+[2024.10.25-17.48.23:905][461]BlueprintLog: New page: Compile BP_Target
+[2024.10.25-17.48.23:908][461]LogBlueprint: Error: [AssetLog] C:\Users\izaugg\Documents\Unreal Projects\Idea 310H\FA24-ZauggI-CrazeA\Content\MyBlueprints\BP_Target.uasset: [Compiler] The type of  Object  is undetermined.  Connect something to  Cast To BP_FirstPersonProjectile  to imply a specific type.
+[2024.10.25-17.48.23:908][461]LogBlueprint: Error: [AssetLog] C:\Users\izaugg\Documents\Unreal Projects\Idea 310H\FA24-ZauggI-CrazeA\Content\MyBlueprints\BP_Target.uasset: [Compiler] The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2024.10.25-17.48.23:954][461]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.10.25-17.48.32:115][ 54]BlueprintLog: New page: Compile BP_Target
+[2024.10.25-17.48.32:162][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.10.25-17.49.29:291][673]Cmd: TRANSACTION UNDO
+[2024.10.25-17.49.29:291][673]LogEditorTransaction: Undo Rename Variable
+[2024.10.25-17.49.30:506][734]Cmd: TRANSACTION UNDO
+[2024.10.25-17.49.30:506][734]LogEditorTransaction: Undo Add Variable
+[2024.10.25-17.50.02:647][993]BlueprintLog: New page: Compile UserInterface
+[2024.10.25-17.50.02:666][993]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.10.25-17.50.03:472][ 52]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.25-17.50.03:511][ 52]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UserInterface" FILE="../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/UI/UserInterface.uasset" SILENT=true
+[2024.10.25-17.50.03:521][ 52]LogSavePackage: Moving output files for package: /Game/UI/UserInterface
+[2024.10.25-17.50.03:521][ 52]LogSavePackage: Moving '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Saved/UserInterface78C217E4457A26F551A1328EF041619D.tmp' to '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/UI/UserInterface.uasset'
+[2024.10.25-17.50.03:528][ 52]LogFileHelpers: InternalPromptForCheckoutAndSave took 56 ms (total: 2.85 sec)
+[2024.10.25-17.50.03:530][ 52]AssetCheck: New page: Asset Save: UserInterface
+[2024.10.25-17.50.03:530][ 52]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/UserInterface.UserInterface
+[2024.10.25-17.50.21:026][289]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-17.50.21:026][289]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-17.50.26:441][692]LogWorld: UWorld::CleanupWorld for World_44, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-17.50.26:441][692]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-17.50.26:446][692]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-17.50.26:446][692]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-17.50.32:053][ 44]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyBlueprints/BP_AmmoPickup.BP_AmmoPickup
+[2024.10.25-17.50.32:053][ 44]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-17.50.32:053][ 44]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-17.53.04:546][461]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-17.53.04:546][461]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-17.53.10:798][902]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.25-17.53.10:799][902]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-17.53.10:799][902]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-17.53.17:915][305]LogWorld: UWorld::CleanupWorld for World_51, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-17.53.17:915][305]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-17.53.21:576][554]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_Weapon_Component.BP_Weapon_Component
+[2024.10.25-17.53.21:576][554]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-17.53.21:576][554]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-17.56.50:323][652]LogEditorTransaction: Undo Delete current selection
+[2024.10.25-17.57.04:200][667]BlueprintLog: New page: Compile BP_Target
+[2024.10.25-17.57.04:203][667]LogBlueprint: Error: [AssetLog] C:\Users\izaugg\Documents\Unreal Projects\Idea 310H\FA24-ZauggI-CrazeA\Content\MyBlueprints\BP_Target.uasset: [Compiler] Cannot find appropriate promotion from 'Wildcard' to 'Float (double-precision)' on ' Equal (Float) '
+[2024.10.25-17.57.04:203][667]LogBlueprint: Error: [AssetLog] C:\Users\izaugg\Documents\Unreal Projects\Idea 310H\FA24-ZauggI-CrazeA\Content\MyBlueprints\BP_Target.uasset: [Compiler] Cannot find appropriate promotion from 'Wildcard' to 'Float (double-precision)' on ' Equal (Float) '
+[2024.10.25-17.57.04:203][667]LogBlueprint: Error: [AssetLog] C:\Users\izaugg\Documents\Unreal Projects\Idea 310H\FA24-ZauggI-CrazeA\Content\MyBlueprints\BP_Target.uasset: [Compiler] ' Equal (Float) ' could not successfuly expand pins!
+[2024.10.25-17.57.04:256][667]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.10.25-17.57.23:266][ 34]BlueprintLog: New page: Compile BP_Target
+[2024.10.25-17.57.23:317][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.10.25-17.57.24:532][113]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.25-17.57.24:625][113]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyBlueprints/BP_Target" FILE="../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/MyBlueprints/BP_Target.uasset" SILENT=true
+[2024.10.25-17.57.24:630][113]LogSavePackage: Moving output files for package: /Game/MyBlueprints/BP_Target
+[2024.10.25-17.57.24:630][113]LogSavePackage: Moving '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Saved/BP_TargetC21670DB493CBFC2E3F355B2ED26F5A6.tmp' to '../../../../../../Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/Content/MyBlueprints/BP_Target.uasset'
+[2024.10.25-17.57.24:639][113]LogFileHelpers: InternalPromptForCheckoutAndSave took 106 ms (total: 2.95 sec)
+[2024.10.25-17.57.24:640][113]AssetCheck: New page: Asset Save: BP_Target
+[2024.10.25-17.57.24:640][113]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyBlueprints/BP_Target.BP_Target
+[2024.10.25-17.57.37:356][290]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprints/BP_Target.BP_Target_C
+[2024.10.25-17.57.37:356][290]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprints/BP_Target.BP_Target_C
+[2024.10.25-17.57.37:357][290]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprints/BP_Target.BP_Target as actor: BP_Target_C /Game/Level1.Level1:PersistentLevel.BP_Target_C_3
+[2024.10.25-17.57.37:358][290]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprints/BP_Target.BP_Target as actor: BP_Target_C /Game/Level1.Level1:PersistentLevel.BP_Target_C_3
+[2024.10.25-17.57.38:827][397]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprints/BP_Target.BP_Target_C
+[2024.10.25-17.57.38:827][397]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprints/BP_Target.BP_Target_C
+[2024.10.25-17.57.38:828][397]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprints/BP_Target.BP_Target as actor: BP_Target_C /Game/Level1.Level1:PersistentLevel.BP_Target_C_4
+[2024.10.25-17.57.38:829][397]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprints/BP_Target.BP_Target as actor: BP_Target_C /Game/Level1.Level1:PersistentLevel.BP_Target_C_4
+[2024.10.25-17.57.42:779][779]Cmd: TRANSACTION UNDO
+[2024.10.25-17.57.42:779][779]LogEditorTransaction: Undo Create Actors
+[2024.10.25-17.57.43:320][787]Cmd: TRANSACTION UNDO
+[2024.10.25-17.57.43:320][787]LogEditorTransaction: Undo Create Pin Link
+[2024.10.25-17.57.45:904][ 44]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.25-17.57.45:908][ 44]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.10.25-17.57.45:910][ 44]LogPlayLevel: [PlayLevel] Compiling BP_Target before play...
+[2024.10.25-17.57.45:962][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.10.25-17.57.45:965][ 44]LogPlayLevel: PlayLevel: Blueprint regeneration took 56 ms (1 blueprints)
+[2024.10.25-17.57.45:965][ 44]PIE: New page: PIE session: Level1 (Oct 25, 2024, 5:57:45 AM)
+[2024.10.25-17.57.45:965][ 44]LogPlayLevel: Display: Creating online subsystem for client :Context_59
+[2024.10.25-17.57.45:968][ 44]LogOnline: OSS: Created online subsystem instance for: :Context_59
+[2024.10.25-17.57.46:004][ 45]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2024.10.25-17.57.46:013][ 45]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008221s)
+[2024.10.25-17.57.46:013][ 45]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.008265s)
+[2024.10.25-17.57.46:026][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2024.10.25-17.57.46:028][ 45]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-17.57.46:028][ 45]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-17.57.46:028][ 45]LogAIModule: Creating AISystem for world Level1
+[2024.10.25-17.57.46:029][ 45]LogPlayLevel: PIE: World Init took: (0.001012s)
+[2024.10.25-17.57.46:029][ 45]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2024.10.25-17.57.46:029][ 45]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.25-17.57.46:029][ 45]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.25-17.57.46:029][ 45]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.25-17.57.46:029][ 45]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.25-17.57.46:029][ 45]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.10.25-17.57.46:029][ 45]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.25-17.57.46:029][ 45]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.10.25-17.57.46:029][ 45]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.25-17.57.46:029][ 45]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.25-17.57.46:029][ 45]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.25-17.57.46:029][ 45]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.25-17.57.46:031][ 45]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.25-17.57.46:049][ 45]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2024.10.25-17.57.46:050][ 45]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.25-17.57.46:050][ 45]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.25-17.57.46:050][ 45]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.25-17.57.46:050][ 45]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2024.10.25-17.57.46:050][ 45]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2024.10.25-17.57.46:052][ 45]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2024.10.25-17.57.46:052][ 45]LogInit: FAudioDevice initialized with ID 19.
+[2024.10.25-17.57.46:052][ 45]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2024.10.25-17.57.46:052][ 45]LogAudio: Display: Audio Device (ID: 19) registered with world 'Level1'.
+[2024.10.25-17.57.46:052][ 45]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2024.10.25-17.57.46:055][ 45]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.10.25-17.57.46:056][ 45]LogPhysics: Warning: Scale for /Game/UEDPIE_0_Level1.Level1:PersistentLevel.StaticMeshActor_999.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2024.10.25-17.57.46:057][ 45]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Actor: 'SM_Gigantic_Rock_8' Component: '/Game/UEDPIE_0_Level1.Level1:PersistentLevel.StaticMeshActor_999.StaticMeshComponent0' 
+[2024.10.25-17.57.46:061][ 45]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2024.10.25-11.57.46
+[2024.10.25-17.57.46:061][ 45]LogWorld: Bringing up level for play took: 0.005407
+[2024.10.25-17.57.46:066][ 45]PIE: Server logged in
+[2024.10.25-17.57.46:067][ 45]PIE: Play in editor total start time 0.159 seconds.
+[2024.10.25-17.57.55:871][182]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.25-17.57.55:871][182]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2024.10.25-17.57.55:871][182]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-17.57.55:872][182]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-17.57.55:876][182]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.25-17.57.55:879][182]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-17.57.55:893][182]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.25-17.57.55:893][182]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2024.10.25-17.57.55:893][182]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.10.25-17.57.55:894][182]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.10.25-17.57.55:897][182]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.25-17.57.55:901][182]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.10.25-17.57.55:966][183]LogPlayLevel: Display: Destroying online subsystem :Context_59
