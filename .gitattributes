@@ -1,0 +1,2 @@
+Binaries/Win64/Assignment1.pdb filter=lfs diff=lfs merge=lfs -text
+Content/Paks/Assignment1-Windows.ucas filter=lfs diff=lfs merge=lfs -text
