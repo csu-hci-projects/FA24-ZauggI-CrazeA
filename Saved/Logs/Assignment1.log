@@ -1577,3 +1577,53 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.10.31-00.35.03:921][890]UATHelper: Packaging (Windows): LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
 [2024.10.31-00.35.03:921][890]UATHelper: Packaging (Windows): LogOutputDevice: Warning:
 [2024.10.31-00.35.03:921][890]UATHelper: Packaging (Windows): Script Stack (0 frames) :
+[2024.10.31-00.35.06:691][898]UATHelper: Packaging (Windows): LogWindows: Error: appError called: Assertion failed: CurrentApplication.IsValid() [File:D:\build\++UE5\Sync\LocalInstall\Engine\Source\Runtime\Slate\Public\Framework\Application\SlateApplication.h] [Line: 255]
+[2024.10.31-00.35.06:691][898]UATHelper: Packaging (Windows): LogWindows: Error: begin: stack for UAT
+[2024.10.31-00.35.06:691][898]UATHelper: Packaging (Windows): LogWindows: Error: === Critical error: ===
+[2024.10.31-00.35.06:691][898]UATHelper: Packaging (Windows): LogWindows: Error:
+[2024.10.31-00.35.06:691][898]UATHelper: Packaging (Windows): LogWindows: Error: Assertion failed: CurrentApplication.IsValid() [File:D:\build\++UE5\Sync\LocalInstall\Engine\Source\Runtime\Slate\Public\Framework\Application\SlateApplication.h] [Line: 255]
+[2024.10.31-00.35.06:691][898]UATHelper: Packaging (Windows): LogWindows: Error:
+[2024.10.31-00.35.06:692][898]UATHelper: Packaging (Windows): LogWindows: Error:
+[2024.10.31-00.35.06:692][898]UATHelper: Packaging (Windows): LogWindows: Error:
+[2024.10.31-00.35.06:692][898]UATHelper: Packaging (Windows): LogWindows: Error: [Callstack] 0x000001a7e80ead96 UnrealEditor-Fab.dll!FFabBrowser::RegisterSlateStyle() [D:\build\++UE5\Sync\LocalBuilds\Fab\0.0.1\HostProject\Plugins\Fab\Source\Fab\Private\FabBrowser.cpp:98]
+[2024.10.31-00.35.06:692][898]UATHelper: Packaging (Windows): LogWindows: Error: [Callstack] 0x000001a7e80f725a UnrealEditor-Fab.dll!FFabModule::StartupModule() [D:\build\++UE5\Sync\LocalBuilds\Fab\0.0.1\HostProject\Plugins\Fab\Source\Fab\Private\FabModule.cpp:35]
+[2024.10.31-00.35.06:692][898]UATHelper: Packaging (Windows): LogWindows: Error: [Callstack] 0x00007ffff7055954 UnrealEditor-Core.dll!UnknownFunction []
+[2024.10.31-00.35.06:692][898]UATHelper: Packaging (Windows): LogWindows: Error: [Callstack] 0x00007ffff5fa87ee UnrealEditor-Projects.dll!UnknownFunction []
+[2024.10.31-00.35.06:692][898]UATHelper: Packaging (Windows): LogWindows: Error: [Callstack] 0x00007ffff5fc56c3 UnrealEditor-Projects.dll!UnknownFunction []
+[2024.10.31-00.35.06:692][898]UATHelper: Packaging (Windows): LogWindows: Error: [Callstack] 0x00007ffff5fa801a UnrealEditor-Projects.dll!UnknownFunction []
+[2024.10.31-00.35.06:692][898]UATHelper: Packaging (Windows): LogWindows: Error: [Callstack] 0x00007ff78c622591 UnrealEditor-Cmd.exe!UnknownFunction []
+[2024.10.31-00.35.06:692][898]UATHelper: Packaging (Windows): LogWindows: Error: [Callstack] 0x00007ff78c62634f UnrealEditor-Cmd.exe!UnknownFunction []
+[2024.10.31-00.35.06:693][898]UATHelper: Packaging (Windows): LogWindows: Error: [Callstack] 0x00007ff78c61cfb6 UnrealEditor-Cmd.exe!UnknownFunction []
+[2024.10.31-00.35.06:693][898]UATHelper: Packaging (Windows): LogWindows: Error: [Callstack] 0x00007ff78c61d37a UnrealEditor-Cmd.exe!UnknownFunction []
+[2024.10.31-00.35.06:693][898]UATHelper: Packaging (Windows): LogWindows: Error: [Callstack] 0x00007ff78c620854 UnrealEditor-Cmd.exe!UnknownFunction []
+[2024.10.31-00.35.06:693][898]UATHelper: Packaging (Windows): LogWindows: Error: [Callstack] 0x00007ff78c636984 UnrealEditor-Cmd.exe!UnknownFunction []
+[2024.10.31-00.35.06:693][898]UATHelper: Packaging (Windows): LogWindows: Error: [Callstack] 0x00007ff78c638eb6 UnrealEditor-Cmd.exe!UnknownFunction []
+[2024.10.31-00.35.06:693][898]UATHelper: Packaging (Windows): LogWindows: Error: [Callstack] 0x00007ff867b2257d KERNEL32.DLL!UnknownFunction []
+[2024.10.31-00.35.06:693][898]UATHelper: Packaging (Windows): LogWindows: Error:
+[2024.10.31-00.35.06:693][898]UATHelper: Packaging (Windows): LogWindows: Error: end: stack for UAT
+[2024.10.31-00.35.06:874][899]PackagingResults: Error: appError called: Assertion failed: CurrentApplication.IsValid() [File:D:\build\++UE5\Sync\LocalInstall\Engine\Source\Runtime\Slate\Public\Framework\Application\SlateApplication.h] [Line: 255]
+[2024.10.31-00.35.06:874][899]PackagingResults: Error: begin: stack for UAT
+[2024.10.31-00.35.06:874][899]PackagingResults: Error: === Critical error: ===
+[2024.10.31-00.35.06:874][899]PackagingResults: Error: Assertion failed: CurrentApplication.IsValid() [File:D:\build\++UE5\Sync\LocalInstall\Engine\Source\Runtime\Slate\Public\Framework\Application\SlateApplication.h] [Line: 255]
+[2024.10.31-00.35.06:874][899]PackagingResults: Error: [Callstack] 0x000001a7e80ead96 UnrealEditor-Fab.dll!FFabBrowser::RegisterSlateStyle() [D:\build\++UE5\Sync\LocalBuilds\Fab\0.0.1\HostProject\Plugins\Fab\Source\Fab\Private\FabBrowser.cpp:98]
+[2024.10.31-00.35.06:874][899]PackagingResults: Error: [Callstack] 0x000001a7e80f725a UnrealEditor-Fab.dll!FFabModule::StartupModule() [D:\build\++UE5\Sync\LocalBuilds\Fab\0.0.1\HostProject\Plugins\Fab\Source\Fab\Private\FabModule.cpp:35]
+[2024.10.31-00.35.06:874][899]PackagingResults: Error: [Callstack] 0x00007ffff7055954 UnrealEditor-Core.dll!UnknownFunction []
+[2024.10.31-00.35.06:874][899]PackagingResults: Error: [Callstack] 0x00007ffff5fa87ee UnrealEditor-Projects.dll!UnknownFunction []
+[2024.10.31-00.35.06:874][899]PackagingResults: Error: [Callstack] 0x00007ffff5fc56c3 UnrealEditor-Projects.dll!UnknownFunction []
+[2024.10.31-00.35.06:874][899]PackagingResults: Error: [Callstack] 0x00007ffff5fa801a UnrealEditor-Projects.dll!UnknownFunction []
+[2024.10.31-00.35.06:874][899]PackagingResults: Error: [Callstack] 0x00007ff78c622591 UnrealEditor-Cmd.exe!UnknownFunction []
+[2024.10.31-00.35.06:874][899]PackagingResults: Error: [Callstack] 0x00007ff78c62634f UnrealEditor-Cmd.exe!UnknownFunction []
+[2024.10.31-00.35.06:876][899]PackagingResults: Error: [Callstack] 0x00007ff78c61cfb6 UnrealEditor-Cmd.exe!UnknownFunction []
+[2024.10.31-00.35.06:876][899]PackagingResults: Error: [Callstack] 0x00007ff78c61d37a UnrealEditor-Cmd.exe!UnknownFunction []
+[2024.10.31-00.35.06:876][899]PackagingResults: Error: [Callstack] 0x00007ff78c620854 UnrealEditor-Cmd.exe!UnknownFunction []
+[2024.10.31-00.35.06:876][899]PackagingResults: Error: [Callstack] 0x00007ff78c636984 UnrealEditor-Cmd.exe!UnknownFunction []
+[2024.10.31-00.35.06:876][899]PackagingResults: Error: [Callstack] 0x00007ff78c638eb6 UnrealEditor-Cmd.exe!UnknownFunction []
+[2024.10.31-00.35.06:876][899]PackagingResults: Error: [Callstack] 0x00007ff867b2257d KERNEL32.DLL!UnknownFunction []
+[2024.10.31-00.35.06:876][899]PackagingResults: Error: end: stack for UAT
+[2024.10.31-00.35.10:329][909]UATHelper: Packaging (Windows): Took 85.45s to run UnrealEditor-Cmd.exe, ExitCode=3
+[2024.10.31-00.35.10:447][909]UATHelper: Packaging (Windows): Cook failed.
+[2024.10.31-00.35.10:447][909]UATHelper: Packaging (Windows): (see C:\Users\izaug\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.3\Log.txt for full exception trace)
+[2024.10.31-00.35.10:457][909]UATHelper: Packaging (Windows): AutomationTool executed for 0h 1m 46s
+[2024.10.31-00.35.10:457][909]UATHelper: Packaging (Windows): AutomationTool exiting with ExitCode=25 (Error_UnknownCookFailure)
+[2024.10.31-00.35.10:499][909]UATHelper: Packaging (Windows): BUILD FAILED
+[2024.10.31-00.35.10:549][910]PackagingResults: Error: Unknown Cook Failure
