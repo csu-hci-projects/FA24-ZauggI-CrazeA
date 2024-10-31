@@ -12,6 +12,8 @@ Loading Instructions:
 
 Open Assignment1.uproject in Unreal Engine. The project should load into the Menu level, but if not, open that level to start. Use Unreal’s native compiler to run the game (push the play button at the top of the screen).
 
+Alternate method: In Unreal Engine, package project and run executable.
+
 ===================================================================
 
 Contributions:
