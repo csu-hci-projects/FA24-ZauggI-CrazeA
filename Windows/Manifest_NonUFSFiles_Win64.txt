@@ -1,4 +1,4 @@
-Assignment1/Binaries/Win64/Assignment1-Win64-Shipping.exe	2024-10-31T20:01:03.129Z
+Assignment1/Binaries/Win64/Assignment1-Win64-Shipping.exe	2024-10-31T21:08:12.242Z
 Assignment1/Binaries/Win64/D3D12/D3D12Core.dll	2024-10-26T02:11:14.050Z
 Assignment1/Binaries/Win64/OpenImageDenoise.dll	2024-10-26T02:21:17.211Z
 Assignment1/Binaries/Win64/tbb.dll	2024-10-26T02:11:01.329Z
@@ -13,4 +13,4 @@ Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbis_64.dll	2024-10-26T02:11
 Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbisfile_64.dll	2024-10-26T02:11:13.990Z
 Engine/Binaries/ThirdParty/Windows/XAudio2_9/x64/xaudio2_9redist.dll	2024-10-26T02:11:14.172Z
 Engine/Content/Slate/Cursor/invisible.cur	2024-10-26T02:12:34.412Z
-Assignment1.exe	2024-10-31T20:03:49.916Z
+Assignment1.exe	2024-10-31T21:12:45.273Z
