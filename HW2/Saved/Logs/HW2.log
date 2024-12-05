@@ -1821,3 +1821,32 @@ The following settings have been applied:
 [2024.12.05-00.11.35:384][270]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Users/acraze/Documents/GitHub/FA24-ZauggI-CrazeA/HW2/Saved/Autosaves/Game/Level1_Auto1.umap is in the /Temp path, will not scan.
 [2024.12.05-00.11.35:384][270]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level1' took 0.050
 [2024.12.05-00.11.35:384][270]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.050
+[2024.12.05-00.12.27:754][743]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2024.12.05-00.12.29:808][743]LogSlate: Window 'Save Content' being destroyed
+[2024.12.05-00.12.29:822][743]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.05-00.12.29:880][743]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../../../Users/acraze/Documents/GitHub/FA24-ZauggI-CrazeA/HW2/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.12.05-00.12.29:907][743]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2024.12.05-00.12.29:937][743]LogSavePackage: Moving output files for package: /Game/Level1
+[2024.12.05-00.12.29:937][743]LogSavePackage: Moving '../../../../../../Users/acraze/Documents/GitHub/FA24-ZauggI-CrazeA/HW2/Saved/Level156A4A58745A1050285EC2280AEC36BB3.tmp' to '../../../../../../Users/acraze/Documents/GitHub/FA24-ZauggI-CrazeA/HW2/Content/Level1.umap'
+[2024.12.05-00.12.29:945][743]LogFileHelpers: Saving map 'Level1' took 0.065
+[2024.12.05-00.12.29:954][743]LogFileHelpers: InternalPromptForCheckoutAndSave took 132 ms
+[2024.12.05-00.12.29:954][743]Cmd: MAP LOAD FILE="../../../../../../Users/acraze/Documents/GitHub/FA24-ZauggI-CrazeA/HW2/Content/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.12.05-00.12.29:954][743]LightingResults: New page: Lighting Build
+[2024.12.05-00.12.29:956][743]LoadErrors: New page: Loading map: Level1.umap
+[2024.12.05-00.12.29:979][743]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2024.12.05-00.12.29:979][743]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.05-00.12.29:979][743]MapCheck: New page: Map Check
+[2024.12.05-00.12.29:979][743]LightingResults: New page: Lighting Build
+[2024.12.05-00.12.29:982][743]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.05-00.12.29:985][743]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2024.12.05-00.12.29:996][743]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level1'.
+[2024.12.05-00.12.29:996][743]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.05-00.12.29:996][743]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.12.05-00.12.29:997][743]LogAIModule: Creating AISystem for world Level1
+[2024.12.05-00.12.30:078][743]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.12.05-00.12.30:085][743]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2024.12.05-00.12.30:087][743]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.12.05-00.12.30:087][743]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.11ms to complete.
+[2024.12.05-00.12.30:087][743]LogSlate: Window 'Open Level' being destroyed
+[2024.12.05-00.12.30:096][743]AssetCheck: New page: Asset Save: Level1
+[2024.12.05-00.12.30:096][743]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level1.Level1
