@@ -5,6 +5,17 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/HW2/Content/Level1.umap",
+				"C:/Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/HW2/Content/MyAssets/BP_GrabTomato.uasset",
+				"C:/Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/HW2/Content/MyBlueprints/BP_GrabTomato.uasset",
+				"C:/Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/HW2/Content/MyBlueprints/Pistol.uasset",
+				"C:/Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/HW2/Content/MyBlueprints/AmmoPistol.uasset",
+				"C:/Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/HW2/Content/VRTemplate/Input/IMC_Weapon_Right.uasset",
+				"C:/Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/HW2/Content/VRTemplate/Input/IMC_Weapon_Left.uasset",
+				"C:/Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/HW2/Content/MyBlueprints/IA_Reload_Right.uasset",
+				"C:/Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/HW2/Content/MyBlueprints/BP_Target.uasset",
+				"C:/Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/HW2/Content/StarterContent/Materials/TargetHit.uasset",
+				"C:/Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/HW2/Content/MyBlueprints/IA_Reload_Left.uasset",
 				"C:/Users/acraze/Documents/GitHub/FA24-ZauggI-CrazeA/HW2/Content/Level1.umap",
 				"C:/Users/izaugg/Documents/Unreal Projects/Idea 310H/HW2/HW2/Content/StarterContent/Architecture/Floor_400x400.uasset",
 				"C:/Users/izaugg/Documents/Unreal Projects/Idea 310H/HW2/HW2/Content/Level1.umap"
