@@ -1304,3 +1304,520 @@ The following settings have been applied:
 [2024.12.04-23.38.13:399][  1]LogD3D12RHI: Cannot end block when stack is empty
 [2024.12.04-23.38.38:714][972]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
 [2024.12.04-23.38.38:860][975]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.04-23.40.09:752][437]LogDerivedDataCache: C:/Users/acraze/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.144 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 2412 files in 3624 folders with total size 852 MiB.
+[2024.12.04-23.41.15:499][659]LogSlate: Took 0.005974 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.12.04-23.41.21:216][265]LogStaticMesh: Display: Building static mesh SM_PavingStone_Single...
+[2024.12.04-23.41.21:251][265]LogStaticMesh: Adjacency [0.00s], tris: 188, UVs 2
+[2024.12.04-23.41.21:252][265]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2024.12.04-23.41.21:252][265]LogStaticMesh: Leaves [0.00s]
+[2024.12.04-23.41.21:257][265]LogStaticMesh: Reduce [0.00s]
+[2024.12.04-23.41.21:258][265]LogStaticMesh: Fallback 0/4 [0.00s], num tris: 188
+[2024.12.04-23.41.21:264][265]LogStaticMesh: Fallback 1/4 [0.01s], num tris: 94
+[2024.12.04-23.41.21:270][265]LogStaticMesh: Fallback 2/4 [0.01s], num tris: 63
+[2024.12.04-23.41.21:277][265]LogStaticMesh: Fallback 3/4 [0.01s], num tris: 63
+[2024.12.04-23.41.21:278][265]LogStaticMesh: ConstrainClusters:
+[2024.12.04-23.41.21:278][265]LogStaticMesh:   Input: 3 Clusters, 313 Triangles and 264 Vertices
+[2024.12.04-23.41.21:278][265]LogStaticMesh:   Output without splits: 3 Clusters, 313 Triangles and 265 Vertices
+[2024.12.04-23.41.21:278][265]LogStaticMesh:   Output with splits: 3 Clusters, 313 Triangles and 265 Vertices
+[2024.12.04-23.41.21:278][265]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 3, Slow Path Clusters: 0, 1 Material: 3, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2024.12.04-23.41.21:278][265]LogStaticMesh: WritePages:
+[2024.12.04-23.41.21:278][265]LogStaticMesh:   Root: GPU size: 4492 bytes. 1 Pages. 4492.000 bytes per page (13.708% utilization).
+[2024.12.04-23.41.21:278][265]LogStaticMesh:   Streaming: 0 bytes.
+[2024.12.04-23.41.21:278][265]LogStaticMesh:   Page data disk size: 3308 bytes. Fixup data size: 40 bytes.
+[2024.12.04-23.41.21:278][265]LogStaticMesh:   Total GPU size: 4492 bytes, Total disk size: 3348 bytes.
+[2024.12.04-23.41.21:278][265]LogStaticMesh: Encode [0.00s]
+[2024.12.04-23.41.21:278][265]LogStaticMesh: Nanite build [0.03s]
+
+[2024.12.04-23.41.21:283][265]LogStaticMesh: Built static mesh [0.07s] /Game/ModularOldTown/Meshes/Ground/SM_PavingStone_Single.SM_PavingStone_Single
+[2024.12.04-23.41.21:475][275]LogTexture: Display: Building textures: /Game/ModularOldTown/Textures/T_PavingStone_Normal.T_PavingStone_Normal (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.12.04-23.41.21:481][275]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Ground/SM_PavingStone_Single.SM_PavingStone_Single
+[2024.12.04-23.41.21:481][275]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Ground/SM_PavingStone_Single.SM_PavingStone_Single
+[2024.12.04-23.41.21:484][275]LogActorFactory: Actor Factory spawned StaticMesh /Game/ModularOldTown/Meshes/Ground/SM_PavingStone_Single.SM_PavingStone_Single as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_0
+[2024.12.04-23.41.21:487][275]LogTexture: Display: Building textures: /Game/ModularOldTown/Textures/T_PavingStone_Basecolor.T_PavingStone_Basecolor (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.12.04-23.41.21:510][275]LogTexture: Display: Building textures: /Game/ModularOldTown/Textures/T_PavingStone_ORM.T_PavingStone_ORM (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.12.04-23.41.23:072][434]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Ground/SM_PavingStone_Single.SM_PavingStone_Single
+[2024.12.04-23.41.23:073][434]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Ground/SM_PavingStone_Single.SM_PavingStone_Single
+[2024.12.04-23.41.23:075][434]LogActorFactory: Actor Factory spawned StaticMesh /Game/ModularOldTown/Meshes/Ground/SM_PavingStone_Single.SM_PavingStone_Single as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_8
+[2024.12.04-23.41.23:098][434]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/PCG.PCGSettings'
+[2024.12.04-23.41.23:908][525]Cmd: DELETE
+[2024.12.04-23.41.23:908][525]Cmd: ACTOR DELETE
+[2024.12.04-23.41.23:916][525]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.12.04-23.41.23:919][525]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.12.04-23.41.23:920][525]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2024.12.04-23.41.27:688][947]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Ground/SM_Floor_1m.SM_Floor_1m
+[2024.12.04-23.41.27:688][947]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Ground/SM_Floor_1m.SM_Floor_1m
+[2024.12.04-23.41.27:688][947]LogActorFactory: Actor Factory spawned StaticMesh /Game/ModularOldTown/Meshes/Ground/SM_Floor_1m.SM_Floor_1m as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_14
+[2024.12.04-23.41.29:090][113]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Ground/SM_Floor_1m.SM_Floor_1m
+[2024.12.04-23.41.29:091][113]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Ground/SM_Floor_1m.SM_Floor_1m
+[2024.12.04-23.41.29:092][113]LogActorFactory: Actor Factory spawned StaticMesh /Game/ModularOldTown/Meshes/Ground/SM_Floor_1m.SM_Floor_1m as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_16
+[2024.12.04-23.41.29:959][210]Cmd: DELETE
+[2024.12.04-23.41.29:959][210]Cmd: ACTOR DELETE
+[2024.12.04-23.41.29:961][210]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.12.04-23.41.29:965][210]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.12.04-23.41.29:966][210]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2024.12.04-23.41.38:444][131]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Ground/SM_Floor_2m.SM_Floor_2m
+[2024.12.04-23.41.38:444][131]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Ground/SM_Floor_2m.SM_Floor_2m
+[2024.12.04-23.41.38:445][131]LogActorFactory: Actor Factory spawned StaticMesh /Game/ModularOldTown/Meshes/Ground/SM_Floor_2m.SM_Floor_2m as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_18
+[2024.12.04-23.41.40:836][415]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Ground/SM_Floor_2m.SM_Floor_2m
+[2024.12.04-23.41.40:836][415]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Ground/SM_Floor_2m.SM_Floor_2m
+[2024.12.04-23.41.40:837][415]LogActorFactory: Actor Factory spawned StaticMesh /Game/ModularOldTown/Meshes/Ground/SM_Floor_2m.SM_Floor_2m as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_21
+[2024.12.04-23.41.48:992][382]Cmd: EDIT COPY
+[2024.12.04-23.41.49:575][451]Cmd: EDIT PASTE
+[2024.12.04-23.41.54:804][ 69]Cmd: EDIT COPY
+[2024.12.04-23.41.55:273][124]Cmd: EDIT PASTE
+[2024.12.04-23.41.59:855][665]Cmd: EDIT COPY
+[2024.12.04-23.42.00:446][735]Cmd: EDIT PASTE
+[2024.12.04-23.42.05:026][269]Cmd: EDIT COPY
+[2024.12.04-23.42.05:699][349]Cmd: EDIT PASTE
+[2024.12.04-23.42.18:522][864]Cmd: EDIT COPY
+[2024.12.04-23.42.19:179][942]Cmd: EDIT PASTE
+[2024.12.04-23.42.26:910][860]Cmd: EDIT COPY
+[2024.12.04-23.42.27:524][933]Cmd: EDIT PASTE
+[2024.12.04-23.42.31:296][373]Cmd: EDIT COPY
+[2024.12.04-23.42.31:922][448]Cmd: EDIT PASTE
+[2024.12.04-23.42.38:035][166]Cmd: EDIT COPY
+[2024.12.04-23.42.38:702][245]Cmd: EDIT PASTE
+[2024.12.04-23.42.42:523][691]Cmd: EDIT COPY
+[2024.12.04-23.42.43:140][764]Cmd: EDIT PASTE
+[2024.12.04-23.42.47:914][328]Cmd: EDIT COPY
+[2024.12.04-23.42.48:446][391]Cmd: EDIT PASTE
+[2024.12.04-23.42.55:668][238]Cmd: EDIT COPY
+[2024.12.04-23.42.56:342][318]Cmd: EDIT PASTE
+[2024.12.04-23.43.04:224][250]Cmd: EDIT COPY
+[2024.12.04-23.43.04:872][327]Cmd: EDIT PASTE
+[2024.12.04-23.43.07:968][686]Cmd: EDIT COPY
+[2024.12.04-23.43.08:459][744]Cmd: EDIT PASTE
+[2024.12.04-23.43.12:699][244]Cmd: EDIT COPY
+[2024.12.04-23.43.13:282][314]Cmd: EDIT PASTE
+[2024.12.04-23.43.16:488][690]Cmd: EDIT COPY
+[2024.12.04-23.43.17:103][763]Cmd: EDIT PASTE
+[2024.12.04-23.43.20:951][216]Cmd: EDIT COPY
+[2024.12.04-23.43.20:951][216]LogConsoleManager: Warning: Performance warning: Many (31) failed FindConsoleObject() for 'EDIT'. 
+[2024.12.04-23.43.21:651][300]Cmd: EDIT PASTE
+[2024.12.04-23.44.23:644][560]Cmd: EDIT COPY
+[2024.12.04-23.44.24:310][639]Cmd: EDIT PASTE
+[2024.12.04-23.44.31:644][504]Cmd: EDIT COPY
+[2024.12.04-23.44.33:019][668]Cmd: EDIT PASTE
+[2024.12.04-23.44.36:669][ 95]Cmd: EDIT COPY
+[2024.12.04-23.44.37:326][173]Cmd: EDIT PASTE
+[2024.12.04-23.44.46:823][296]Cmd: EDIT COPY
+[2024.12.04-23.44.47:497][376]Cmd: EDIT PASTE
+[2024.12.04-23.44.51:336][828]Cmd: EDIT COPY
+[2024.12.04-23.44.51:893][894]Cmd: EDIT PASTE
+[2024.12.04-23.44.55:381][300]Cmd: EDIT COPY
+[2024.12.04-23.44.55:872][359]Cmd: EDIT PASTE
+[2024.12.04-23.45.08:678][870]Cmd: EDIT COPY
+[2024.12.04-23.45.09:303][945]Cmd: EDIT PASTE
+[2024.12.04-23.45.14:044][495]LogShaderCompilers: Display: ================================================
+[2024.12.04-23.45.14:044][495]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.12.04-23.45.14:044][495]LogShaderCompilers: Display: Total job queries 57, among them cache hits 10 (17.54%)
+[2024.12.04-23.45.14:044][495]LogShaderCompilers: Display: Tracking 47 distinct input hashes that result in 32 distinct outputs (68.09%)
+[2024.12.04-23.45.14:044][495]LogShaderCompilers: Display: RAM used: 1.71 MiB of 1.60 GiB budget. Usage: 0.10%
+[2024.12.04-23.45.14:044][495]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.12.04-23.45.14:044][495]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.12.04-23.45.14:044][495]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.12.04-23.45.14:044][495]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.12.04-23.45.14:045][495]LogShaderCompilers: Display: ================================================
+[2024.12.04-23.45.49:231][575]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_StairProp_D.SM_StairProp_D
+[2024.12.04-23.45.49:231][575]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_StairProp_D.SM_StairProp_D
+[2024.12.04-23.45.49:231][575]LogActorFactory: Actor Factory spawned StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_StairProp_D.SM_StairProp_D as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_79
+[2024.12.04-23.45.51:429][833]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_StairProp_D.SM_StairProp_D
+[2024.12.04-23.45.51:429][833]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_StairProp_D.SM_StairProp_D
+[2024.12.04-23.45.51:430][833]LogActorFactory: Actor Factory spawned StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_StairProp_D.SM_StairProp_D as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_84
+[2024.12.04-23.46.50:816][833]Cmd: DELETE
+[2024.12.04-23.46.50:816][833]Cmd: ACTOR DELETE
+[2024.12.04-23.46.50:818][833]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.12.04-23.46.50:823][833]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2024.12.04-23.46.50:825][833]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2024.12.04-23.47.24:626][725]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_StairProp_D.SM_StairProp_D
+[2024.12.04-23.47.24:626][725]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_StairProp_D.SM_StairProp_D
+[2024.12.04-23.47.24:627][725]LogActorFactory: Actor Factory spawned StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_StairProp_D.SM_StairProp_D as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_90
+[2024.12.04-23.47.28:110][138]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_StairProp_D.SM_StairProp_D
+[2024.12.04-23.47.28:110][138]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_StairProp_D.SM_StairProp_D
+[2024.12.04-23.47.28:111][138]LogActorFactory: Actor Factory spawned StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_StairProp_D.SM_StairProp_D as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_92
+[2024.12.04-23.47.32:364][642]Cmd: DELETE
+[2024.12.04-23.47.32:365][642]Cmd: ACTOR DELETE
+[2024.12.04-23.47.32:366][642]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.12.04-23.47.32:371][642]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.12.04-23.47.32:372][642]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2024.12.04-23.47.35:456][966]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_Stairs_A.SM_Stairs_A
+[2024.12.04-23.47.35:456][966]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_Stairs_A.SM_Stairs_A
+[2024.12.04-23.47.35:456][966]LogActorFactory: Actor Factory spawned StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_Stairs_A.SM_Stairs_A as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_94
+[2024.12.04-23.47.38:462][323]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_Stairs_A.SM_Stairs_A
+[2024.12.04-23.47.38:462][323]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_Stairs_A.SM_Stairs_A
+[2024.12.04-23.47.38:463][323]LogActorFactory: Actor Factory spawned StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_Stairs_A.SM_Stairs_A as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_102
+[2024.12.04-23.47.38:908][369]Cmd: DELETE
+[2024.12.04-23.47.38:908][369]Cmd: ACTOR DELETE
+[2024.12.04-23.47.38:910][369]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.12.04-23.47.38:913][369]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2024.12.04-23.47.38:914][369]LogEditorActor: Deleted 1 Actors (0.006 secs)
+[2024.12.04-23.47.41:702][667]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_StairProp_D.SM_StairProp_D
+[2024.12.04-23.47.41:702][667]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_StairProp_D.SM_StairProp_D
+[2024.12.04-23.47.41:703][667]LogActorFactory: Actor Factory spawned StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_StairProp_D.SM_StairProp_D as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_116
+[2024.12.04-23.47.44:596][ 10]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_StairProp_D.SM_StairProp_D
+[2024.12.04-23.47.44:596][ 10]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_StairProp_D.SM_StairProp_D
+[2024.12.04-23.47.44:597][ 10]LogActorFactory: Actor Factory spawned StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_StairProp_D.SM_StairProp_D as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_121
+[2024.12.04-23.47.47:391][288]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_StairProp_C.SM_StairProp_C
+[2024.12.04-23.47.47:391][288]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_StairProp_C.SM_StairProp_C
+[2024.12.04-23.47.47:391][288]LogActorFactory: Actor Factory spawned StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_StairProp_C.SM_StairProp_C as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_151
+[2024.12.04-23.47.53:280][987]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_StairProp_C.SM_StairProp_C
+[2024.12.04-23.47.53:280][987]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_StairProp_C.SM_StairProp_C
+[2024.12.04-23.47.53:281][987]LogActorFactory: Actor Factory spawned StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_StairProp_C.SM_StairProp_C as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_152
+[2024.12.04-23.48.01:430][923]Cmd: EDIT COPY
+[2024.12.04-23.48.02:146][  9]Cmd: EDIT PASTE
+[2024.12.04-23.48.16:482][701]Cmd: SELECT NONE
+[2024.12.04-23.48.27:480][ 10]Cmd: EDIT COPY
+[2024.12.04-23.48.28:313][110]Cmd: EDIT PASTE
+[2024.12.04-23.48.48:227][467]Cmd: EDIT COPY
+[2024.12.04-23.48.48:819][538]Cmd: EDIT PASTE
+[2024.12.04-23.48.58:034][630]Cmd: EDIT COPY
+[2024.12.04-23.48.59:259][777]Cmd: EDIT PASTE
+[2024.12.04-23.49.09:059][937]Cmd: EDIT COPY
+[2024.12.04-23.49.09:617][  4]Cmd: EDIT PASTE
+[2024.12.04-23.49.45:079][948]LogStaticMesh: Display: Building static mesh SM_WallDecor_2m...
+[2024.12.04-23.49.45:153][948]LogStaticMesh: Adjacency [0.00s], tris: 12624, UVs 2
+[2024.12.04-23.49.45:176][950]LogStaticMesh: Clustering [0.02s]. Ratio: 1.010101
+[2024.12.04-23.49.45:178][950]LogStaticMesh: Leaves [0.00s]
+[2024.12.04-23.49.45:344][967]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_WallDecor_2m.SM_WallDecor_2m
+[2024.12.04-23.49.45:344][967]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_WallDecor_2m.SM_WallDecor_2m
+[2024.12.04-23.49.45:344][967]LogActorFactory: Actor Factory spawned StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_WallDecor_2m.SM_WallDecor_2m as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_158
+[2024.12.04-23.49.45:362][967]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/ModularOldTown/Meshes/Decoration_Parts/SM_WallDecor_2m) ...
+[2024.12.04-23.49.45:428][967]LogStaticMesh: Reduce [0.25s]
+[2024.12.04-23.49.45:525][967]LogStaticMesh: Fallback 0/4 [0.10s], num tris: 1800
+[2024.12.04-23.49.45:727][967]LogStaticMesh: Fallback 1/4 [0.20s], num tris: 900
+[2024.12.04-23.49.45:903][967]LogStaticMesh: Fallback 2/4 [0.18s], num tris: 450
+[2024.12.04-23.49.46:079][967]LogStaticMesh: Fallback 3/4 [0.18s], num tris: 224
+[2024.12.04-23.49.46:084][967]LogStaticMesh: ConstrainClusters:
+[2024.12.04-23.49.46:084][967]LogStaticMesh:   Input: 204 Clusters, 25726 Triangles and 27099 Vertices
+[2024.12.04-23.49.46:084][967]LogStaticMesh:   Output without splits: 204 Clusters, 25726 Triangles and 27102 Vertices
+[2024.12.04-23.49.46:084][967]LogStaticMesh:   Output with splits: 207 Clusters, 25726 Triangles and 27104 Vertices
+[2024.12.04-23.49.46:084][967]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 207, Slow Path Clusters: 0, 1 Material: 207, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2024.12.04-23.49.46:090][967]LogStaticMesh: WritePages:
+[2024.12.04-23.49.46:090][967]LogStaticMesh:   Root: GPU size: 32160 bytes. 1 Pages. 32160.000 bytes per page (98.145% utilization).
+[2024.12.04-23.49.46:090][967]LogStaticMesh:   Streaming: GPU size: 388860 bytes. 3 Pages (3 with relative encoding). 129620.000 bytes per page (98.892% utilization).
+[2024.12.04-23.49.46:090][967]LogStaticMesh:   Page data disk size: 290076 bytes. Fixup data size: 1168 bytes.
+[2024.12.04-23.49.46:090][967]LogStaticMesh:   Total GPU size: 421020 bytes, Total disk size: 291244 bytes.
+[2024.12.04-23.49.46:090][967]LogStaticMesh: Encode [0.01s]
+[2024.12.04-23.49.46:090][967]LogStaticMesh: Nanite build [0.91s]
+
+[2024.12.04-23.49.46:098][967]LogStaticMesh: Built static mesh [1.02s] /Game/ModularOldTown/Meshes/Decoration_Parts/SM_WallDecor_2m.SM_WallDecor_2m
+[2024.12.04-23.49.48:283][220]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_WallDecor_2m.SM_WallDecor_2m
+[2024.12.04-23.49.48:283][220]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_WallDecor_2m.SM_WallDecor_2m
+[2024.12.04-23.49.48:285][220]LogActorFactory: Actor Factory spawned StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_WallDecor_2m.SM_WallDecor_2m as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_159
+[2024.12.04-23.50.02:962][901]LogStaticMesh: Display: Building static mesh SM_WallDecor_1m_Corner...
+[2024.12.04-23.50.03:049][902]LogStaticMesh: Adjacency [0.00s], tris: 14480, UVs 2
+[2024.12.04-23.50.03:076][906]LogStaticMesh: Clustering [0.03s]. Ratio: 1.008772
+[2024.12.04-23.50.03:079][906]LogStaticMesh: Leaves [0.00s]
+[2024.12.04-23.50.03:218][915]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_WallDecor_1m_Corner.SM_WallDecor_1m_Corner
+[2024.12.04-23.50.03:218][915]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_WallDecor_1m_Corner.SM_WallDecor_1m_Corner
+[2024.12.04-23.50.03:218][915]LogActorFactory: Actor Factory spawned StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_WallDecor_1m_Corner.SM_WallDecor_1m_Corner as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_160
+[2024.12.04-23.50.03:235][915]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/ModularOldTown/Meshes/Decoration_Parts/SM_WallDecor_1m_Corner) ...
+[2024.12.04-23.50.03:359][915]LogStaticMesh: Reduce [0.28s]
+[2024.12.04-23.50.03:443][915]LogStaticMesh: Fallback 0/4 [0.08s], num tris: 1640
+[2024.12.04-23.50.03:643][915]LogStaticMesh: Fallback 1/4 [0.20s], num tris: 820
+[2024.12.04-23.50.03:806][915]LogStaticMesh: Fallback 2/4 [0.16s], num tris: 410
+[2024.12.04-23.50.03:971][915]LogStaticMesh: Fallback 3/4 [0.16s], num tris: 204
+[2024.12.04-23.50.03:976][915]LogStaticMesh: ConstrainClusters:
+[2024.12.04-23.50.03:976][915]LogStaticMesh:   Input: 234 Clusters, 29468 Triangles and 31393 Vertices
+[2024.12.04-23.50.03:976][915]LogStaticMesh:   Output without splits: 234 Clusters, 29468 Triangles and 31409 Vertices
+[2024.12.04-23.50.03:976][915]LogStaticMesh:   Output with splits: 239 Clusters, 29468 Triangles and 31412 Vertices
+[2024.12.04-23.50.03:977][915]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 239, Slow Path Clusters: 0, 1 Material: 239, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2024.12.04-23.50.03:982][915]LogStaticMesh: WritePages:
+[2024.12.04-23.50.03:982][915]LogStaticMesh:   Root: GPU size: 30736 bytes. 1 Pages. 30736.000 bytes per page (93.799% utilization).
+[2024.12.04-23.50.03:982][915]LogStaticMesh:   Streaming: GPU size: 457304 bytes. 4 Pages (4 with relative encoding). 114326.000 bytes per page (87.224% utilization).
+[2024.12.04-23.50.03:983][915]LogStaticMesh:   Page data disk size: 337556 bytes. Fixup data size: 1528 bytes.
+[2024.12.04-23.50.03:983][915]LogStaticMesh:   Total GPU size: 488040 bytes, Total disk size: 339084 bytes.
+[2024.12.04-23.50.03:983][915]LogStaticMesh: Encode [0.01s]
+[2024.12.04-23.50.03:983][915]LogStaticMesh: Nanite build [0.90s]
+
+[2024.12.04-23.50.03:990][915]LogStaticMesh: Built static mesh [1.03s] /Game/ModularOldTown/Meshes/Decoration_Parts/SM_WallDecor_1m_Corner.SM_WallDecor_1m_Corner
+[2024.12.04-23.50.07:675][350]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_WallDecor_1m_Corner.SM_WallDecor_1m_Corner
+[2024.12.04-23.50.07:675][350]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_WallDecor_1m_Corner.SM_WallDecor_1m_Corner
+[2024.12.04-23.50.07:676][350]LogActorFactory: Actor Factory spawned StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_WallDecor_1m_Corner.SM_WallDecor_1m_Corner as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_161
+[2024.12.04-23.50.27:277][678]Cmd: EDIT COPY
+[2024.12.04-23.50.27:819][742]Cmd: EDIT PASTE
+[2024.12.04-23.50.32:836][331]Cmd: EDIT COPY
+[2024.12.04-23.50.33:443][403]Cmd: EDIT PASTE
+[2024.12.04-23.50.37:530][883]Cmd: EDIT COPY
+[2024.12.04-23.50.38:063][947]Cmd: EDIT PASTE
+[2024.12.04-23.50.44:389][690]Cmd: EDIT COPY
+[2024.12.04-23.50.44:989][762]Cmd: EDIT PASTE
+[2024.12.04-23.51.04:336][ 28]Cmd: EDIT COPY
+[2024.12.04-23.51.04:869][ 92]Cmd: EDIT PASTE
+[2024.12.04-23.51.23:571][297]Cmd: EDIT COPY
+[2024.12.04-23.51.24:221][375]Cmd: EDIT PASTE
+[2024.12.04-23.51.28:222][836]Cmd: EDIT COPY
+[2024.12.04-23.51.28:756][899]Cmd: EDIT PASTE
+[2024.12.04-23.51.42:024][470]Cmd: EDIT COPY
+[2024.12.04-23.51.42:875][572]Cmd: EDIT PASTE
+[2024.12.04-23.51.46:527][  1]Cmd: EDIT COPY
+[2024.12.04-23.51.47:043][ 63]Cmd: EDIT PASTE
+[2024.12.04-23.51.52:483][699]Cmd: EDIT COPY
+[2024.12.04-23.51.53:100][772]Cmd: EDIT PASTE
+[2024.12.04-23.52.01:225][723]Cmd: EDIT COPY
+[2024.12.04-23.52.01:882][801]Cmd: EDIT PASTE
+[2024.12.04-23.52.10:285][798]Cmd: EDIT COPY
+[2024.12.04-23.52.10:869][868]Cmd: EDIT PASTE
+[2024.12.04-23.52.26:560][667]LogShaderCompilers: Display: ================================================
+[2024.12.04-23.52.26:561][667]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.12.04-23.52.26:561][667]LogShaderCompilers: Display: Total job queries 72, among them cache hits 18 (25.00%)
+[2024.12.04-23.52.26:561][667]LogShaderCompilers: Display: Tracking 54 distinct input hashes that result in 39 distinct outputs (72.22%)
+[2024.12.04-23.52.26:561][667]LogShaderCompilers: Display: RAM used: 1.89 MiB of 1.60 GiB budget. Usage: 0.12%
+[2024.12.04-23.52.26:561][667]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.12.04-23.52.26:561][667]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.12.04-23.52.26:561][667]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.12.04-23.52.26:561][667]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.12.04-23.52.26:561][667]LogShaderCompilers: Display: ================================================
+[2024.12.04-23.52.51:050][ 19]LogStaticMesh: Display: Building static mesh SM_FlatWall_3m_SquareDoorWin...
+[2024.12.04-23.52.51:098][ 19]LogStaticMesh: Adjacency [0.00s], tris: 6228, UVs 2
+[2024.12.04-23.52.51:117][ 19]LogStaticMesh: Clustering [0.02s]. Ratio: 1.040816
+[2024.12.04-23.52.51:118][ 19]LogStaticMesh: Leaves [0.00s]
+[2024.12.04-23.52.51:331][ 36]LogStaticMesh: Reduce [0.21s]
+[2024.12.04-23.52.51:332][ 36]LogTexture: Display: Building textures: /Game/ModularOldTown/Textures/T_SquareDoor_ORM.T_SquareDoor_ORM (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.12.04-23.52.51:369][ 37]LogStaticMesh: Fallback 0/4 [0.04s], num tris: 458
+[2024.12.04-23.52.51:377][ 37]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Walls/SM_FlatWall_3m_SquareDoorWin.SM_FlatWall_3m_SquareDoorWin
+[2024.12.04-23.52.51:378][ 37]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Walls/SM_FlatWall_3m_SquareDoorWin.SM_FlatWall_3m_SquareDoorWin
+[2024.12.04-23.52.51:379][ 37]LogActorFactory: Actor Factory spawned StaticMesh /Game/ModularOldTown/Meshes/Walls/SM_FlatWall_3m_SquareDoorWin.SM_FlatWall_3m_SquareDoorWin as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_174
+[2024.12.04-23.52.51:397][ 37]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/ModularOldTown/Meshes/Walls/SM_FlatWall_3m_SquareDoorWin) ...
+[2024.12.04-23.52.51:520][ 37]LogTexture: Display: Building textures: /Game/ModularOldTown/Textures/T_SquareWin_Basecolor.T_SquareWin_Basecolor (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.12.04-23.52.51:525][ 37]LogTexture: Display: Building textures: /Game/ModularOldTown/Textures/T_SquareDoor_Basecolor.T_SquareDoor_Basecolor (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.12.04-23.52.51:557][ 37]LogTexture: Display: Building textures: /Game/ModularOldTown/Textures/T_SquareWin_Normal.T_SquareWin_Normal (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.12.04-23.52.51:613][ 37]LogTexture: Display: Building textures: /Game/ModularOldTown/Textures/T_SquareDoor_Normal.T_SquareDoor_Normal (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.12.04-23.52.51:633][ 37]LogStaticMesh: Fallback 1/4 [0.26s], num tris: 229
+[2024.12.04-23.52.51:902][ 37]LogStaticMesh: Fallback 2/4 [0.27s], num tris: 114
+[2024.12.04-23.52.52:145][ 37]LogStaticMesh: Fallback 3/4 [0.24s], num tris: 64
+[2024.12.04-23.52.52:162][ 37]LogStaticMesh: ConstrainClusters:
+[2024.12.04-23.52.52:162][ 37]LogStaticMesh:   Input: 104 Clusters, 12903 Triangles and 14254 Vertices
+[2024.12.04-23.52.52:162][ 37]LogStaticMesh:   Output without splits: 104 Clusters, 12903 Triangles and 14257 Vertices
+[2024.12.04-23.52.52:162][ 37]LogStaticMesh:   Output with splits: 104 Clusters, 12903 Triangles and 14257 Vertices
+[2024.12.04-23.52.52:162][ 37]LogStaticMesh: Material Stats - Unique Materials: 7, Fast Path Clusters: 100, Slow Path Clusters: 4, 1 Material: 86, 2 Materials: 10, 3 Materials: 4, At Least 4 Materials: 4
+[2024.12.04-23.52.52:169][ 37]LogStaticMesh: WritePages:
+[2024.12.04-23.52.52:169][ 37]LogStaticMesh:   Root: GPU size: 29604 bytes. 1 Pages. 29604.000 bytes per page (90.344% utilization).
+[2024.12.04-23.52.52:169][ 37]LogStaticMesh:   Streaming: GPU size: 192800 bytes. 2 Pages (2 with relative encoding). 96400.000 bytes per page (73.547% utilization).
+[2024.12.04-23.52.52:169][ 37]LogStaticMesh:   Page data disk size: 148064 bytes. Fixup data size: 632 bytes.
+[2024.12.04-23.52.52:169][ 37]LogStaticMesh:   Total GPU size: 222404 bytes, Total disk size: 148696 bytes.
+[2024.12.04-23.52.52:169][ 37]LogStaticMesh: Encode [0.02s]
+[2024.12.04-23.52.52:169][ 37]LogStaticMesh: Nanite build [1.05s]
+
+[2024.12.04-23.52.52:173][ 37]LogStaticMesh: Built static mesh [1.12s] /Game/ModularOldTown/Meshes/Walls/SM_FlatWall_3m_SquareDoorWin.SM_FlatWall_3m_SquareDoorWin
+[2024.12.04-23.52.53:006][113]LogTexture: Display: Building textures: /Game/ModularOldTown/Textures/T_SquareWin_ORM.T_SquareWin_ORM (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.12.04-23.52.53:341][144]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Walls/SM_FlatWall_3m_SquareDoorWin.SM_FlatWall_3m_SquareDoorWin
+[2024.12.04-23.52.53:341][144]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Walls/SM_FlatWall_3m_SquareDoorWin.SM_FlatWall_3m_SquareDoorWin
+[2024.12.04-23.52.53:342][144]LogActorFactory: Actor Factory spawned StaticMesh /Game/ModularOldTown/Meshes/Walls/SM_FlatWall_3m_SquareDoorWin.SM_FlatWall_3m_SquareDoorWin as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_175
+[2024.12.04-23.53.36:537][992]LogStaticMesh: Display: Building static mesh SM_Door_B...
+[2024.12.04-23.53.36:822][ 10]LogTexture: Display: Building textures: /Game/ModularOldTown/Textures/T_Door_B_ORM.T_Door_B_ORM (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.12.04-23.53.36:927][ 14]LogTexture: Display: Building textures: /Game/ModularOldTown/Textures/T_Door_B_Basecolor.T_Door_B_Basecolor (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.12.04-23.53.36:930][ 15]LogTexture: Display: Building textures: /Game/ModularOldTown/Textures/T_Door_B_Normal.T_Door_B_Normal (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.12.04-23.53.36:970][ 17]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Props/SM_Door_B.SM_Door_B
+[2024.12.04-23.53.36:970][ 17]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Props/SM_Door_B.SM_Door_B
+[2024.12.04-23.53.36:971][ 17]LogActorFactory: Actor Factory spawned StaticMesh /Game/ModularOldTown/Meshes/Props/SM_Door_B.SM_Door_B as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_176
+[2024.12.04-23.53.36:988][ 17]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/ModularOldTown/Meshes/Props/SM_Door_B) ...
+[2024.12.04-23.53.43:950][ 17]LogStaticMesh: Built static mesh [7.41s] /Game/ModularOldTown/Meshes/Props/SM_Door_B.SM_Door_B
+[2024.12.04-23.53.47:897][382]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Props/SM_Door_B.SM_Door_B
+[2024.12.04-23.53.47:897][382]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Props/SM_Door_B.SM_Door_B
+[2024.12.04-23.53.47:898][382]LogActorFactory: Actor Factory spawned StaticMesh /Game/ModularOldTown/Meshes/Props/SM_Door_B.SM_Door_B as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_177
+[2024.12.04-23.54.34:555][850]Cmd: TRANSACTION UNDO
+[2024.12.04-23.54.34:555][850]LogEditorTransaction: Undo Set Scale
+[2024.12.04-23.54.48:639][438]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.12.04-23.55.11:592][866]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Walls/SM_FlatWall_3m.SM_FlatWall_3m
+[2024.12.04-23.55.11:593][866]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Walls/SM_FlatWall_3m.SM_FlatWall_3m
+[2024.12.04-23.55.11:593][866]LogActorFactory: Actor Factory spawned StaticMesh /Game/ModularOldTown/Meshes/Walls/SM_FlatWall_3m.SM_FlatWall_3m as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_178
+[2024.12.04-23.55.14:068][156]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Walls/SM_FlatWall_3m.SM_FlatWall_3m
+[2024.12.04-23.55.14:068][156]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Walls/SM_FlatWall_3m.SM_FlatWall_3m
+[2024.12.04-23.55.14:069][156]LogActorFactory: Actor Factory spawned StaticMesh /Game/ModularOldTown/Meshes/Walls/SM_FlatWall_3m.SM_FlatWall_3m as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_179
+[2024.12.04-23.55.27:418][733]Cmd: EDIT COPY
+[2024.12.04-23.55.28:784][896]Cmd: EDIT PASTE
+[2024.12.04-23.55.40:537][289]Cmd: EDIT COPY
+[2024.12.04-23.55.41:104][357]Cmd: EDIT PASTE
+[2024.12.04-23.55.51:983][636]Cmd: EDIT COPY
+[2024.12.04-23.55.52:600][710]Cmd: EDIT PASTE
+[2024.12.04-23.56.05:998][292]Cmd: EDIT COPY
+[2024.12.04-23.56.06:705][376]Cmd: EDIT PASTE
+[2024.12.04-23.56.17:626][675]Cmd: EDIT COPY
+[2024.12.04-23.56.18:367][764]Cmd: EDIT PASTE
+[2024.12.04-23.56.51:953][715]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.12.04-23.56.56:048][203]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.12.04-23.56.57:308][352]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.12.04-23.56.58:658][512]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.12.04-23.57.07:106][497]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.12.04-23.57.22:158][264]Cmd: EDIT COPY
+[2024.12.04-23.57.22:715][330]Cmd: EDIT PASTE
+[2024.12.04-23.57.29:576][142]Cmd: EDIT COPY
+[2024.12.04-23.57.30:126][207]Cmd: EDIT PASTE
+[2024.12.04-23.57.34:508][723]Cmd: EDIT COPY
+[2024.12.04-23.57.35:100][794]Cmd: EDIT PASTE
+[2024.12.04-23.58.20:281][959]LogStaticMesh: Display: Building static mesh SM_Ceiling_2m...
+[2024.12.04-23.58.20:283][959]LogStaticMesh: Adjacency [0.00s], tris: 12, UVs 2
+[2024.12.04-23.58.20:283][959]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2024.12.04-23.58.20:283][959]LogStaticMesh: Leaves [0.00s]
+[2024.12.04-23.58.20:283][959]LogStaticMesh: Reduce [0.00s]
+[2024.12.04-23.58.20:283][959]LogStaticMesh: Fallback 0/4 [0.00s], num tris: 12
+[2024.12.04-23.58.20:283][959]LogStaticMesh: Fallback 1/4 [0.00s], num tris: 12
+[2024.12.04-23.58.20:283][959]LogStaticMesh: Fallback 2/4 [0.00s], num tris: 12
+[2024.12.04-23.58.20:283][959]LogStaticMesh: Fallback 3/4 [0.00s], num tris: 12
+[2024.12.04-23.58.20:283][959]LogStaticMesh: ConstrainClusters:
+[2024.12.04-23.58.20:283][959]LogStaticMesh:   Input: 1 Clusters, 12 Triangles and 24 Vertices
+[2024.12.04-23.58.20:283][959]LogStaticMesh:   Output without splits: 1 Clusters, 12 Triangles and 24 Vertices
+[2024.12.04-23.58.20:283][959]LogStaticMesh:   Output with splits: 1 Clusters, 12 Triangles and 24 Vertices
+[2024.12.04-23.58.20:283][959]LogStaticMesh: Material Stats - Unique Materials: 2, Fast Path Clusters: 1, Slow Path Clusters: 0, 1 Material: 0, 2 Materials: 1, 3 Materials: 0, At Least 4 Materials: 0
+[2024.12.04-23.58.20:283][959]LogStaticMesh: WritePages:
+[2024.12.04-23.58.20:283][959]LogStaticMesh:   Root: GPU size: 524 bytes. 1 Pages. 524.000 bytes per page (1.599% utilization).
+[2024.12.04-23.58.20:283][959]LogStaticMesh:   Streaming: 0 bytes.
+[2024.12.04-23.58.20:283][959]LogStaticMesh:   Page data disk size: 648 bytes. Fixup data size: 24 bytes.
+[2024.12.04-23.58.20:283][959]LogStaticMesh:   Total GPU size: 524 bytes, Total disk size: 672 bytes.
+[2024.12.04-23.58.20:283][959]LogStaticMesh: Encode [0.00s]
+[2024.12.04-23.58.20:283][959]LogStaticMesh: Nanite build [0.00s]
+
+[2024.12.04-23.58.20:284][959]LogStaticMesh: Built static mesh [0.00s] /Game/ModularOldTown/Meshes/Ground/SM_Ceiling_2m.SM_Ceiling_2m
+[2024.12.04-23.58.20:460][967]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Ground/SM_Ceiling_2m.SM_Ceiling_2m
+[2024.12.04-23.58.20:460][967]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Ground/SM_Ceiling_2m.SM_Ceiling_2m
+[2024.12.04-23.58.20:461][967]LogActorFactory: Actor Factory spawned StaticMesh /Game/ModularOldTown/Meshes/Ground/SM_Ceiling_2m.SM_Ceiling_2m as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_188
+[2024.12.04-23.58.23:162][285]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Ground/SM_Ceiling_2m.SM_Ceiling_2m
+[2024.12.04-23.58.23:162][285]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Ground/SM_Ceiling_2m.SM_Ceiling_2m
+[2024.12.04-23.58.23:163][285]LogActorFactory: Actor Factory spawned StaticMesh /Game/ModularOldTown/Meshes/Ground/SM_Ceiling_2m.SM_Ceiling_2m as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_189
+[2024.12.04-23.58.24:041][388]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Ground/SM_Ceiling_2m.SM_Ceiling_2m
+[2024.12.04-23.58.24:041][388]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Ground/SM_Ceiling_2m.SM_Ceiling_2m
+[2024.12.04-23.58.24:041][388]LogActorFactory: Actor Factory spawned StaticMesh /Game/ModularOldTown/Meshes/Ground/SM_Ceiling_2m.SM_Ceiling_2m as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_190
+[2024.12.04-23.58.34:157][583]Cmd: EDIT COPY
+[2024.12.04-23.58.34:931][675]Cmd: EDIT PASTE
+[2024.12.04-23.58.40:720][350]Cmd: EDIT COPY
+[2024.12.04-23.58.41:279][417]Cmd: EDIT PASTE
+[2024.12.04-23.58.49:181][341]Cmd: TRANSACTION UNDO
+[2024.12.04-23.58.49:181][341]LogEditorTransaction: Undo Set Scale
+[2024.12.04-23.59.19:031][823]Cmd: EDIT COPY
+[2024.12.04-23.59.19:740][908]Cmd: EDIT PASTE
+[2024.12.05-00.00.02:969][905]Cmd: EDIT COPY
+[2024.12.05-00.00.03:544][973]Cmd: EDIT PASTE
+[2024.12.05-00.00.19:001][793]Cmd: EDIT COPY
+[2024.12.05-00.00.19:526][856]Cmd: EDIT PASTE
+[2024.12.05-00.00.36:416][836]Cmd: EDIT COPY
+[2024.12.05-00.00.36:915][896]Cmd: EDIT PASTE
+[2024.12.05-00.02.00:698][758]Cmd: EDIT COPY
+[2024.12.05-00.02.01:230][821]Cmd: EDIT PASTE
+[2024.12.05-00.02.05:528][326]Cmd: EDIT COPY
+[2024.12.05-00.02.06:020][384]Cmd: EDIT PASTE
+[2024.12.05-00.02.10:733][939]Cmd: EDIT COPY
+[2024.12.05-00.02.11:275][  3]Cmd: EDIT PASTE
+[2024.12.05-00.02.25:853][716]Cmd: EDIT COPY
+[2024.12.05-00.02.26:429][784]Cmd: EDIT PASTE
+[2024.12.05-00.02.35:385][833]Cmd: EDIT COPY
+[2024.12.05-00.02.36:085][917]Cmd: EDIT PASTE
+[2024.12.05-00.03.04:344][269]Cmd: EDIT COPY
+[2024.12.05-00.03.04:978][345]Cmd: EDIT PASTE
+[2024.12.05-00.03.31:982][526]Cmd: EDIT COPY
+[2024.12.05-00.03.32:666][607]Cmd: EDIT PASTE
+[2024.12.05-00.03.40:290][495]Cmd: EDIT COPY
+[2024.12.05-00.03.40:840][561]Cmd: EDIT PASTE
+[2024.12.05-00.03.44:702][ 14]Cmd: EDIT COPY
+[2024.12.05-00.03.45:253][ 79]Cmd: EDIT PASTE
+[2024.12.05-00.04.11:926][215]LogShaderCompilers: Display: ================================================
+[2024.12.05-00.04.11:926][215]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.12.05-00.04.11:926][215]LogShaderCompilers: Display: Total job queries 85, among them cache hits 21 (24.71%)
+[2024.12.05-00.04.11:926][215]LogShaderCompilers: Display: Tracking 64 distinct input hashes that result in 45 distinct outputs (70.31%)
+[2024.12.05-00.04.11:926][215]LogShaderCompilers: Display: RAM used: 2.24 MiB of 1.60 GiB budget. Usage: 0.14%
+[2024.12.05-00.04.11:926][215]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.12.05-00.04.11:926][215]LogShaderCompilers: Display: Shaders Compiled: 8
+[2024.12.05-00.04.11:926][215]LogShaderCompilers: Display: Jobs assigned 8, completed 8 (100%)
+[2024.12.05-00.04.11:926][215]LogShaderCompilers: Display: Average time worker was idle: 68.20 s
+[2024.12.05-00.04.11:926][215]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.07 s
+[2024.12.05-00.04.11:926][215]LogShaderCompilers: Display: Job execution time: average 0.83 s, max 1.95 s
+[2024.12.05-00.04.11:926][215]LogShaderCompilers: Display: Job life time (pending + execution): average 0.87 s, max 2.00
+[2024.12.05-00.04.11:926][215]LogShaderCompilers: Display: Shader code size: average 58.237 KiB, min 4.617 KiB, max 99.215 KiB
+[2024.12.05-00.04.11:926][215]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.69 s
+[2024.12.05-00.04.11:926][215]LogShaderCompilers: Display: Jobs were issued in 8 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.12.05-00.04.11:926][215]LogShaderCompilers: Display: Average processing rate: 2.17 jobs/sec
+[2024.12.05-00.04.11:926][215]LogShaderCompilers: Display: Total thread time: 4.329 s
+[2024.12.05-00.04.11:926][215]LogShaderCompilers: Display: Total thread preprocess time: 0.182 s
+[2024.12.05-00.04.11:926][215]LogShaderCompilers: Display: Percentage time preprocessing: 4.21%
+[2024.12.05-00.04.11:926][215]LogShaderCompilers: Display: Effective parallelization: 1.17 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.12.05-00.04.11:926][215]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.12.05-00.04.11:926][215]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    2 times, average 1.56 sec, max 1.64 sec, min 1.48 sec)
+[2024.12.05-00.04.11:926][215]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    2 times, average 0.28 sec, max 0.28 sec, min 0.28 sec)
+[2024.12.05-00.04.11:926][215]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    1 times, average 0.20 sec, max 0.20 sec, min 0.20 sec)
+[2024.12.05-00.04.11:926][215]LogShaderCompilers: Display:                                            FDistortionMeshVS (compiled    1 times, average 0.19 sec, max 0.19 sec, min 0.19 sec)
+[2024.12.05-00.04.11:926][215]LogShaderCompilers: Display:                                            FDistortionMeshPS (compiled    1 times, average 0.15 sec, max 0.15 sec, min 0.15 sec)
+[2024.12.05-00.04.11:926][215]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.12.05-00.04.11:926][215]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 71.94% of total time (compiled    2 times, average 1.56 sec, max 1.64 sec, min 1.48 sec)
+[2024.12.05-00.04.11:926][215]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 12.99% of total time (compiled    2 times, average 0.28 sec, max 0.28 sec, min 0.28 sec)
+[2024.12.05-00.04.11:926][215]LogShaderCompilers: Display:                                                  FHitProxyVS - 4.64% of total time (compiled    1 times, average 0.20 sec, max 0.20 sec, min 0.20 sec)
+[2024.12.05-00.04.11:926][215]LogShaderCompilers: Display:                                            FDistortionMeshVS - 4.44% of total time (compiled    1 times, average 0.19 sec, max 0.19 sec, min 0.19 sec)
+[2024.12.05-00.04.11:926][215]LogShaderCompilers: Display:                                            FDistortionMeshPS - 3.39% of total time (compiled    1 times, average 0.15 sec, max 0.15 sec, min 0.15 sec)
+[2024.12.05-00.04.11:926][215]LogShaderCompilers: Display: ================================================
+[2024.12.05-00.04.12:665][303]Cmd: EDIT COPY
+[2024.12.05-00.04.13:099][354]Cmd: EDIT PASTE
+[2024.12.05-00.04.50:965][822]Cmd: EDIT COPY
+[2024.12.05-00.04.51:580][895]Cmd: EDIT PASTE
+[2024.12.05-00.04.55:182][311]Cmd: EDIT COPY
+[2024.12.05-00.04.55:674][370]Cmd: EDIT PASTE
+[2024.12.05-00.04.59:380][804]Cmd: EDIT COPY
+[2024.12.05-00.04.59:855][861]Cmd: EDIT PASTE
+[2024.12.05-00.05.04:237][376]Cmd: EDIT COPY
+[2024.12.05-00.05.04:746][436]Cmd: EDIT PASTE
+[2024.12.05-00.05.16:729][835]Cmd: EDIT COPY
+[2024.12.05-00.05.17:554][933]Cmd: EDIT PASTE
+[2024.12.05-00.05.43:031][947]Cmd: EDIT COPY
+[2024.12.05-00.05.43:547][  8]Cmd: EDIT PASTE
+[2024.12.05-00.05.48:057][540]Cmd: EDIT COPY
+[2024.12.05-00.05.48:565][601]Cmd: EDIT PASTE
+[2024.12.05-00.06.00:419][  0]Cmd: EDIT COPY
+[2024.12.05-00.06.00:842][ 50]Cmd: EDIT PASTE
+[2024.12.05-00.06.07:797][844]Cmd: EDIT COPY
+[2024.12.05-00.06.08:271][900]Cmd: EDIT PASTE
+[2024.12.05-00.06.18:045][ 48]Cmd: EDIT COPY
+[2024.12.05-00.06.18:561][109]Cmd: EDIT PASTE
+[2024.12.05-00.06.24:529][809]Cmd: EDIT COPY
+[2024.12.05-00.06.25:020][868]Cmd: EDIT PASTE
+[2024.12.05-00.06.48:381][610]Cmd: EDIT COPY
+[2024.12.05-00.06.48:847][666]Cmd: EDIT PASTE
+[2024.12.05-00.07.13:925][605]Cmd: EDIT COPY
+[2024.12.05-00.07.14:409][662]Cmd: EDIT PASTE
+[2024.12.05-00.07.17:558][ 24]Cmd: EDIT COPY
+[2024.12.05-00.07.17:983][ 75]Cmd: EDIT PASTE
+[2024.12.05-00.07.21:121][441]Cmd: EDIT COPY
+[2024.12.05-00.07.21:679][508]Cmd: EDIT PASTE
+[2024.12.05-00.07.40:927][705]Cmd: EDIT COPY
+[2024.12.05-00.07.41:494][773]Cmd: EDIT PASTE
+[2024.12.05-00.07.59:681][932]Cmd: EDIT COPY
+[2024.12.05-00.08.00:223][997]Cmd: EDIT PASTE
+[2024.12.05-00.08.04:355][483]Cmd: EDIT COPY
+[2024.12.05-00.08.04:872][545]Cmd: EDIT PASTE
+[2024.12.05-00.08.15:812][834]Cmd: EDIT COPY
+[2024.12.05-00.08.16:404][904]Cmd: EDIT PASTE
+[2024.12.05-00.08.20:116][340]Cmd: EDIT COPY
+[2024.12.05-00.08.20:641][403]Cmd: EDIT PASTE
+[2024.12.05-00.08.24:519][859]Cmd: EDIT COPY
+[2024.12.05-00.08.25:019][919]Cmd: EDIT PASTE
+[2024.12.05-00.08.31:149][636]Cmd: EDIT COPY
+[2024.12.05-00.08.31:699][702]Cmd: EDIT PASTE
+[2024.12.05-00.09.12:598][547]Cmd: EDIT COPY
+[2024.12.05-00.09.13:340][635]Cmd: EDIT PASTE
+[2024.12.05-00.09.17:503][114]Cmd: EDIT COPY
+[2024.12.05-00.09.18:178][195]Cmd: EDIT PASTE
+[2024.12.05-00.09.21:549][590]Cmd: EDIT COPY
+[2024.12.05-00.09.22:132][659]Cmd: EDIT PASTE
+[2024.12.05-00.09.27:882][331]Cmd: EDIT COPY
+[2024.12.05-00.09.28:457][400]Cmd: EDIT PASTE
+[2024.12.05-00.09.36:049][292]Cmd: EDIT COPY
+[2024.12.05-00.09.36:617][360]Cmd: EDIT PASTE
+[2024.12.05-00.09.43:966][200]Cmd: EDIT COPY
+[2024.12.05-00.09.44:484][261]Cmd: EDIT PASTE
+[2024.12.05-00.09.58:931][955]Cmd: EDIT COPY
+[2024.12.05-00.09.59:464][ 19]Cmd: EDIT PASTE
+[2024.12.05-00.10.02:975][425]Cmd: EDIT COPY
+[2024.12.05-00.10.03:417][478]Cmd: EDIT PASTE
+[2024.12.05-00.10.06:236][805]Cmd: EDIT COPY
+[2024.12.05-00.10.06:669][856]Cmd: EDIT PASTE
+[2024.12.05-00.10.09:521][187]Cmd: EDIT COPY
+[2024.12.05-00.10.10:062][252]Cmd: EDIT PASTE
+[2024.12.05-00.10.14:203][736]Cmd: EDIT COPY
+[2024.12.05-00.10.14:762][803]Cmd: EDIT PASTE
+[2024.12.05-00.10.18:770][273]Cmd: EDIT COPY
+[2024.12.05-00.10.19:545][366]Cmd: EDIT PASTE
+[2024.12.05-00.11.35:340][270]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2024.12.05-00.11.35:343][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../../../Users/acraze/Documents/GitHub/FA24-ZauggI-CrazeA/HW2/Saved/Autosaves/Game/Level1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2024.12.05-00.11.35:351][270]LogPackageLocalizationCache: Processed 47 localized package path(s) for 1 prioritized culture(s) in 0.005800 seconds
+[2024.12.05-00.11.35:382][270]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Level1_Auto1
+[2024.12.05-00.11.35:382][270]LogSavePackage: Moving '../../../../../../Users/acraze/Documents/GitHub/FA24-ZauggI-CrazeA/HW2/Saved/Level1_Auto1314EFE0F40D10AB200488085630E0E9C.tmp' to '../../../../../../Users/acraze/Documents/GitHub/FA24-ZauggI-CrazeA/HW2/Saved/Autosaves/Game/Level1_Auto1.umap'
+[2024.12.05-00.11.35:384][270]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Users/acraze/Documents/GitHub/FA24-ZauggI-CrazeA/HW2/Saved/Autosaves/Game/Level1_Auto1.umap is in the /Temp path, will not scan.
+[2024.12.05-00.11.35:384][270]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level1' took 0.050
+[2024.12.05-00.11.35:384][270]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.050
