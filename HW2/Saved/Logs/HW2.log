@@ -2265,3 +2265,192 @@ Script Stack (0 frames) :
 [2024.12.06-03.09.40:099][612]LogFileHelpers: InternalPromptForCheckoutAndSave took 188 ms (total: 657 ms)
 [2024.12.06-03.09.40:102][612]AssetCheck: New page: Asset Save: Level1
 [2024.12.06-03.09.40:102][612]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level1.Level1
+[2024.12.06-03.11.51:216][738]LogDebuggerCommands: Repeating last play command: VR Preview
+[2024.12.06-03.11.51:221][738]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.12.06-03.11.51:221][738]LogPlayLevel: [PlayLevel] Compiling Level1 before play...
+[2024.12.06-03.11.51:255][738]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.12.06-03.11.51:257][738]LogPlayLevel: PlayLevel: Blueprint regeneration took 35 ms (1 blueprints)
+[2024.12.06-03.11.51:257][738]PIE: New page: PIE session: Level1 (Dec 5, 2024, 1:11:51 PM)
+[2024.12.06-03.11.51:257][738]LogPlayLevel: Display: Creating online subsystem for client :Context_24
+[2024.12.06-03.11.51:259][738]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2024.12.06-03.11.51:273][739]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2024.12.06-03.11.51:291][739]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018136s)
+[2024.12.06-03.11.51:291][739]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.018194s)
+[2024.12.06-03.11.51:302][739]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.12.06-03.11.51:303][739]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.06-03.11.51:303][739]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.12.06-03.11.51:304][739]LogAIModule: Creating AISystem for world Level1
+[2024.12.06-03.11.51:304][739]LogPlayLevel: PIE: World Init took: (0.001224s)
+[2024.12.06-03.11.51:304][739]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.12.06-03.11.51:305][739]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.06-03.11.51:305][739]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.06-03.11.51:305][739]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.06-03.11.51:305][739]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.06-03.11.51:305][739]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.12.06-03.11.51:305][739]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.06-03.11.51:305][739]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.12.06-03.11.51:305][739]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.06-03.11.51:305][739]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.06-03.11.51:305][739]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.06-03.11.51:305][739]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.06-03.11.51:307][739]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.06-03.11.51:326][739]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2024.12.06-03.11.51:327][739]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.06-03.11.51:327][739]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.06-03.11.51:327][739]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.06-03.11.51:328][739]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2024.12.06-03.11.51:328][739]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2024.12.06-03.11.51:329][739]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.12.06-03.11.51:330][739]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2024.12.06-03.11.51:330][739]LogInit: FAudioDevice initialized with ID 11.
+[2024.12.06-03.11.51:330][739]LogAudio: Display: Audio Device (ID: 11) registered with world 'Level1'.
+[2024.12.06-03.11.51:330][739]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2024.12.06-03.11.51:340][739]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.06-03.11.51:485][739]LogLoad: Game class is 'VRGameMode_C'
+[2024.12.06-03.11.51:493][739]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2024.12.05-20.11.51
+[2024.12.06-03.11.51:493][739]LogWorld: Bringing up level for play took: 0.008166
+[2024.12.06-03.11.51:498][739]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2024.12.06-03.11.51:500][739]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2024.12.06-03.11.51:501][739]vr.PixelDensity = "1"
+[2024.12.06-03.11.51:504][739]PIE: Server logged in
+[2024.12.06-03.11.51:506][739]PIE: Play in editor total start time 0.286 seconds.
+[2024.12.06-03.11.51:517][739]LogViewport: Scene viewport resized to 4160x2096, mode Windowed.
+[2024.12.06-03.11.51:521][739]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2024.12.06-03.12.16:079][605]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2024.12.06-03.12.18:684][792]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2024.12.06-03.12.19:561][855]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2024.12.06-03.12.20:453][919]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2024.12.06-03.12.23:475][136]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2024.12.06-03.12.37:189][119]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2024.12.06-03.12.40:502][357]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2024.12.06-03.12.45:306][702]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2024.12.06-03.12.46:392][780]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2024.12.06-03.12.59:215][698]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.06-03.12.59:215][698]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2024.12.06-03.12.59:256][698]LogSlate: Window 'HW2 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6) OpenXR Oculus (1.103.0)' being destroyed
+[2024.12.06-03.12.59:259][698]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2024.12.06-03.12.59:261][698]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.06-03.12.59:265][698]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.06-03.12.59:270][698]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.06-03.12.59:283][698]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.06-03.12.59:285][698]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2024.12.06-03.12.59:285][698]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.12.06-03.12.59:287][698]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.12.06-03.12.59:296][698]LogSlate: Slate User Unregistered.  User Index 8
+[2024.12.06-03.12.59:296][698]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2024.12.06-03.12.59:298][698]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.12.06-03.12.59:350][699]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2024.12.06-03.13.32:989][441]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_StairProp_E.SM_StairProp_E
+[2024.12.06-03.13.32:989][441]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_StairProp_E.SM_StairProp_E
+[2024.12.06-03.13.32:990][441]LogActorFactory: Actor Factory spawned StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_StairProp_E.SM_StairProp_E as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_0
+[2024.12.06-03.13.33:526][487]LogShaderCompilers: Display: ================================================
+[2024.12.06-03.13.33:526][487]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.12.06-03.13.33:526][487]LogShaderCompilers: Display: Total job queries 130, among them cache hits 47 (36.15%)
+[2024.12.06-03.13.33:526][487]LogShaderCompilers: Display: Tracking 82 distinct input hashes that result in 65 distinct outputs (79.27%)
+[2024.12.06-03.13.33:526][487]LogShaderCompilers: Display: RAM used: 2.87 MiB of 1.60 GiB budget. Usage: 0.18%
+[2024.12.06-03.13.33:526][487]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.12.06-03.13.33:526][487]LogShaderCompilers: Display: Shaders Compiled: 2
+[2024.12.06-03.13.33:526][487]LogShaderCompilers: Display: Jobs assigned 3, completed 2 (66.67%)
+[2024.12.06-03.13.33:526][487]LogShaderCompilers: Display: Average time worker was idle: 2620.24 s
+[2024.12.06-03.13.33:526][487]LogShaderCompilers: Display: Time job spent in pending queue: average 0.01 s, longest 0.02 s
+[2024.12.06-03.13.33:526][487]LogShaderCompilers: Display: Job execution time: average 1.12 s, max 1.72 s
+[2024.12.06-03.13.33:526][487]LogShaderCompilers: Display: Job life time (pending + execution): average 1.12 s, max 1.73
+[2024.12.06-03.13.33:526][487]LogShaderCompilers: Display: Shader code size: average 79.18 KiB, min 74.895 KiB, max 83.465 KiB
+[2024.12.06-03.13.33:526][487]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.25 s
+[2024.12.06-03.13.33:526][487]LogShaderCompilers: Display: Jobs were issued in 3 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.12.06-03.13.33:526][487]LogShaderCompilers: Display: Average processing rate: 0.89 jobs/sec
+[2024.12.06-03.13.33:526][487]LogShaderCompilers: Display: Total thread time: 1.735 s
+[2024.12.06-03.13.33:526][487]LogShaderCompilers: Display: Total thread preprocess time: 0.056 s
+[2024.12.06-03.13.33:526][487]LogShaderCompilers: Display: Percentage time preprocessing: 3.26%
+[2024.12.06-03.13.33:526][487]LogShaderCompilers: Display: Effective parallelization: 0.77 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.12.06-03.13.33:526][487]LogShaderCompilers: Display: Top 2 most expensive shader types by average time:
+[2024.12.06-03.13.33:526][487]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 1.45 sec, max 1.45 sec, min 1.45 sec)
+[2024.12.06-03.13.33:526][487]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 0.29 sec, max 0.29 sec, min 0.29 sec)
+[2024.12.06-03.13.33:526][487]LogShaderCompilers: Display: Top 2 shader types by total compile time:
+[2024.12.06-03.13.33:526][487]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 83.34% of total time (compiled    1 times, average 1.45 sec, max 1.45 sec, min 1.45 sec)
+[2024.12.06-03.13.33:526][487]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy - 16.66% of total time (compiled    1 times, average 0.29 sec, max 0.29 sec, min 0.29 sec)
+[2024.12.06-03.13.33:526][487]LogShaderCompilers: Display: ================================================
+[2024.12.06-03.13.34:143][549]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_StairProp_E.SM_StairProp_E
+[2024.12.06-03.13.34:143][549]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_StairProp_E.SM_StairProp_E
+[2024.12.06-03.13.34:144][549]LogActorFactory: Actor Factory spawned StaticMesh /Game/ModularOldTown/Meshes/Decoration_Parts/SM_StairProp_E.SM_StairProp_E as actor: StaticMeshActor /Game/Level1.Level1:PersistentLevel.StaticMeshActor_176
+[2024.12.06-03.14.00:525][342]LogDebuggerCommands: Repeating last play command: VR Preview
+[2024.12.06-03.14.00:550][342]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.06-03.14.00:550][342]PIE: New page: PIE session: Level1 (Dec 5, 2024, 1:14:00 PM)
+[2024.12.06-03.14.00:550][342]LogPlayLevel: Display: Creating online subsystem for client :Context_25
+[2024.12.06-03.14.00:552][342]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2024.12.06-03.14.00:569][343]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2024.12.06-03.14.00:587][343]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017967s)
+[2024.12.06-03.14.00:587][343]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.018013s)
+[2024.12.06-03.14.00:602][343]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.12.06-03.14.00:608][343]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.06-03.14.00:608][343]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.12.06-03.14.00:608][343]LogAIModule: Creating AISystem for world Level1
+[2024.12.06-03.14.00:609][343]LogPlayLevel: PIE: World Init took: (0.001076s)
+[2024.12.06-03.14.00:609][343]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.12.06-03.14.00:609][343]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.06-03.14.00:609][343]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.06-03.14.00:609][343]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.06-03.14.00:609][343]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.06-03.14.00:609][343]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.12.06-03.14.00:609][343]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.06-03.14.00:609][343]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.12.06-03.14.00:609][343]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.06-03.14.00:610][343]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.06-03.14.00:610][343]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.06-03.14.00:610][343]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.06-03.14.00:612][343]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.06-03.14.00:628][343]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2024.12.06-03.14.00:628][343]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.06-03.14.00:628][343]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.06-03.14.00:628][343]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.06-03.14.00:629][343]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.12.06-03.14.00:629][343]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.12.06-03.14.00:631][343]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.12.06-03.14.00:631][343]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.12.06-03.14.00:631][343]LogInit: FAudioDevice initialized with ID 12.
+[2024.12.06-03.14.00:631][343]LogAudio: Display: Audio Device (ID: 12) registered with world 'Level1'.
+[2024.12.06-03.14.00:631][343]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.12.06-03.14.00:641][343]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.06-03.14.00:748][343]LogLoad: Game class is 'VRGameMode_C'
+[2024.12.06-03.14.00:756][343]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2024.12.05-20.14.00
+[2024.12.06-03.14.00:756][343]LogWorld: Bringing up level for play took: 0.008278
+[2024.12.06-03.14.00:760][343]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2024.12.06-03.14.00:762][343]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2024.12.06-03.14.00:763][343]vr.PixelDensity = "1"
+[2024.12.06-03.14.00:768][343]PIE: Server logged in
+[2024.12.06-03.14.00:771][343]PIE: Play in editor total start time 0.242 seconds.
+[2024.12.06-03.14.00:779][343]LogViewport: Scene viewport resized to 4160x2096, mode Windowed.
+[2024.12.06-03.14.00:785][343]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2024.12.06-03.15.05:427][814]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2024.12.06-03.16.09:902][427]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2024.12.06-03.16.43:731][844]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2024.12.06-03.16.48:631][192]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2024.12.06-03.16.50:109][294]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2024.12.06-03.16.55:131][625]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2024.12.06-03.17.00:784][ 26]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2024.12.06-03.17.01:830][101]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2024.12.06-03.17.03:918][251]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2024.12.06-03.17.05:868][391]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2024.12.06-03.17.07:395][496]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2024.12.06-03.17.15:946][101]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2024.12.06-03.17.17:934][240]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2024.12.06-03.17.24:998][745]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2024.12.06-03.17.29:576][ 69]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2024.12.06-03.18.20:645][156]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.06-03.18.20:645][156]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2024.12.06-03.18.20:691][156]LogSlate: Window 'HW2 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6) OpenXR Oculus (1.103.0)' being destroyed
+[2024.12.06-03.18.20:694][156]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2024.12.06-03.18.20:695][156]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.06-03.18.20:699][156]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.06-03.18.20:703][156]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.06-03.18.20:717][156]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.06-03.18.20:718][156]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.12.06-03.18.20:718][156]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.12.06-03.18.20:720][156]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.12.06-03.18.20:729][156]LogSlate: Slate User Unregistered.  User Index 8
+[2024.12.06-03.18.20:729][156]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2024.12.06-03.18.20:730][156]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.12.06-03.18.20:834][157]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2024.12.06-03.19.09:933][205]LogDirectoryWatcher: Display: A directory notification failed for 'C:/Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/HW2/Saved/Collections/' because it could not be accessed. Aborting watch request...
+[2024.12.06-03.19.09:933][205]LogDirectoryWatcher: Display: A directory notification failed for 'C:/Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/HW2/Content/Collections/' because it could not be accessed. Aborting watch request...
+[2024.12.06-03.19.09:933][205]LogDirectoryWatcher: Display: A directory notification failed for 'C:/Users/izaugg/Documents/Unreal Projects/Idea 310H/FA24-ZauggI-CrazeA/HW2/Content/Developers/izaugg/Collections/' because it could not be accessed. Aborting watch request...
