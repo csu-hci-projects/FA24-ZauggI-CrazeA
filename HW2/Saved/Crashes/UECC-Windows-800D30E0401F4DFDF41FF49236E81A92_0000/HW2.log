@@ -2017,22 +2017,3 @@ Script Stack (0 frames) :
 [2024.12.06-04.01.03:660][531]LogOutputDevice: Error: [Callstack] 0x00007ffd45397374 KERNEL32.DLL!UnknownFunction []
 [2024.12.06-04.01.03:660][531]LogOutputDevice: Error: [Callstack] 0x00007ffd462dcc91 ntdll.dll!UnknownFunction []
 [2024.12.06-04.01.03:660][531]LogOutputDevice: Error: 
-[2024.12.06-04.01.03:672][531]LogStats:                SubmitErrorReport -  0.000 s
-[2024.12.06-04.01.05:152][531]LogStats:                    SendNewReport -  1.480 s
-[2024.12.06-04.01.05:152][531]LogStats:             FDebug::EnsureFailed -  1.523 s
-[2024.12.06-04.01.25:198][194]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2024.12.06-04.01.25:198][194]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
-[2024.12.06-04.01.25:235][194]LogSlate: Window 'HW2 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6) OpenXR Oculus (1.103.0)' being destroyed
-[2024.12.06-04.01.25:238][194]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
-[2024.12.06-04.01.25:239][194]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2024.12.06-04.01.25:241][194]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2024.12.06-04.01.25:247][194]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2024.12.06-04.01.25:259][194]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
-[2024.12.06-04.01.25:259][194]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
-[2024.12.06-04.01.25:260][194]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
-[2024.12.06-04.01.25:268][194]LogSlate: Slate User Unregistered.  User Index 8
-[2024.12.06-04.01.25:268][194]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
-[2024.12.06-04.01.25:270][194]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
-[2024.12.06-04.01.25:356][195]LogPlayLevel: Display: Destroying online subsystem :Context_13
-[2024.12.06-04.04.42:858][535]Cmd: SELECT NONE
-[2024.12.06-04.05.04:654][107]Cmd: SELECT NONE
