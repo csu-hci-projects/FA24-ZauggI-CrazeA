@@ -1510,3 +1510,319 @@ The following settings have been applied:
 [2024.12.06-03.41.59:461][695]LogFileHelpers: InternalPromptForCheckoutAndSave took 164 ms
 [2024.12.06-03.41.59:464][695]AssetCheck: New page: Asset Save: Level1
 [2024.12.06-03.41.59:464][695]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level1.Level1
+[2024.12.06-03.43.11:337][539]LogStaticMesh: Display: Building static mesh SM_BazaarProps_Tomato...
+[2024.12.06-03.43.11:338][539]LogContentBrowser: Deferred new asset file creation: BP_GrabTomato1
+[2024.12.06-03.43.11:340][539]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.06-03.43.11:356][539]LogStaticMesh: Adjacency [0.00s], tris: 3218, UVs 2
+[2024.12.06-03.43.11:363][539]LogStaticMesh: Clustering [0.01s]. Ratio: 1.000000
+[2024.12.06-03.43.11:364][539]LogStaticMesh: Leaves [0.00s]
+[2024.12.06-03.43.11:378][539]LogContentBrowser: Creating deferred item: BP_GrabTomato1
+[2024.12.06-03.43.11:399][540]LogContentBrowser: Renaming the item being created (Deferred Item: BP_GrabTomato1).
+[2024.12.06-03.43.11:502][547]LogStaticMesh: Reduce [0.14s]
+[2024.12.06-03.43.11:536][548]LogStaticMesh: Fallback 0/4 [0.03s], num tris: 834
+[2024.12.06-03.43.11:641][559]LogStaticMesh: Fallback 1/4 [0.10s], num tris: 416
+[2024.12.06-03.43.11:756][573]LogStaticMesh: Fallback 2/4 [0.11s], num tris: 208
+[2024.12.06-03.43.11:872][587]LogStaticMesh: Fallback 3/4 [0.12s], num tris: 104
+[2024.12.06-03.43.11:873][587]LogStaticMesh: ConstrainClusters:
+[2024.12.06-03.43.11:873][587]LogStaticMesh:   Input: 53 Clusters, 6620 Triangles and 5350 Vertices
+[2024.12.06-03.43.11:873][587]LogStaticMesh:   Output without splits: 53 Clusters, 6620 Triangles and 5395 Vertices
+[2024.12.06-03.43.11:873][587]LogStaticMesh:   Output with splits: 53 Clusters, 6620 Triangles and 5395 Vertices
+[2024.12.06-03.43.11:873][587]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 53, Slow Path Clusters: 0, 1 Material: 53, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2024.12.06-03.43.11:876][587]LogStaticMesh: WritePages:
+[2024.12.06-03.43.11:876][587]LogStaticMesh:   Root: GPU size: 32228 bytes. 1 Pages. 32228.000 bytes per page (98.352% utilization).
+[2024.12.06-03.43.11:876][587]LogStaticMesh:   Streaming: GPU size: 49500 bytes. 1 Pages (1 with relative encoding). 49500.000 bytes per page (37.766% utilization).
+[2024.12.06-03.43.11:876][587]LogStaticMesh:   Page data disk size: 62564 bytes. Fixup data size: 312 bytes.
+[2024.12.06-03.43.11:876][587]LogStaticMesh:   Total GPU size: 81728 bytes, Total disk size: 62876 bytes.
+[2024.12.06-03.43.11:876][587]LogStaticMesh: Encode [0.00s]
+[2024.12.06-03.43.11:876][587]LogStaticMesh: Nanite build [0.51s]
+
+[2024.12.06-03.43.11:879][588]LogStaticMesh: Built static mesh [0.54s] /Game/ModularOldTown/Meshes/Props/SM_BazaarProps_Tomato.SM_BazaarProps_Tomato
+[2024.12.06-03.43.11:898][590]LogShaderCompilers: Display: ================================================
+[2024.12.06-03.43.11:898][590]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.12.06-03.43.11:898][590]LogShaderCompilers: Display: Total job queries 107, among them cache hits 19 (17.76%)
+[2024.12.06-03.43.11:898][590]LogShaderCompilers: Display: Tracking 88 distinct input hashes that result in 63 distinct outputs (71.59%)
+[2024.12.06-03.43.11:898][590]LogShaderCompilers: Display: RAM used: 3.11 MiB of 1.60 GiB budget. Usage: 0.19%
+[2024.12.06-03.43.11:898][590]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.12.06-03.43.11:898][590]LogShaderCompilers: Display: Shaders Compiled: 15
+[2024.12.06-03.43.11:898][590]LogShaderCompilers: Display: Jobs assigned 15, completed 15 (100%)
+[2024.12.06-03.43.11:898][590]LogShaderCompilers: Display: Average time worker was idle: 52.82 s
+[2024.12.06-03.43.11:898][590]LogShaderCompilers: Display: Time job spent in pending queue: average 0.04 s, longest 0.10 s
+[2024.12.06-03.43.11:898][590]LogShaderCompilers: Display: Job execution time: average 0.68 s, max 1.72 s
+[2024.12.06-03.43.11:898][590]LogShaderCompilers: Display: Job life time (pending + execution): average 0.72 s, max 1.82
+[2024.12.06-03.43.11:898][590]LogShaderCompilers: Display: Shader code size: average 77.83 KiB, min 73.574 KiB, max 86.625 KiB
+[2024.12.06-03.43.11:898][590]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 8.59 s
+[2024.12.06-03.43.11:898][590]LogShaderCompilers: Display: Jobs were issued in 15 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.12.06-03.43.11:898][590]LogShaderCompilers: Display: Average processing rate: 1.75 jobs/sec
+[2024.12.06-03.43.11:898][590]LogShaderCompilers: Display: Total thread time: 8.646 s
+[2024.12.06-03.43.11:898][590]LogShaderCompilers: Display: Total thread preprocess time: 0.37 s
+[2024.12.06-03.43.11:898][590]LogShaderCompilers: Display: Percentage time preprocessing: 4.28%
+[2024.12.06-03.43.11:898][590]LogShaderCompilers: Display: Effective parallelization: 1.01 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.12.06-03.43.11:898][590]LogShaderCompilers: Display: Top 3 most expensive shader types by average time:
+[2024.12.06-03.43.11:898][590]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 1.28 sec, max 1.28 sec, min 1.28 sec)
+[2024.12.06-03.43.11:898][590]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    8 times, average 0.72 sec, max 1.55 sec, min 0.24 sec)
+[2024.12.06-03.43.11:898][590]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    6 times, average 0.26 sec, max 0.28 sec, min 0.25 sec)
+[2024.12.06-03.43.11:898][590]LogShaderCompilers: Display: Top 3 shader types by total compile time:
+[2024.12.06-03.43.11:898][590]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 67.06% of total time (compiled    8 times, average 0.72 sec, max 1.55 sec, min 0.24 sec)
+[2024.12.06-03.43.11:898][590]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 18.16% of total time (compiled    6 times, average 0.26 sec, max 0.28 sec, min 0.25 sec)
+[2024.12.06-03.43.11:898][590]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 14.78% of total time (compiled    1 times, average 1.28 sec, max 1.28 sec, min 1.28 sec)
+[2024.12.06-03.43.11:898][590]LogShaderCompilers: Display: ================================================
+[2024.12.06-03.43.12:572][670]LogContentBrowser: Attempting asset rename: BP_GrabTomato1 -> BP_GrabTomato1
+[2024.12.06-03.43.12:580][670]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2024.12.06-03.43.12:585][670]LogContentBrowser: End creating deferred item BP_GrabTomato1
+[2024.12.06-03.43.12:654][678]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.06-03.43.13:324][755]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyBlueprints/BP_GrabTomato1.BP_GrabTomato1
+[2024.12.06-03.43.13:325][755]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.06-03.43.13:325][755]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.12.06-03.43.13:331][755]LogSlate: Warning: The command 'BlueprintEditorSpawnNodes.AddActorRefAction->CommandInfo' has the same default chord as 'BlueprintEditorSpawnNodes.(Class=/Script/BlueprintGraph.K2Node_Knot Key=R Shift=false Ctrl=false Alt=false)' [R]
+[2024.12.06-03.43.14:765][755]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.12.06-03.43.17:445][996]LogViewport: Scene viewport resized to 988x745, mode Windowed.
+[2024.12.06-03.43.44:418][388]LogSlate: Took 0.008885 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2024.12.06-03.43.52:151][154]LogStaticMesh: Display: Building static mesh SM_GoodSky_StarMesh...
+[2024.12.06-03.43.52:153][154]LogStaticMesh: Built static mesh [0.00s] /Game/GoodSky/Resource/ArrowTool/SM_GoodSky_StarMesh.SM_GoodSky_StarMesh
+[2024.12.06-03.44.19:874][690]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.12.06-03.44.20:888][690]LogSlate: Window 'Save Content' being destroyed
+[2024.12.06-03.44.20:899][690]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.06-03.44.20:968][690]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyBlueprints/BP_GrabTomato1" FILE="../../../../../../Users/acraze/Documents/GitHub/FA24-ZauggI-CrazeA/HW2/Content/MyBlueprints/BP_GrabTomato1.uasset" SILENT=true
+[2024.12.06-03.44.20:972][690]LogSavePackage: Moving output files for package: /Game/MyBlueprints/BP_GrabTomato1
+[2024.12.06-03.44.20:972][690]LogSavePackage: Moving '../../../../../../Users/acraze/Documents/GitHub/FA24-ZauggI-CrazeA/HW2/Saved/BP_GrabTomato1DAA9EC2944E135BCF67C6E93171E23B9.tmp' to '../../../../../../Users/acraze/Documents/GitHub/FA24-ZauggI-CrazeA/HW2/Content/MyBlueprints/BP_GrabTomato1.uasset'
+[2024.12.06-03.44.20:981][690]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 246 ms)
+[2024.12.06-03.44.20:982][690]AssetCheck: New page: Asset Save: BP_GrabTomato1
+[2024.12.06-03.44.20:982][690]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyBlueprints/BP_GrabTomato1.BP_GrabTomato1
+[2024.12.06-03.44.22:677][843]BlueprintLog: New page: Compile BP_GrabTomato1
+[2024.12.06-03.44.22:696][843]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.12.06-03.44.27:997][359]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprints/BP_GrabTomato1.BP_GrabTomato1_C
+[2024.12.06-03.44.27:997][359]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprints/BP_GrabTomato1.BP_GrabTomato1_C
+[2024.12.06-03.44.27:999][359]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprints/BP_GrabTomato1.BP_GrabTomato1 as actor: BP_GrabTomato1_C /Game/Level1.Level1:PersistentLevel.BP_GrabTomato1_C_0
+[2024.12.06-03.44.28:000][359]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprints/BP_GrabTomato1.BP_GrabTomato1 as actor: BP_GrabTomato1_C /Game/Level1.Level1:PersistentLevel.BP_GrabTomato1_C_0
+[2024.12.06-03.44.28:005][359]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.12.06-03.44.32:344][843]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprints/BP_GrabTomato1.BP_GrabTomato1_C
+[2024.12.06-03.44.32:344][843]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprints/BP_GrabTomato1.BP_GrabTomato1_C
+[2024.12.06-03.44.32:346][843]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprints/BP_GrabTomato1.BP_GrabTomato1 as actor: BP_GrabTomato1_C /Game/Level1.Level1:PersistentLevel.BP_GrabTomato1_C_1
+[2024.12.06-03.44.32:347][843]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprints/BP_GrabTomato1.BP_GrabTomato1 as actor: BP_GrabTomato1_C /Game/Level1.Level1:PersistentLevel.BP_GrabTomato1_C_1
+[2024.12.06-03.44.36:746][354]Cmd: SELECT NONE
+[2024.12.06-03.45.27:581][258]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2024.12.06-03.45.28:629][258]LogSlate: Window 'Save Content' being destroyed
+[2024.12.06-03.45.28:640][258]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.06-03.45.28:689][258]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../../../Users/acraze/Documents/GitHub/FA24-ZauggI-CrazeA/HW2/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.12.06-03.45.28:725][258]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2024.12.06-03.45.28:792][258]LogSavePackage: Moving output files for package: /Game/Level1
+[2024.12.06-03.45.28:793][258]LogSavePackage: Moving '../../../../../../Users/acraze/Documents/GitHub/FA24-ZauggI-CrazeA/HW2/Saved/Level134AE09864955235BB0CEFF8F250DA3BC.tmp' to '../../../../../../Users/acraze/Documents/GitHub/FA24-ZauggI-CrazeA/HW2/Content/Level1.umap'
+[2024.12.06-03.45.28:800][258]LogFileHelpers: Saving map 'Level1' took 0.111
+[2024.12.06-03.45.28:813][258]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyBlueprints/BP_GrabTomato1" FILE="../../../../../../Users/acraze/Documents/GitHub/FA24-ZauggI-CrazeA/HW2/Content/MyBlueprints/BP_GrabTomato1.uasset" SILENT=true
+[2024.12.06-03.45.28:816][258]LogSavePackage: Moving output files for package: /Game/MyBlueprints/BP_GrabTomato1
+[2024.12.06-03.45.28:817][258]LogSavePackage: Moving '../../../../../../Users/acraze/Documents/GitHub/FA24-ZauggI-CrazeA/HW2/Saved/BP_GrabTomato1CA24CF6C4C6B11C78ECCB383C7141BA5.tmp' to '../../../../../../Users/acraze/Documents/GitHub/FA24-ZauggI-CrazeA/HW2/Content/MyBlueprints/BP_GrabTomato1.uasset'
+[2024.12.06-03.45.28:827][258]LogFileHelpers: InternalPromptForCheckoutAndSave took 186 ms (total: 432 ms)
+[2024.12.06-03.45.28:829][258]AssetCheck: New page: Asset Save: multiple assets
+[2024.12.06-03.45.28:829][258]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level1.Level1
+[2024.12.06-03.45.28:829][258]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyBlueprints/BP_GrabTomato1.BP_GrabTomato1
+[2024.12.06-03.45.30:016][388]BlueprintLog: New page: Compile BP_GrabTomato1
+[2024.12.06-03.45.30:037][388]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2024.12.06-03.45.39:972][526]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprints/BP_GrabTomato.BP_GrabTomato_C
+[2024.12.06-03.45.39:972][526]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprints/BP_GrabTomato.BP_GrabTomato_C
+[2024.12.06-03.45.39:974][526]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprints/BP_GrabTomato.BP_GrabTomato as actor: BP_GrabTomato_C /Game/Level1.Level1:PersistentLevel.BP_GrabTomato_C_0
+[2024.12.06-03.45.39:974][526]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprints/BP_GrabTomato.BP_GrabTomato as actor: BP_GrabTomato_C /Game/Level1.Level1:PersistentLevel.BP_GrabTomato_C_0
+[2024.12.06-03.45.41:748][735]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprints/BP_GrabTomato.BP_GrabTomato_C
+[2024.12.06-03.45.41:749][735]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprints/BP_GrabTomato.BP_GrabTomato_C
+[2024.12.06-03.45.41:751][735]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprints/BP_GrabTomato.BP_GrabTomato as actor: BP_GrabTomato_C /Game/Level1.Level1:PersistentLevel.BP_GrabTomato_C_1
+[2024.12.06-03.45.41:752][735]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprints/BP_GrabTomato.BP_GrabTomato as actor: BP_GrabTomato_C /Game/Level1.Level1:PersistentLevel.BP_GrabTomato_C_1
+[2024.12.06-03.45.47:359][399]Cmd: SELECT NONE
+[2024.12.06-03.46.16:083][790]Cmd: SELECT NONE
+[2024.12.06-03.46.48:591][637]Cmd: SELECT NONE
+[2024.12.06-03.46.53:223][106]LogContentBrowser: Deferred new asset file creation: BP_GrabTomato2
+[2024.12.06-03.46.53:240][106]LogContentBrowser: Creating deferred item: BP_GrabTomato2
+[2024.12.06-03.46.53:248][107]LogContentBrowser: Renaming the item being created (Deferred Item: BP_GrabTomato2).
+[2024.12.06-03.46.54:313][225]LogContentBrowser: Attempting asset rename: BP_GrabTomato2 -> BP_GrabTomato2
+[2024.12.06-03.46.54:330][225]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.12.06-03.46.54:334][225]LogContentBrowser: End creating deferred item BP_GrabTomato2
+[2024.12.06-03.46.54:394][232]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.06-03.47.07:916][683]LogContentBrowser: Attempting asset rename: BP_GrabTomato1 -> BP_GrabStar
+[2024.12.06-03.47.07:953][683]LogMetaData: Removing '/Game/MyBlueprints/BP_GrabStar.SKEL_BP_GrabStar_C' ref from Metadata '/Game/MyBlueprints/BP_GrabTomato1.PackageMetaData'
+[2024.12.06-03.47.07:953][683]LogMetaData: Removing '/Game/MyBlueprints/BP_GrabStar.BP_GrabStar_C' ref from Metadata '/Game/MyBlueprints/BP_GrabTomato1.PackageMetaData'
+[2024.12.06-03.47.07:953][683]LogMetaData: Removing '/Game/MyBlueprints/BP_GrabStar.SKEL_BP_GrabStar_C:UserConstructionScript' ref from Metadata '/Game/MyBlueprints/BP_GrabTomato1.PackageMetaData'
+[2024.12.06-03.47.07:953][683]LogMetaData: Removing '/Game/MyBlueprints/BP_GrabStar.SKEL_BP_GrabStar_C:ReceiveTick' ref from Metadata '/Game/MyBlueprints/BP_GrabTomato1.PackageMetaData'
+[2024.12.06-03.47.07:953][683]LogMetaData: Removing '/Game/MyBlueprints/BP_GrabStar.SKEL_BP_GrabStar_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/MyBlueprints/BP_GrabTomato1.PackageMetaData'
+[2024.12.06-03.47.07:953][683]LogMetaData: Removing '/Game/MyBlueprints/BP_GrabStar.SKEL_BP_GrabStar_C:ReceiveBeginPlay' ref from Metadata '/Game/MyBlueprints/BP_GrabTomato1.PackageMetaData'
+[2024.12.06-03.47.07:972][683]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.06-03.47.08:024][683]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.06-03.47.08:036][683]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyBlueprints/BP_GrabStar" FILE="../../../../../../Users/acraze/Documents/GitHub/FA24-ZauggI-CrazeA/HW2/Content/MyBlueprints/BP_GrabStar.uasset" SILENT=true
+[2024.12.06-03.47.08:040][683]LogSavePackage: Moving output files for package: /Game/MyBlueprints/BP_GrabStar
+[2024.12.06-03.47.08:040][683]LogSavePackage: Moving '../../../../../../Users/acraze/Documents/GitHub/FA24-ZauggI-CrazeA/HW2/Saved/BP_GrabStarE47B7A8E43A9BA87C96B3CB7E0DA97F4.tmp' to '../../../../../../Users/acraze/Documents/GitHub/FA24-ZauggI-CrazeA/HW2/Content/MyBlueprints/BP_GrabStar.uasset'
+[2024.12.06-03.47.08:042][683]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyBlueprints/BP_GrabTomato1" FILE="../../../../../../Users/acraze/Documents/GitHub/FA24-ZauggI-CrazeA/HW2/Content/MyBlueprints/BP_GrabTomato1.uasset" SILENT=true
+[2024.12.06-03.47.08:044][683]LogSavePackage: Moving output files for package: /Game/MyBlueprints/BP_GrabTomato1
+[2024.12.06-03.47.08:045][683]LogSavePackage: Moving '../../../../../../Users/acraze/Documents/GitHub/FA24-ZauggI-CrazeA/HW2/Saved/BP_GrabTomato16F969B154B11BF03DF13BCB65299DC6A.tmp' to '../../../../../../Users/acraze/Documents/GitHub/FA24-ZauggI-CrazeA/HW2/Content/MyBlueprints/BP_GrabTomato1.uasset'
+[2024.12.06-03.47.08:053][683]LogFileHelpers: InternalPromptForCheckoutAndSave took 80 ms (total: 513 ms)
+[2024.12.06-03.47.08:055][683]AssetCheck: New page: Asset Save: multiple assets
+[2024.12.06-03.47.08:055][683]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyBlueprints/BP_GrabStar.BP_GrabStar
+[2024.12.06-03.47.08:055][683]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/MyBlueprints/BP_GrabTomato1.BP_GrabTomato1
+[2024.12.06-03.47.08:055][683]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/MyBlueprints/BP_GrabTomato1.BP_GrabTomato1_C
+[2024.12.06-03.47.08:055][683]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/MyBlueprints/BP_GrabTomato1.Default__BP_GrabTomato1_C
+[2024.12.06-03.47.10:945][ 13]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyBlueprints/BP_GrabTomato2.BP_GrabTomato2
+[2024.12.06-03.47.10:945][ 13]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.06-03.47.10:945][ 13]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.12.06-03.47.13:486][272]LogViewport: Scene viewport resized to 988x587, mode Windowed.
+[2024.12.06-03.47.41:967][897]LogStaticMesh: Display: Building static mesh SM_BazaarProps_BellPepper...
+[2024.12.06-03.47.41:987][897]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/ModularOldTown/Meshes/Props/SM_BazaarProps_BellPepper) ...
+[2024.12.06-03.47.41:988][897]LogStaticMesh: Adjacency [0.00s], tris: 3890, UVs 2
+[2024.12.06-03.47.41:997][897]LogStaticMesh: Clustering [0.01s]. Ratio: 1.000000
+[2024.12.06-03.47.41:997][897]LogStaticMesh: Leaves [0.00s]
+[2024.12.06-03.47.42:136][897]LogStaticMesh: Reduce [0.14s]
+[2024.12.06-03.47.42:179][897]LogStaticMesh: Fallback 0/4 [0.04s], num tris: 892
+[2024.12.06-03.47.42:292][897]LogStaticMesh: Fallback 1/4 [0.11s], num tris: 446
+[2024.12.06-03.47.42:410][897]LogStaticMesh: Fallback 2/4 [0.12s], num tris: 222
+[2024.12.06-03.47.42:530][897]LogStaticMesh: Fallback 3/4 [0.12s], num tris: 110
+[2024.12.06-03.47.42:531][897]LogStaticMesh: ConstrainClusters:
+[2024.12.06-03.47.42:531][897]LogStaticMesh:   Input: 62 Clusters, 7796 Triangles and 7125 Vertices
+[2024.12.06-03.47.42:531][897]LogStaticMesh:   Output without splits: 62 Clusters, 7796 Triangles and 7196 Vertices
+[2024.12.06-03.47.42:531][897]LogStaticMesh:   Output with splits: 62 Clusters, 7796 Triangles and 7196 Vertices
+[2024.12.06-03.47.42:531][897]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 62, Slow Path Clusters: 0, 1 Material: 62, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2024.12.06-03.47.42:533][897]LogStaticMesh: WritePages:
+[2024.12.06-03.47.42:533][897]LogStaticMesh:   Root: GPU size: 32224 bytes. 1 Pages. 32224.000 bytes per page (98.340% utilization).
+[2024.12.06-03.47.42:533][897]LogStaticMesh:   Streaming: GPU size: 75064 bytes. 1 Pages (1 with relative encoding). 75064.000 bytes per page (57.269% utilization).
+[2024.12.06-03.47.42:533][897]LogStaticMesh:   Page data disk size: 81428 bytes. Fixup data size: 312 bytes.
+[2024.12.06-03.47.42:533][897]LogStaticMesh:   Total GPU size: 107288 bytes, Total disk size: 81740 bytes.
+[2024.12.06-03.47.42:533][897]LogStaticMesh: Encode [0.00s]
+[2024.12.06-03.47.42:533][897]LogStaticMesh: Nanite build [0.54s]
+
+[2024.12.06-03.47.42:537][897]LogStaticMesh: Built static mesh [0.57s] /Game/ModularOldTown/Meshes/Props/SM_BazaarProps_BellPepper.SM_BazaarProps_BellPepper
+[2024.12.06-03.47.57:437][519]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2024.12.06-03.47.58:586][519]LogSlate: Window 'Save Content' being destroyed
+[2024.12.06-03.47.58:596][519]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.06-03.47.58:653][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../../../Users/acraze/Documents/GitHub/FA24-ZauggI-CrazeA/HW2/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.12.06-03.47.58:689][519]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2024.12.06-03.47.58:757][519]LogSavePackage: Moving output files for package: /Game/Level1
+[2024.12.06-03.47.58:757][519]LogSavePackage: Moving '../../../../../../Users/acraze/Documents/GitHub/FA24-ZauggI-CrazeA/HW2/Saved/Level17CD56BF7455FABBF1F6A979BA671ED26.tmp' to '../../../../../../Users/acraze/Documents/GitHub/FA24-ZauggI-CrazeA/HW2/Content/Level1.umap'
+[2024.12.06-03.47.58:764][519]LogFileHelpers: Saving map 'Level1' took 0.112
+[2024.12.06-03.47.58:777][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyBlueprints/BP_GrabTomato2" FILE="../../../../../../Users/acraze/Documents/GitHub/FA24-ZauggI-CrazeA/HW2/Content/MyBlueprints/BP_GrabTomato2.uasset" SILENT=true
+[2024.12.06-03.47.58:781][519]LogSavePackage: Moving output files for package: /Game/MyBlueprints/BP_GrabTomato2
+[2024.12.06-03.47.58:781][519]LogSavePackage: Moving '../../../../../../Users/acraze/Documents/GitHub/FA24-ZauggI-CrazeA/HW2/Saved/BP_GrabTomato20BE0BA144081605B556B86A1F410AF59.tmp' to '../../../../../../Users/acraze/Documents/GitHub/FA24-ZauggI-CrazeA/HW2/Content/MyBlueprints/BP_GrabTomato2.uasset'
+[2024.12.06-03.47.58:792][519]LogFileHelpers: InternalPromptForCheckoutAndSave took 196 ms (total: 710 ms)
+[2024.12.06-03.47.58:795][519]AssetCheck: New page: Asset Save: multiple assets
+[2024.12.06-03.47.58:795][519]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level1.Level1
+[2024.12.06-03.47.58:795][519]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyBlueprints/BP_GrabTomato2.BP_GrabTomato2
+[2024.12.06-03.47.59:965][647]BlueprintLog: New page: Compile BP_GrabTomato2
+[2024.12.06-03.47.59:985][647]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2024.12.06-03.48.06:478][357]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprints/BP_GrabTomato2.BP_GrabTomato2_C
+[2024.12.06-03.48.06:478][357]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprints/BP_GrabTomato2.BP_GrabTomato2_C
+[2024.12.06-03.48.06:480][357]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprints/BP_GrabTomato2.BP_GrabTomato2 as actor: BP_GrabTomato2_C /Game/Level1.Level1:PersistentLevel.BP_GrabTomato2_C_0
+[2024.12.06-03.48.06:481][357]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprints/BP_GrabTomato2.BP_GrabTomato2 as actor: BP_GrabTomato2_C /Game/Level1.Level1:PersistentLevel.BP_GrabTomato2_C_0
+[2024.12.06-03.48.08:979][653]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprints/BP_GrabTomato2.BP_GrabTomato2_C
+[2024.12.06-03.48.08:979][653]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprints/BP_GrabTomato2.BP_GrabTomato2_C
+[2024.12.06-03.48.08:981][653]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprints/BP_GrabTomato2.BP_GrabTomato2 as actor: BP_GrabTomato2_C /Game/Level1.Level1:PersistentLevel.BP_GrabTomato2_C_1
+[2024.12.06-03.48.08:981][653]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprints/BP_GrabTomato2.BP_GrabTomato2 as actor: BP_GrabTomato2_C /Game/Level1.Level1:PersistentLevel.BP_GrabTomato2_C_1
+[2024.12.06-03.48.10:919][875]Cmd: DELETE
+[2024.12.06-03.48.10:919][875]Cmd: ACTOR DELETE
+[2024.12.06-03.48.10:924][875]LogEditorActor: Deleted Actor: BP_GrabStar_C
+[2024.12.06-03.48.10:938][875]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2024.12.06-03.48.10:939][875]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2024.12.06-03.48.37:328][646]LogStaticMesh: Display: Building static mesh SM_BazaarProps_Corn...
+[2024.12.06-03.48.37:349][646]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/ModularOldTown/Meshes/Props/SM_BazaarProps_Corn) ...
+[2024.12.06-03.48.37:626][646]LogStaticMesh: Adjacency [0.00s], tris: 14560, UVs 3
+[2024.12.06-03.48.37:651][646]LogStaticMesh: Clustering [0.02s]. Ratio: 1.017544
+[2024.12.06-03.48.37:654][646]LogStaticMesh: Leaves [0.00s]
+[2024.12.06-03.48.37:833][646]LogStaticMesh: Reduce [0.18s]
+[2024.12.06-03.48.37:833][646]LogStaticMesh: Fallback 0/4 [0.00s], num tris: 252
+[2024.12.06-03.48.37:886][646]LogStaticMesh: Fallback 1/4 [0.05s], num tris: 126
+[2024.12.06-03.48.37:941][646]LogStaticMesh: Fallback 2/4 [0.05s], num tris: 64
+[2024.12.06-03.48.37:994][646]LogStaticMesh: Fallback 3/4 [0.05s], num tris: 64
+[2024.12.06-03.48.38:036][646]LogStaticMesh: ConstrainClusters:
+[2024.12.06-03.48.38:036][646]LogStaticMesh:   Input: 236 Clusters, 29654 Triangles and 82347 Vertices
+[2024.12.06-03.48.38:036][646]LogStaticMesh:   Output without splits: 236 Clusters, 29654 Triangles and 82347 Vertices
+[2024.12.06-03.48.38:036][646]LogStaticMesh:   Output with splits: 472 Clusters, 29654 Triangles and 82404 Vertices
+[2024.12.06-03.48.38:037][646]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 472, Slow Path Clusters: 0, 1 Material: 472, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2024.12.06-03.48.38:053][646]LogStaticMesh: WritePages:
+[2024.12.06-03.48.38:053][646]LogStaticMesh:   Root: GPU size: 32120 bytes. 1 Pages. 32120.000 bytes per page (98.022% utilization).
+[2024.12.06-03.48.38:053][646]LogStaticMesh:   Streaming: GPU size: 1343640 bytes. 11 Pages (11 with relative encoding). 122149.094 bytes per page (93.192% utilization).
+[2024.12.06-03.48.38:053][646]LogStaticMesh:   Page data disk size: 1080616 bytes. Fixup data size: 4416 bytes.
+[2024.12.06-03.48.38:053][646]LogStaticMesh:   Total GPU size: 1375760 bytes, Total disk size: 1085032 bytes.
+[2024.12.06-03.48.38:054][646]LogStaticMesh: Encode [0.06s]
+[2024.12.06-03.48.38:054][646]LogStaticMesh: Nanite build [0.40s]
+
+[2024.12.06-03.48.38:059][646]LogStaticMesh: Built static mesh [0.73s] /Game/ModularOldTown/Meshes/Props/SM_BazaarProps_Corn.SM_BazaarProps_Corn
+[2024.12.06-03.48.48:587][825]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.12.06-03.48.49:876][825]LogSlate: Window 'Save Content' being destroyed
+[2024.12.06-03.48.49:890][825]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.06-03.48.49:931][825]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../../../Users/acraze/Documents/GitHub/FA24-ZauggI-CrazeA/HW2/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.12.06-03.48.49:967][825]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2024.12.06-03.48.50:035][825]LogSavePackage: Moving output files for package: /Game/Level1
+[2024.12.06-03.48.50:035][825]LogSavePackage: Moving '../../../../../../Users/acraze/Documents/GitHub/FA24-ZauggI-CrazeA/HW2/Saved/Level163EFFC724FE943568D9EA188E90930D5.tmp' to '../../../../../../Users/acraze/Documents/GitHub/FA24-ZauggI-CrazeA/HW2/Content/Level1.umap'
+[2024.12.06-03.48.50:043][825]LogFileHelpers: Saving map 'Level1' took 0.112
+[2024.12.06-03.48.50:055][825]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyBlueprints/BP_GrabStar" FILE="../../../../../../Users/acraze/Documents/GitHub/FA24-ZauggI-CrazeA/HW2/Content/MyBlueprints/BP_GrabStar.uasset" SILENT=true
+[2024.12.06-03.48.50:058][825]LogSavePackage: Moving output files for package: /Game/MyBlueprints/BP_GrabStar
+[2024.12.06-03.48.50:059][825]LogSavePackage: Moving '../../../../../../Users/acraze/Documents/GitHub/FA24-ZauggI-CrazeA/HW2/Saved/BP_GrabStarD8DD5B6A40405E5ED483D3AF09D665ED.tmp' to '../../../../../../Users/acraze/Documents/GitHub/FA24-ZauggI-CrazeA/HW2/Content/MyBlueprints/BP_GrabStar.uasset'
+[2024.12.06-03.48.50:066][825]LogFileHelpers: InternalPromptForCheckoutAndSave took 176 ms (total: 886 ms)
+[2024.12.06-03.48.50:069][825]AssetCheck: New page: Asset Save: multiple assets
+[2024.12.06-03.48.50:069][825]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level1.Level1
+[2024.12.06-03.48.50:069][825]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyBlueprints/BP_GrabStar.BP_GrabStar
+[2024.12.06-03.48.51:034][929]BlueprintLog: New page: Compile BP_GrabStar
+[2024.12.06-03.48.51:056][929]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.12.06-03.48.55:668][426]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprints/BP_GrabStar.BP_GrabStar_C
+[2024.12.06-03.48.55:668][426]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprints/BP_GrabStar.BP_GrabStar_C
+[2024.12.06-03.48.55:670][426]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprints/BP_GrabStar.BP_GrabStar as actor: BP_GrabStar_C /Game/Level1.Level1:PersistentLevel.BP_GrabStar_C_2
+[2024.12.06-03.48.55:671][426]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprints/BP_GrabStar.BP_GrabStar as actor: BP_GrabStar_C /Game/Level1.Level1:PersistentLevel.BP_GrabStar_C_2
+[2024.12.06-03.48.57:092][584]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprints/BP_GrabStar.BP_GrabStar_C
+[2024.12.06-03.48.57:092][584]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprints/BP_GrabStar.BP_GrabStar_C
+[2024.12.06-03.48.57:094][584]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprints/BP_GrabStar.BP_GrabStar as actor: BP_GrabStar_C /Game/Level1.Level1:PersistentLevel.BP_GrabStar_C_3
+[2024.12.06-03.48.57:095][584]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprints/BP_GrabStar.BP_GrabStar as actor: BP_GrabStar_C /Game/Level1.Level1:PersistentLevel.BP_GrabStar_C_3
+[2024.12.06-03.49.14:294][380]LogStaticMesh: Display: Building static mesh SM_BazaarProps_Chicken_Meat...
+[2024.12.06-03.49.14:305][380]LogStaticMesh: Adjacency [0.00s], tris: 1144, UVs 2
+[2024.12.06-03.49.14:306][380]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2024.12.06-03.49.14:306][380]LogStaticMesh: Leaves [0.00s]
+[2024.12.06-03.49.14:317][380]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/ModularOldTown/Meshes/Props/SM_BazaarProps_Chicken_Meat) ...
+[2024.12.06-03.49.14:347][380]LogStaticMesh: Reduce [0.04s]
+[2024.12.06-03.49.14:355][380]LogStaticMesh: Fallback 0/4 [0.01s], num tris: 1088
+[2024.12.06-03.49.14:375][380]LogStaticMesh: Fallback 1/4 [0.02s], num tris: 544
+[2024.12.06-03.49.14:405][380]LogStaticMesh: Fallback 2/4 [0.03s], num tris: 272
+[2024.12.06-03.49.14:440][380]LogStaticMesh: Fallback 3/4 [0.03s], num tris: 136
+[2024.12.06-03.49.14:441][380]LogStaticMesh: ConstrainClusters:
+[2024.12.06-03.49.14:441][380]LogStaticMesh:   Input: 20 Clusters, 2530 Triangles and 2197 Vertices
+[2024.12.06-03.49.14:441][380]LogStaticMesh:   Output without splits: 20 Clusters, 2530 Triangles and 2217 Vertices
+[2024.12.06-03.49.14:441][380]LogStaticMesh:   Output with splits: 20 Clusters, 2530 Triangles and 2217 Vertices
+[2024.12.06-03.49.14:441][380]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 20, Slow Path Clusters: 0, 1 Material: 20, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2024.12.06-03.49.14:442][380]LogStaticMesh: WritePages:
+[2024.12.06-03.49.14:442][380]LogStaticMesh:   Root: GPU size: 32008 bytes. 1 Pages. 32008.000 bytes per page (97.681% utilization).
+[2024.12.06-03.49.14:442][380]LogStaticMesh:   Streaming: GPU size: 3268 bytes. 1 Pages (1 with relative encoding). 3268.000 bytes per page (2.493% utilization).
+[2024.12.06-03.49.14:442][380]LogStaticMesh:   Page data disk size: 27104 bytes. Fixup data size: 224 bytes.
+[2024.12.06-03.49.14:442][380]LogStaticMesh:   Total GPU size: 35276 bytes, Total disk size: 27328 bytes.
+[2024.12.06-03.49.14:442][380]LogStaticMesh: Encode [0.00s]
+[2024.12.06-03.49.14:442][380]LogStaticMesh: Nanite build [0.14s]
+
+[2024.12.06-03.49.14:447][380]LogStaticMesh: Built static mesh [0.15s] /Game/ModularOldTown/Meshes/Props/SM_BazaarProps_Chicken_Meat.SM_BazaarProps_Chicken_Meat
+[2024.12.06-03.49.29:335][720]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.12.06-03.49.30:510][720]LogSlate: Window 'Save Content' being destroyed
+[2024.12.06-03.49.30:524][720]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.06-03.49.30:573][720]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../../../Users/acraze/Documents/GitHub/FA24-ZauggI-CrazeA/HW2/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.12.06-03.49.30:607][720]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2024.12.06-03.49.30:674][720]LogSavePackage: Moving output files for package: /Game/Level1
+[2024.12.06-03.49.30:675][720]LogSavePackage: Moving '../../../../../../Users/acraze/Documents/GitHub/FA24-ZauggI-CrazeA/HW2/Saved/Level1C559939A403E0C7334AA78AF34FD630F.tmp' to '../../../../../../Users/acraze/Documents/GitHub/FA24-ZauggI-CrazeA/HW2/Content/Level1.umap'
+[2024.12.06-03.49.30:683][720]LogFileHelpers: Saving map 'Level1' took 0.110
+[2024.12.06-03.49.30:694][720]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyBlueprints/BP_GrabStar" FILE="../../../../../../Users/acraze/Documents/GitHub/FA24-ZauggI-CrazeA/HW2/Content/MyBlueprints/BP_GrabStar.uasset" SILENT=true
+[2024.12.06-03.49.30:697][720]LogSavePackage: Moving output files for package: /Game/MyBlueprints/BP_GrabStar
+[2024.12.06-03.49.30:698][720]LogSavePackage: Moving '../../../../../../Users/acraze/Documents/GitHub/FA24-ZauggI-CrazeA/HW2/Saved/BP_GrabStar5792221C48F96A8467F178A422D32011.tmp' to '../../../../../../Users/acraze/Documents/GitHub/FA24-ZauggI-CrazeA/HW2/Content/MyBlueprints/BP_GrabStar.uasset'
+[2024.12.06-03.49.30:707][720]LogFileHelpers: InternalPromptForCheckoutAndSave took 182 ms (total: 1.06 sec)
+[2024.12.06-03.49.30:710][720]AssetCheck: New page: Asset Save: multiple assets
+[2024.12.06-03.49.30:710][720]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level1.Level1
+[2024.12.06-03.49.30:710][720]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyBlueprints/BP_GrabStar.BP_GrabStar
+[2024.12.06-03.49.39:534][547]BlueprintLog: New page: Compile BP_GrabStar
+[2024.12.06-03.49.39:561][547]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.12.06-03.51.05:987][443]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprints/BP_Target.BP_Target_C
+[2024.12.06-03.51.05:987][443]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprints/BP_Target.BP_Target_C
+[2024.12.06-03.51.05:989][443]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprints/BP_Target.BP_Target as actor: BP_Target_C /Game/Level1.Level1:PersistentLevel.BP_Target_C_0
+[2024.12.06-03.51.05:989][443]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprints/BP_Target.BP_Target as actor: BP_Target_C /Game/Level1.Level1:PersistentLevel.BP_Target_C_0
+[2024.12.06-03.51.07:804][633]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprints/BP_Target.BP_Target_C
+[2024.12.06-03.51.07:804][633]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprints/BP_Target.BP_Target_C
+[2024.12.06-03.51.07:806][633]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprints/BP_Target.BP_Target as actor: BP_Target_C /Game/Level1.Level1:PersistentLevel.BP_Target_C_2
+[2024.12.06-03.51.07:807][633]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprints/BP_Target.BP_Target as actor: BP_Target_C /Game/Level1.Level1:PersistentLevel.BP_Target_C_2
+[2024.12.06-03.51.22:862][397]Cmd: EDIT COPY
+[2024.12.06-03.51.23:895][521]Cmd: EDIT PASTE
+[2024.12.06-03.51.46:509][151]Cmd: SELECT NONE
+[2024.12.06-03.53.27:396][917]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.12.06-03.53.28:476][917]LogSlate: Window 'Save Content' being destroyed
+[2024.12.06-03.53.28:494][917]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.06-03.53.28:551][917]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../../../Users/acraze/Documents/GitHub/FA24-ZauggI-CrazeA/HW2/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.12.06-03.53.28:588][917]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.12.06-03.53.28:656][917]LogSavePackage: Moving output files for package: /Game/Level1
+[2024.12.06-03.53.28:657][917]LogSavePackage: Moving '../../../../../../Users/acraze/Documents/GitHub/FA24-ZauggI-CrazeA/HW2/Saved/Level132B2ABEB49E8C7A3122C61BEE1F450B8.tmp' to '../../../../../../Users/acraze/Documents/GitHub/FA24-ZauggI-CrazeA/HW2/Content/Level1.umap'
+[2024.12.06-03.53.28:664][917]LogFileHelpers: Saving map 'Level1' took 0.113
+[2024.12.06-03.53.28:673][917]LogFileHelpers: InternalPromptForCheckoutAndSave took 179 ms (total: 1.24 sec)
+[2024.12.06-03.53.28:676][917]AssetCheck: New page: Asset Save: Level1
+[2024.12.06-03.53.28:676][917]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level1.Level1
